@@ -746,7 +746,8 @@
           "error_authorizing": "ເກີດຄວາມຜິດພາດໃນການອະນຸມັດການຈ່າຍເງິນ"
         },
         "account_connected": "ເຊື່ອມຕໍ່ບັນຊີແລ້ວ.",
-        "mor_disclaimer_html": "ໂດຍການຄລິກລຸ່ມນີ້ ແລະເຮັດສໍາເລັດການສັ່ງຊື້ຂອງທ່ານ, ທ່ານຕົກລົງທີ່ຈະຊື້ລາຍການຂອງທ່ານຈາກ Global-e ໃນຖານະຜູ້ຂາຍບັນທຶກ\n ສໍາລັບທຸລະກໍານີ້, ໃນ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">ຂໍ້ກໍານົດແລະເງື່ອນໄຂ<\/a> ຂອງ Global-e\n ແລະ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ<\/a> . Global-e ແມ່ນສາກົນ\n ຜູ້ໃຫ້ບໍລິການເຕີມເຕັມໃຫ້ກັບ %{shop_name}\n"
+        "mor_disclaimer_html": "ໂດຍການຄລິກລຸ່ມນີ້ ແລະເຮັດສໍາເລັດການສັ່ງຊື້ຂອງທ່ານ, ທ່ານຕົກລົງທີ່ຈະຊື້ລາຍການຂອງທ່ານຈາກ Global-e ໃນຖານະຜູ້ຂາຍບັນທຶກ\n ສໍາລັບທຸລະກໍານີ້, ໃນ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">ຂໍ້ກໍານົດແລະເງື່ອນໄຂ<\/a> ຂອງ Global-e\n ແລະ <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ<\/a> . Global-e ແມ່ນສາກົນ\n ຜູ້ໃຫ້ບໍລິການເຕີມເຕັມໃຫ້ກັບ %{shop_name}\n",
+        "expired_payment_method": "ວິທີການຈ່າຍເງິນທີ່ເລືອກໄດ້ໝົດອາຍຸແລ້ວ"
       },
       "local_pickup": {
         "location_information": {
@@ -1275,6 +1276,113 @@
           "one": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມດ້ວຍບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ.",
           "other": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມທີ່ມີບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ."
         }
+      },
+      "billing": {
+        "billing_address_title": "ໃບບິນໃຫ້",
+        "same_as_shipping": "ຄືກັນກັບທີ່ຢູ່ຈັດສົ່ງ",
+        "add_address": "ໃຊ້ທີ່ຢູ່ອື່ນ",
+        "edit": "ແກ້ໄຂ",
+        "delete": "ລຶບ",
+        "address_more": "ຄຳສັ່ງເພີ່ມເຕີມສຳລັບທີ່ຢູ່ນີ້",
+        "address_edit": "ແກ້ໄຂທີ່ຢູ່",
+        "address_delete": "ລຶບທີ່ຢູ່",
+        "address_confirm": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບທີ່ຢູ່ນີ້ອອກຈາກບັນຊີຂອງທ່ານ?",
+        "address_form": {
+          "add_address": "ເພີ່ມທີ່ຢູ່",
+          "save": "ບັນທຶກ",
+          "cancel": "ຍົກເລີກ"
+        }
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "ຍອດຄົງເຫຼືອປັດຈຸບັນ %{amount}",
+        "credit_card_expires_on_notice": "ໝົດອາຍຸ %{month}\/%{year}",
+        "express_payment_gateway_label": "ດ່ວນ",
+        "manual_payment_gateway_label": "ຄູ່ມື",
+        "billing_address_title": "ທີ່ຢູ່ໃບບິນ",
+        "free_label": "ຟຣີ"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "ໃສ່ເບີໂທລະສັບທີ່ຖືກຕ້ອງ",
+        "handle_email_invalid": "ໃສ່ອີເມວທີ່ຖືກຕ້ອງ",
+        "email_invalid": "ໃສ່ອີເມວທີ່ຖືກຕ້ອງ",
+        "email_or_phone_blank": "ໃສ່ອີເມວ ຫຼືເບີໂທລະສັບ",
+        "email_or_phone_invalid": "ໃສ່ອີເມວທີ່ຖືກຕ້ອງ ຫຼືເບີໂທລະສັບ",
+        "address_first_name_blank": "ໃສ່ຊື່",
+        "address_first_name_too_long": "ຊື່ຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_first_name_contains_emojis": "ຊື່ບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_first_name_contains_html_tags": "ຊື່ບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_first_name_contains_url": "ຊື່ບໍ່ສາມາດມີ URL ໄດ້",
+        "address_last_name_blank": "ໃສ່ນາມສະກຸນ",
+        "address_last_name_too_long": "ນາມສະກຸນຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_last_name_contains_emojis": "ນາມສະກຸນບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_last_name_contains_html_tags": "ນາມສະກຸນບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_last_name_contains_url": "ນາມສະກຸນບໍ່ສາມາດມີ URL ໄດ້",
+        "address_address1_blank": "ໃສ່ທີ່ຢູ່",
+        "address_address1_too_long": "ແຖວທີ່ຢູ່ທຳອິດຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_address1_contains_emojis": "ທີ່ຢູ່ 1 ບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_address1_contains_html_tags": "ທີ່ຢູ່ 1 ບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_address2_blank": "ເຂົ້າໄປໃນອາພາດເມັນ, ຊຸດ, ແລະອື່ນໆ.",
+        "address_address2_too_long": "ແຖວທີ່ຢູ່ທີສອງຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_address2_contains_emojis": "ທີ່ຢູ່ 2 ບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_address2_contains_html_tags": "ທີ່ຢູ່2 ບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_city_blank": "ເຂົ້າເມືອງ",
+        "address_city_too_long": "ເມືອງຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_city_contains_emojis": "ເມືອງບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_city_contains_html_tags": "ເມືອງບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_country_blank": "ເລືອກປະເທດ\/ພາກພື້ນ",
+        "address_country_not_supported": "ພວກເຮົາບໍ່ໄດ້ສົ່ງໄປປະເທດ ຫຼືພາກພື້ນນີ້. ໃສ່ທີ່ຢູ່ຈັດສົ່ງໃໝ່ແລ້ວລອງໃໝ່ອີກຄັ້ງ.",
+        "address_province_blank": "ເລືອກລັດ \/ ແຂວງ",
+        "address_company_blank": "ໃສ່ຊື່ບໍລິສັດ",
+        "address_company_too_long": "ຊື່ບໍລິສັດຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_company_contains_emojis": "ບໍລິສັດບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_company_contains_html_tags": "ບໍລິສັດບໍ່ສາມາດມີແທັກ HTML ໄດ້.",
+        "address_phone_blank": "ໃສ່ເບີໂທລະສັບທີ່ຖືກຕ້ອງ",
+        "address_phone_contains_emojis": "ເບີໂທລະສັບບໍ່ສາມາດມີ emojis ໄດ້",
+        "address_phone_invalid": "ໃສ່ເບີໂທລະສັບທີ່ຖືກຕ້ອງ",
+        "address_zip_blank": "ໃສ່ລະຫັດໄປສະນີ \/ ລະຫັດໄປສະນີ",
+        "address_zip_too_long": "ລະຫັດໄປສະນີ\/ລະຫັດໄປສະນີຍາວເກີນໄປ (ສູງສຸດແມ່ນ 255 ຕົວອັກສອນ)",
+        "address_zip_not_supported": "ບໍ່ຮອງຮັບສະຖານທີ່ນີ້.",
+        "address_zip_invalid_for_country": "ໃສ່ລະຫັດໄປສະນີທີ່ຖືກຕ້ອງສໍາລັບ %{country}",
+        "address_zip_invalid_for_province": "ໃສ່ລະຫັດໄປສະນີທີ່ຖືກຕ້ອງສໍາລັບ %{province}",
+        "address_zip_invalid_for_country_and_province": "ໃສ່ລະຫັດໄປສະນີທີ່ຖືກຕ້ອງສໍາລັບ %{province}, %{country}",
+        "address_zip_contains_emojis": "ລະຫັດໄປສະນີ \/ ໄປສະນີບໍ່ສາມາດມີ emojis ໄດ້",
+        "credit_card_name_blank": "ໃສ່ຊື່ຂອງເຈົ້າໃຫ້ຖືກຕ້ອງຕາມທີ່ມັນຂຽນໄວ້ໃນບັດຂອງເຈົ້າ",
+        "credit_card_name_invalid": "ໃສ່ຊື່ຂອງເຈົ້າໃຫ້ຖືກຕ້ອງຕາມທີ່ມັນຂຽນໄວ້ໃນບັດຂອງເຈົ້າ",
+        "credit_card_number_invalid": "ໃສ່ໝາຍເລກບັດທີ່ຖືກຕ້ອງ",
+        "credit_card_expiry_invalid": "ໃສ່ວັນໝົດອາຍຸທີ່ຖືກຕ້ອງ",
+        "credit_card_month_invalid": "ໃສ່ເດືອນໝົດອາຍຸທີ່ຖືກຕ້ອງ",
+        "credit_card_year_invalid": "ລະບຸປີໝົດອາຍຸທີ່ຖືກຕ້ອງ",
+        "credit_card_start_invalid": "ໃສ່ວັນທີເລີ່ມຕົ້ນບັດທີ່ຖືກຕ້ອງ",
+        "credit_card_start_month_invalid": "ລະບຸເດືອນເລີ່ມຕົ້ນຂອງບັດທີ່ຖືກຕ້ອງ",
+        "credit_card_start_year_invalid": "ລະບຸປີເລີ່ມຕົ້ນບັດທີ່ຖືກຕ້ອງ",
+        "credit_card_number_blank": "ໃສ່ເລກບັດ",
+        "credit_card_verification_value_blank": "ໃສ່ລະຫັດ CVV ຫຼືລະຫັດຄວາມປອດໄພໃສ່ບັດຂອງທ່ານ",
+        "delivery_line_detail_changed": "ບາງລາຍລະອຽດການຈັດສົ່ງອາດມີການປ່ຽນແປງ. ກະລຸນາຢັ້ງຢືນວິທີການຈັດສົ່ງຂອງທ່ານແລ້ວລອງໃໝ່ອີກຄັ້ງ.",
+        "delivery_zone_not_found": "ເຂດທີ່ລະບຸບໍ່ພົບໃນປະເທດທີ່ລະບຸ.",
+        "reduction_code_code_not_found": "ໃສ່ລະຫັດສ່ວນຫຼຸດ ຫຼືບັດຂອງຂວັນທີ່ຖືກຕ້ອງ",
+        "reduction_code_discount_not_found": "ໃສ່ລະຫັດສ່ວນຫຼຸດທີ່ຖືກຕ້ອງ",
+        "reduction_code_gift_card_code_invalid": "ໃສ່ບັດຂອງຂວັນທີ່ຖືກຕ້ອງ",
+        "reduction_code_gift_card_unusable": "ທ່ານບໍ່ສາມາດໃຊ້ບັດຂອງຂວັນເພື່ອຊື້ບັດຂອງຂວັນອື່ນໄດ້",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "ບໍ່ຮອງຮັບບັດຂອງຂວັນກັບທາງເລືອກການຊື້ທີ່ເລື່ອນເວລາ.",
+        "shipping_line_phone_blank": "ໃສ່ເບີໂທລະສັບເພື່ອໃຊ້ວິທີການຈັດສົ່ງນີ້",
+        "shipping_line_phone_invalid": "ໃສ່ເບີໂທລະສັບທີ່ຖືກຕ້ອງ",
+        "tips_invalid_tip_amount": "ໃສ່ເຄັດລັບໜ້ອຍກວ່າ %{amount}",
+        "gift_card_already_applied": "ບັດຂອງຂວັນນີ້ຖືກນຳໃຊ້ກັບຄຳສັ່ງຊື້ຂອງເຈົ້າແລ້ວ",
+        "gift_card_disabled": "ບັດຂອງຂວັນນີ້ບໍ່ມີແລ້ວ",
+        "gift_card_expired": "ບັດຂອງຂວັນນີ້ໝົດອາຍຸແລ້ວ",
+        "gift_card_depleted": "ບັດຂອງຂວັນນີ້ບໍ່ມີເງິນເຫຼືອ",
+        "gift_card_currency_mismatch": "ມີພຽງບັດຂອງຂວັນໃນ %{checkout_currency} ທີ່ສາມາດນຳໃຊ້ກັບຄຳສັ່ງນີ້ໄດ້",
+        "gift_cards_not_supported_with_deferred_purchase_options": "ບໍ່ຮອງຮັບບັດຂອງຂວັນກັບທາງເລືອກການຊື້ທີ່ເລື່ອນເວລາ.",
+        "gift_card_buying_gift_card": "ທ່ານບໍ່ສາມາດໃຊ້ບັດຂອງຂວັນເພື່ອຊື້ບັດຂອງຂວັນອື່ນໄດ້",
+        "payment_gateway_needs_paid_plan_error": "ວິທີການຈ່າຍເງິນນີ້ບໍ່ມີຢູ່ໃນຮ້ານໃນຕອນນີ້",
+        "payment_gateway_not_in_test_mode": "ບໍ່ໄດ້ຕັ້ງເພື່ອທົດສອບຄໍາສັ່ງ. ຮ້ານນີ້ບໍ່ສາມາດຮັບຄໍາສັ່ງທີ່ແທ້ຈິງຫຼືການຈ່າຍເງິນທີ່ແທ້ຈິງ.",
+        "payment_gateway_incompatible_with_multi_currency": "ເພື່ອສຳເລັດການຊຳລະເງິນນີ້ໃນສະກຸນເງິນທ້ອງຖິ່ນຂອງທ່ານ, ທ່ານຕ້ອງຈ່າຍເງິນດ້ວຍບັດເຄຣດິດ.",
+        "payment_gateway_unsupported_for_subscriptions": "ວິທີການຈ່າຍເງິນນີ້ບໍ່ສາມາດໃຊ້ໄດ້ສໍາລັບການສັ່ງຈອງ.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "ວິທີການຈ່າຍເງິນນີ້ບໍ່ມີໃຫ້ສໍາລັບທາງເລືອກການຊື້ທີ່ເລື່ອນເວລາ.",
+        "payment_gateway_unsupported_for_country": "ວິທີການຈ່າຍເງິນນີ້ບໍ່ສາມາດໃຊ້ໄດ້ກັບປະເທດຂົນສົ່ງຂອງເຈົ້າ.",
+        "payment_gateway_unsupported_for_development_store_html": "ເພື່ອວາງຄໍາສັ່ງທົດສອບ, ທ່ານຈະຕ້ອງໃຊ້ປະຕູການຈ່າຍເງິນທົດສອບ. ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບ <a href=\"%{docs_link}\">ການທົດສອບຄໍາສັ່ງໃນຮ້ານພັດທະນາ<\/a> .",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "ທ່ານໄດ້ຮອດຂີດຈຳກັດສຳລັບຄຳສັ່ງຊື້ຂອງຮ້ານພັດທະນາດ້ວຍຕົວປະມວນຜົນການຈ່າຍເງິນນີ້ແລ້ວ. ເພື່ອວາງຄໍາສັ່ງອື່ນ, ທ່ານຈະຕ້ອງໃຊ້ປະຕູການຈ່າຍເງິນທົດສອບ. ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບ <a href=\"%{docs_link}\">ການທົດສອບຄໍາສັ່ງໃນຮ້ານພັດທະນາ<\/a> .",
+        "purchase_options_agreement_blank": "ເພື່ອສືບຕໍ່ການຊື້ຂອງທ່ານ, ຕົກລົງເຫັນດີກັບເງື່ອນໄຂການຊື້ທີ່ເລື່ອນເວລາ ຫຼືເກີດຂຶ້ນຊ້ຳໆ."
       }
     },
     "pagination": {
@@ -2051,7 +2159,14 @@
       "inRange": "ຢູ່ໃນຂອບເຂດ",
       "rangeEnd": "ຊ່ວງທ້າຍ",
       "autocompleteOptionsAvailable": {
-        "one": "ມີ {{count}} ລາຍການ"
+        "one": "ມີ {{count}} ລາຍການ",
+        "other": "ມີ {{count}} ລາຍການ"
+      },
+      "removeItem": "ລຶບ {{label}} ອອກ",
+      "removeTag": "ລຶບແທັກ",
+      "month": {
+        "one": "ເດືອນ",
+        "other": "ເດືອນ"
       }
     },
     "navigation_and_structure": {
@@ -2553,6 +2668,17 @@
         "description": "ໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືລອງໃໝ່ໃນອີກສອງສາມນາທີ.",
         "refresh_button": "ໂຫຼດໜ້າຄືນໃໝ່"
       }
+    },
+    "profile_preview_bar": {
+      "customize_button": "ປັບແຕ່ງ",
+      "hide_bar": "ເຊື່ອງແຖບ",
+      "navigate_to_admin": "ໄປຫາຜູ້ເບິ່ງແຍງລະບົບ",
+      "close_preview": "ປິດຕົວຢ່າງ",
+      "previewing": "ທ່ານກຳລັງເບິ່ງຕົວຢ່າງ:",
+      "saved_at": "ບັນທຶກ {{date}} ເມື່ອ {{time}}",
+      "viewing": "ທ່ານກຳລັງເບິ່ງ:",
+      "not_available": "ບໍ່ມີຂໍ້ມູນໂປຣໄຟລ໌",
+      "actions_button": "ການກະທໍາ"
     }
   },
   "customer": {
@@ -2768,5 +2894,130 @@
     "language_label": "ພາສາ",
     "update_language": "ອັບເດດພາສາ",
     "update_country": "ອັບເດດປະເທດ\/ພາກພື້ນ"
+  },
+  "sections": {
+    "announcements": {
+      "previous_announcement": "ປະກາດກ່ອນໜ້ານີ້",
+      "next_announcement": "ປະກາດຕໍ່ໄປ",
+      "announcement": "ປະກາດ",
+      "announcement_bar": "ແຖບປະກາດ"
+    },
+    "header": {
+      "announcement": "ປະກາດ",
+      "menu": "ເມນູ",
+      "cart_count": {
+        "one": "{{ count }} ລາຍການ",
+        "other": "{{ count }} ລາຍການ"
+      }
+    },
+    "cart": {
+      "title": "ກະຕ່າຂອງເຈົ້າ",
+      "caption": "ລາຍການລົດເຂັນ",
+      "remove_title": "ລຶບ {{ title }}",
+      "subtotal": "ທັງໝົດຍ່ອຍ",
+      "new_subtotal": "ທັງໝົດຍ່ອຍໃໝ່",
+      "note": "ສັ່ງຄໍາແນະນໍາພິເສດ",
+      "checkout": "ກວດເບິ່ງ",
+      "empty": "ກະຕ່າຂອງເຈົ້າຫວ່າງເປົ່າ",
+      "cart_error": "ມີຂໍ້ຜິດພາດໃນລະຫວ່າງການອັບເດດກະຕ່າຂອງທ່ານ. ກະລຸນາລອງອີກຄັ້ງ.",
+      "cart_quantity_error_html": "ທ່ານສາມາດເພີ່ມ {{ quantity }} ຂອງລາຍການນີ້ໃສ່ກະຕ່າຂອງເຈົ້າເທົ່ານັ້ນ.",
+      "taxes_and_shipping_policy_at_checkout_html": "ພາສີ ແລະ <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">ຄ່າຂົນສົ່ງ<\/a> ຄິດໄລ່ຕອນຈ່າຍເງິນ",
+      "taxes_included_but_shipping_at_checkout": "ລວມພາສີ ແລະຄ່າຂົນສົ່ງແມ່ນຄິດໄລ່ຕອນຈ່າຍເງິນ",
+      "taxes_included_and_shipping_policy_html": "ລວມພາສີ. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">ການຂົນສົ່ງ<\/a> ຄິດໄລ່ໃນເວລາຈ່າຍເງິນ.",
+      "taxes_and_shipping_at_checkout": "ພາສີ ແລະຄ່າຂົນສົ່ງຄິດໄລ່ຕອນຈ່າຍເງິນ",
+      "headings": {
+        "product": "ຜະລິດຕະພັນ",
+        "price": "ລາຄາ",
+        "total": "ທັງໝົດ",
+        "quantity": "ປະລິມານ",
+        "image": "ຮູບພາບຜະລິດຕະພັນ"
+      },
+      "update": "ອັບເດດ",
+      "login": {
+        "title": "ມີບັນຊີບໍ?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">ເຂົ້າສູ່ລະບົບ<\/a> ເພື່ອເຊັກເອົາໄວຂຶ້ນ."
+      }
+    },
+    "footer": {
+      "payment": "ວິທີການຈ່າຍເງິນ"
+    },
+    "featured_blog": {
+      "view_all": "ເບິ່ງ​ທັງ​ຫມົດ",
+      "onboarding_title": "ຕອບ blog",
+      "onboarding_content": "ໃຫ້ລູກຄ້າຂອງທ່ານສະຫຼຸບການຕອບ blog ຂອງທ່ານ"
+    },
+    "featured_collection": {
+      "view_all": "ເບິ່ງ​ທັງ​ຫມົດ",
+      "view_all_label": "ເບິ່ງຜະລິດຕະພັນທັງໝົດໃນຄໍເລັກຊັນ {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "ເບິ່ງ​ທັງ​ຫມົດ"
+    },
+    "collection_template": {
+      "empty": "ບໍ່ພົບຜະລິດຕະພັນ",
+      "title": "ຄໍເລັກຊັນ",
+      "use_fewer_filters_html": "ໃຊ້ຕົວກອງໜ້ອຍລົງ ຫຼື <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">ລຶບທັງໝົດອອກ<\/a>"
+    },
+    "video": {
+      "load_video": "ໂຫຼດວິດີໂອ: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "ໂຫລດສະໄລ້",
+      "previous_slideshow": "ສະໄລ້ກ່ອນໜ້າ",
+      "next_slideshow": "ສະໄລ້ຕໍ່ໄປ",
+      "pause_slideshow": "ຢຸດສະໄລ້ໂຊຊົ່ວຄາວ",
+      "play_slideshow": "ຫຼິ້ນ slideshow",
+      "slide": "ສະໄລ້"
+    },
+    "page": {
+      "title": "ຊື່ໜ້າ"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "ເຂົ້າຮ້ານໂດຍໃຊ້ລະຫັດຜ່ານ:",
+      "login_password_button": "ໃສ່ລະຫັດຜ່ານ",
+      "login_form_password_label": "ລະຫັດຜ່ານ",
+      "login_form_password_placeholder": "ລະຫັດຜ່ານຂອງທ່ານ",
+      "login_form_error": "ລະ​ຫັດ​ຜ່ານ​ຜິດ!",
+      "login_form_submit": "ເຂົ້າ",
+      "admin_link_html": "ເຈົ້າເປັນເຈົ້າຂອງຮ້ານບໍ? <a href=\"\/admin\" class=\"link underlined-link\">ເຂົ້າສູ່ລະບົບທີ່ນີ້<\/a>",
+      "powered_by_shopify_html": "ຮ້ານນີ້ຈະຖືກຂັບເຄື່ອນໂດຍ {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "ແບ່ງປັນກ່ຽວກັບເຟສບຸກ",
+        "share_on_twitter": "Tweet ໃນ Twitter",
+        "share_on_pinterest": "ປັກໝຸດໃສ່ Pinterest"
+      },
+      "links": {
+        "facebook": "ເຟສບຸກ"
+      }
+    },
+    "continue_shopping": "ສືບຕໍ່ຊື້ເຄື່ອງ",
+    "pagination": {
+      "page": "ໜ້າ {{ number }}",
+      "next": "ໜ້າຕໍ່ໄປ",
+      "previous": "ໜ້າກ່ອນໜ້ານີ້"
+    },
+    "search": {
+      "search": "ຊອກຫາ",
+      "reset": "ລຶບລ້າງຄຳຊອກຫາ"
+    },
+    "cart": {
+      "view": "ເບິ່ງກະຕ່າ ( {{ count }} )",
+      "view_empty_cart": "ເບິ່ງໂຄງຮ່າງການ",
+      "item_added": "ເພີ່ມລາຍການໃສ່ກະຕ່າຂອງເຈົ້າແລ້ວ"
+    },
+    "share": {
+      "close": "ປິດການແບ່ງປັນ",
+      "copy_to_clipboard": "ສຳເນົາລິ້ງ",
+      "share_url": "ເຊື່ອມຕໍ່",
+      "success_message": "ສຳເນົາລິ້ງໃສ່ຄລິບບອດແລ້ວ"
+    },
+    "slider": {
+      "of": "ຂອງ",
+      "next_slide": "ເລື່ອນໄປທາງຂວາ"
+    }
   }
 }
