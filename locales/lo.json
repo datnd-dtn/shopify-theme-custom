@@ -368,7 +368,110 @@
         "split_cart_merchandise_quantity_label_additional": "+%{quantity} ເພີ່ມເຕີມ",
         "split_cart_merchandise_shipment_number": "ການຂົນສົ່ງ %{number} ຂອງ %{total}",
         "split_cart_ships_now": "ຈັດສົ່ງດຽວນີ້",
-        "split_cart_ships_later": "ຈັດສົ່ງໃນພາຍຫຼັງ"
+        "split_cart_ships_later": "ຈັດສົ່ງໃນພາຍຫຼັງ",
+        "split_cart_ships_by_date": "ຈັດສົ່ງພາຍໃນ %{date}",
+        "split_cart_multiple_shipment_label": "ການຂົນສົ່ງຫຼາຍ",
+        "split_cart_shipping_label": "ວິທີການ",
+        "merchandise_quantity_label_inline_primary": "ປະລິມານ: %{quantity}",
+        "optional_shipping_line_delivery_instructions_label": "ຄຳແນະນຳການຈັດສົ່ງ (ທາງເລືອກ)",
+        "shipping_line_delivery_instructions": "ປ້ອນຂໍ້ມູນທີ່ຈໍາເປັນເຊັ່ນ: ລະຫັດປະຕູ ຫຼືຄໍາແນະນໍາການລົງ.",
+        "other_method": {
+          "zero": "ບໍ່ມີວິທີການອື່ນໆທີ່ມີຢູ່",
+          "one": "%{count} ວິທີອື່ນມີຢູ່",
+          "other": "%{count} ວິທີການອື່ນໆທີ່ມີຢູ່ ເລີ່ມແຕ່ເວລາ"
+        },
+        "shipping_rate_discounted_amount": "ແມ່ນ: %{original_amount}. ດຽວນີ້: %{amount}",
+        "local_delivery": "ການຈັດສົ່ງທ້ອງຖິ່ນ",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "ສຳລັບການຈັດສົ່ງ %{count}",
+            "other": "ສໍາລັບການຈັດສົ່ງ %{count}"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "ທຸກໆ​ມື້",
+              "other": "ທຸກໆ %{count} ມື້"
+            },
+            "week": {
+              "one": "ທຸກໆ​ອາ​ທິດ",
+              "other": "ທຸກໆ %{count} ອາທິດ"
+            },
+            "month": {
+              "one": "ທຸກໆ​ເດືອນ",
+              "other": "ທຸກໆ %{count} ເດືອນ"
+            },
+            "year": {
+              "one": "ທຸກໆ​ປີ",
+              "other": "ທຸກໆ %{count} ປີ"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} ຕໍ່ການຈັດສົ່ງ",
+          "prepaid_shipping_price_label": "%{shipping_price} ຕໍ່ການຈັດສົ່ງ x %{delivery_interval_count}",
+          "initial_order_discounted": "ຄ່າຂົນສົ່ງທຳອິດ %{discounted_shipping_cost}, ຈາກນັ້ນ %{frequency_description}",
+          "prepaid_initial_order_discounted": "ຄ່າຂົນສົ່ງທຳອິດ %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "ຄ່າຂົນສົ່ງທຳອິດ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "ຄ່າຂົນສົ່ງທຳອິດ %{discounted_shipping_price} %{prepaid_delivery_frequency}, ຈາກນັ້ນ %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "ຄ່າຂົນສົ່ງທຳອິດ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), ຈາກນັ້ນ %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "ລວມ",
+          "recurring_order_shipping_price": "ຕິດຕາມດ້ວຍ %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "ຮວມຄຳສັ່ງຊື້ທຳອິດ, ຕາມດ້ວຍ %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} ຕໍ່ການຈັດສົ່ງ), ຕາມດ້ວຍ %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "ທໍາອິດສັ່ງຟຣີ",
+            "other": "ທຳອິດ %{count} ສັ່ງຟຣີ"
+          },
+          "free_for_first_n_order": {
+            "one": "ສໍາລັບຄໍາສັ່ງທໍາອິດ",
+            "other": "ສໍາລັບຄໍາສັ່ງ %{count} ຄັ້ງທໍາອິດ"
+          }
+        },
+        "one_time_purchase_shipping": "ການຂົນສົ່ງຄັ້ງດຽວ",
+        "address2_add_label": "ເພີ່ມອາພາດເມັນ, ຊຸດ, ແລະອື່ນໆ.",
+        "duties_and_taxes_title": "ຫນ້າທີ່ແລະພາສີ",
+        "shipping_information_required_notice": "ໃສ່ທີ່ຢູ່ຈັດສົ່ງຂອງທ່ານເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່.",
+        "shipping_information_redirect_link": "ໃສ່ຂໍ້ມູນຂອງທ່ານທີ່ນີ້",
+        "loading_progressive_rates": "ກຳລັງຊອກຫາອັດຕາເພີ່ມເຕີມ...",
+        "no_other_methods_available": "ບໍ່ມີວິທີການອື່ນໆທີ່ມີຢູ່",
+        "duties_and_taxes_options": {
+          "ddu_title": "ຈ່າຍຄ່າຈັດສົ່ງ",
+          "ddu_caption": "ອາດມີຄ່າທຳນຽມເພີ່ມເຕີມ",
+          "ddp_title": "ຈ່າຍດຽວນີ້",
+          "ddp_caption": "ບໍ່ມີຄ່າທໍານຽມເພີ່ມເຕີມໃນການຈັດສົ່ງ"
+        },
+        "shipping_method_combinations": {
+          "with_separator": "%{rest}, %{ປັດຈຸບັນ},",
+          "combination": "%{rest} ແລະ %{current}"
+        },
+        "shipping_used_as_billing_notice": "ອັນນີ້ຈະຖືກໃຊ້ເປັນທີ່ຢູ່ໃບບິນຂອງທ່ານສຳລັບຄຳສັ່ງຊື້ນີ້.",
+        "address_update": "ອັບເດດທີ່ຢູ່",
+        "enter_address_manually_label": "ໃສ່ທີ່ຢູ່ດ້ວຍຕົນເອງ",
+        "shipping_address_title": "ສົ່ງ​ໄປ​ທີ່",
+        "add_address": "ໃຊ້ທີ່ຢູ່ອື່ນ",
+        "add_delivery_instructions": "ເພີ່ມຄໍາແນະນໍາການຈັດສົ່ງ",
+        "edit": "ແກ້ໄຂ",
+        "delete": "ລຶບ",
+        "address_more": "ຄຳສັ່ງເພີ່ມເຕີມສຳລັບທີ່ຢູ່ນີ້",
+        "address_edit": "ແກ້ໄຂທີ່ຢູ່",
+        "address_delete": "ລຶບທີ່ຢູ່",
+        "address_confirm": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບທີ່ຢູ່ນີ້ອອກຈາກບັນຊີຂອງທ່ານ?",
+        "address_form": {
+          "add_address": "ເພີ່ມທີ່ຢູ່",
+          "save": "ບັນທຶກ",
+          "cancel": "ຍົກເລີກ",
+          "generic_error": "ເກີດບັນຫາໃນການບັນທຶກທີ່ຢູ່ຂອງເຈົ້າ. ກະລຸນາລອງອີກຄັ້ງ.",
+          "one_time_address_subtitle": "ໃຊ້ທີ່ຢູ່ຄັ້ງດຽວສໍາລັບຄໍາສັ່ງນີ້"
+        },
+        "different_shipping_method_summary": "ໃສ່ທີ່ຢູ່ຈັດສົ່ງອື່ນເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່",
+        "invalid_shipping_method_summary": "ໃສ່ທີ່ຢູ່ຈັດສົ່ງທີ່ຖືກຕ້ອງເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່",
+        "method_summary": {
+          "incomplete_address_entered": "ໃສ່ທີ່ຢູ່ຈັດສົ່ງທີ່ສົມບູນເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່",
+          "incomplete_address_selected": "ເລືອກທີ່ຢູ່ຈັດສົ່ງທີ່ສົມບູນເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່"
+        },
+        "local_pickup": {
+          "search_address": "ຊອກຫາທີ່ຢູ່",
+          "rollup_title": "ສະຖານທີ່ຮັບ"
+        },
+        "missing_shipping_address": "ບໍ່ມີທີ່ຢູ່ຈັດສົ່ງ"
       },
       "payment": {
         "pending_payment": {
@@ -514,7 +617,31 @@
         "alternative_payment_currency_total_notice": "ໝາຍເຫດ: ທ່ານຈະຖືກຮຽກເກັບເງິນ %{amount_due}.",
         "waiting_on_taxes_message": "ຖ້າພາສີຂອງເຈົ້າບໍ່ໄດ້ຄິດໄລ່ພາຍໃນສອງສາມວິນາທີຕໍ່ໄປ, ໃຫ້ໂຫຼດໜ້ານີ້ຄືນໃໝ່.",
         "waiting_on_taxes_notice": "ການ​ຄິດ​ໄລ່​ພາ​ສີ​",
-        "payment_method": "ວິທີການຈ່າຍເງິນ"
+        "payment_method": "ວິທີການຈ່າຍເງິນ",
+        "amazon_payments_label": "Amazon ຈ່າຍ",
+        "amazon_payments_login_hint": "ທ່ານຈະຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບດ້ວຍ Amazon.",
+        "amazon_payments_logout": "ອອກຈາກ Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "ບໍ່ສາມາດໃຊ້ວິທີການຈ່າຍເງິນທີ່ເລືອກໄດ້. ເລືອກວິທີອື່ນ ຫຼືຕິດຕໍ່ທະນາຄານ ຫຼືຜູ້ອອກບັດຂອງທ່ານ.",
+        "amazon_payments_abandoned_mfa_challenge": "ການຈ່າຍເງິນຂອງທ່ານບໍ່ສາມາດສຳເລັດໄດ້. ລອງໃຊ້ວິທີການຊໍາລະເງິນອື່ນ ຫຼືຕິດຕໍ່ທະນາຄານ ຫຼືຜູ້ອອກບັດຂອງທ່ານ.",
+        "amazon_payments_could_not_enqueue_authorize": "ມີບັນຫາໃນການປະມວນຜົນການຈ່າຍເງິນຂອງທ່ານ. ລອງອີກຄັ້ງ ຫຼືໃຊ້ວິທີຈ່າຍເງິນອື່ນ.",
+        "title": "ການຈ່າຍເງິນ",
+        "amount_left_to_pay_label": "ຈ່າຍຄົບກຳນົດ:",
+        "discount_button_action_label": "ນຳໃຊ້ລະຫັດສ່ວນຫຼຸດ",
+        "gift_card_code_label": "ລະຫັດບັດຂອງຂວັນ",
+        "apply_gift_card_button_label": "ສະໝັກ",
+        "gift_card_balance_label": "ຍອດເງິນ:",
+        "supported_card_brands_more_label": "ແລະອື່ນໆອີກ...",
+        "detected_card_brand": "ຍີ່ຫໍ້ບັດທີ່ກວດພົບ: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "ບັນທຶກບັດເຄຣດິດຂອງທ່ານ",
+        "credit_card_vaulting_sign_in_banner_info": "ເຂົ້າສູ່ລະບົບຫຼືສ້າງບັນຊີເພື່ອບັນທຶກບັດເຄຣດິດຂອງທ່ານສໍາລັບການຊື້ໃນອະນາຄົດ.",
+        "credit_card_vaulting_sign_in_banner_button_label": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+        "ftd_vault_credit_card_label": "ບັນທຶກບັດເຄຣດິດນີ້ໃສ່ບັນຊີຂອງຂ້ອຍເພື່ອຈ່າຍເງິນໄດ້ໄວຂຶ້ນ",
+        "card_number_label": "ເລກບັດ",
+        "card_number_placeholder": "ເລກບັດ",
+        "card_pay_with": "ຈ່າຍດ້ວຍ:",
+        "card_security_notice": "ທຸລະກໍາທັງຫມົດແມ່ນປອດໄພແລະຖືກເຂົ້າລະຫັດ.",
+        "card_security_vault_notice": "ພວກເຮົາຕ້ອງການລາຍລະອຽດຂອງທ່ານເພື່ອຈ່າຍເງິນໃນອະນາຄົດ. ທຸລະກໍາທັງຫມົດແມ່ນປອດໄພແລະຖືກເຂົ້າລະຫັດ.",
+        "card_information_notice": "ທຸລະກໍາທັງຫມົດແມ່ນປອດໄພແລະຖືກເຂົ້າລະຫັດ. ຂໍ້ມູນບັດເຄຣດິດບໍ່ເຄີຍຖືກເກັບໄວ້."
       },
       "local_pickup": {
         "location_information": {
@@ -914,6 +1041,11 @@
       },
       "online_store_chat": {
         "title": "ຄໍາຖາມ? ສົນທະນາກັບພວກເຮົາ"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ"
+        }
       }
     },
     "pagination": {
@@ -1859,7 +1991,12 @@
         "tax_details_title": "ລາຍລະອຽດພາສີ",
         "tax_id": "ID ພາ​ສີ",
         "tax_exemptions": "ການຍົກເວັ້ນພາສີ",
-        "multiple_tax_exemptions": "ເພີ່ມເຕີມອີກ {{taxExemptionsCount}}"
+        "multiple_tax_exemptions": "ເພີ່ມເຕີມອີກ {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "ແລະ",
+        "tax_exemptions_modal_close": "ປິດ",
+        "taxes_none": "ບໍ່ມີ",
+        "tax_exemption_not_applicable": "ບໍ່ມີ",
+        "tax_exemptions_modal_button_accessibility_label": "ເບິ່ງການຍົກເວັ້ນພາສີທັງຫມົດ"
       },
       "purchase_order_number": {
         "discard_changes_modal_title": "ຍົກເລີກການປ່ຽນແປງບໍ?",
@@ -1869,7 +2006,146 @@
         "modal_po_number_input_label": "ໝາຍເລກ PO",
         "modal_po_number_input_max_length_error": "ໝາຍເລກ PO ມີສູງສຸດ {{maxLength}} ຕົວອັກສອນ.",
         "save": "ບັນທຶກ",
-        "title": "PO # {{poNumber}}"
+        "title": "PO # {{poNumber}}",
+        "add_accessibility_label": "ເພີ່ມໝາຍເລກ PO",
+        "add_modal_title": "ເພີ່ມໝາຍເລກ PO",
+        "cancel": "ຍົກເລີກ",
+        "close_modal_accessibility_label": "ປິດໂມດູນເລກ PO",
+        "discard": "ຖິ້ມ"
+      },
+      "location_selection": {
+        "continue_to_store": "ສືບຕໍ່ເກັບຮັກສາ",
+        "description": "ຖ້າທ່ານມີລາຍການຢູ່ໃນກະຕ່າຂອງທ່ານຢູ່ກ່ອນແລ້ວ, ການປ່ຽນສະຖານທີ່ອາດສົ່ງຜົນກະທົບຕໍ່ລາຄາ ແລະປະລິມານຂອງກະຕ່າ.",
+        "list_accessibility_label": "ລາຍຊື່ສະຖານທີ່",
+        "list_item_without_address_accessibility_label": "{{name}} : ບໍ່ມີທີ່ຢູ່",
+        "list_loading_accessibility_message": "ກຳລັງໂຫຼດລາຍຊື່ສະຖານທີ່",
+        "list_loading_address_accessibility_message": "ກຳລັງໂຫຼດທີ່ຢູ່ສຳລັບ {{locationName}}",
+        "list_loading_finished_accessibility_message": "ລາຍຊື່ສະຖານທີ່ຖືກໂຫລດແລ້ວ",
+        "loading_store_accessibility_message": "ໄປຮ້ານ",
+        "no_location_title": "ຄໍາສັ່ງສ່ວນບຸກຄົນເທົ່ານັ້ນ",
+        "no_location_description": "ທ່ານບໍ່ມີສິດໃນການສັ່ງໃຫ້ {{company}} ອີກຕໍ່ໄປ. ທ່ານຍັງສາມາດວາງຄໍາສັ່ງສ່ວນຕົວໄດ້.",
+        "no_locations_found": "ບໍ່ພົບສະຖານທີ່",
+        "search": "ຊອກຫາສະຖານທີ່",
+        "search_location_title": "ເລືອກສະຖານທີ່",
+        "selection_cancel_button": "ຍົກເລີກ",
+        "selection_confirmation_button": "ເລືອກສະຖານທີ່",
+        "title": "ເຈົ້າຊື້ຢູ່ບ່ອນໃດ?",
+        "clear_search": "ລຶບການຊອກຫາ",
+        "try_new_search": "ລອງຊອກຫາໃໝ່"
+      },
+      "addresses": {
+        "add_billing_address_button": "ເພີ່ມທີ່ຢູ່ໃບບິນ",
+        "add_billing_address_section_accessibility_label": "ເພີ່ມທີ່ຢູ່ໃບບິນ",
+        "add_shipping_address_button": "ເພີ່ມທີ່ຢູ່ຈັດສົ່ງ",
+        "add_shipping_address_section_accessibility_label": "ເພີ່ມທີ່ຢູ່ຈັດສົ່ງ",
+        "billing_address_card_title": "ທີ່ຢູ່ໃບບິນ",
+        "cancel_adding_billing_address_accessibility_label": "ຍົກເລີກການເພີ່ມທີ່ຢູ່ໃບບິນ",
+        "cancel_adding_shipping_address_accessibility_label": "ຍົກເລີກການເພີ່ມທີ່ຢູ່ຈັດສົ່ງ",
+        "save_new_billing_address_accessibility_label": "ບັນທຶກທີ່ຢູ່ໃບບິນ",
+        "save_new_shipping_address_accessibility_label": "ບັນທຶກທີ່ຢູ່ຈັດສົ່ງ",
+        "shipping_address_card_title": "ທີ່ຢູ່ຈັດສົ່ງ"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "ເຊື່ອງທັງໝົດ",
+          "show_all": "ສະແດງທັງໝົດ",
+          "hide_all_accessibility_label": "ເຊື່ອງຄໍາສັ່ງທັງໝົດຢູ່ໃນການກວດສອບ",
+          "show_all_accessibility_label": "ສະແດງຄໍາສັ່ງທັງຫມົດຢູ່ໃນການທົບທວນຄືນ",
+          "show_all_orders_in_review": "ສະແດງຄໍາສັ່ງທັງຫມົດຢູ່ໃນການທົບທວນຄືນ",
+          "show_less_orders_in_review": "ສະແດງຄຳສັ່ງຊື້ໜ້ອຍລົງໃນການກວດສອບ",
+          "title": "ລໍຖ້າຢູ່",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "ທ່ານບໍ່ມີຄໍາສັ່ງທີ່ຍັງຄ້າງຢູ່",
+            "pending_orders": {
+              "one": "ທ່ານມີ {{count}} ຄຳສັ່ງຊື້ທີ່ຍັງຄ້າງຢູ່",
+              "other": "ທ່ານມີ {{count}} ຄຳສັ່ງຊື້ທີ່ຍັງຄ້າງຢູ່"
+            },
+            "more_than_pagination_length": "ທ່ານມີຫຼາຍກວ່າ {{count}} ຄໍາສັ່ງຊື້ທີ່ຍັງຄ້າງຢູ່"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "ຄໍາສັ່ງໃນການທົບທວນຄືນປຸ່ມນໍາທາງ"
+          }
+        },
+        "order_list_column_headers_location": "ສະຖານທີ່",
+        "order_list_column_headers_contact": "ຕິດຕໍ່",
+        "removed_company_contact_tooltip": "ຖອນອອກຈາກບໍລິສັດ"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "ຢືນຢັນ {{date}} ຈາກຄໍາສັ່ງ {{draftOrderName}}",
+        "loading": "ກຳລັງໂຫຼດລາຍລະອຽດການສັ່ງຊື້",
+        "loading_finished_accessibility_message": "ລາຍລະອຽດການສັ່ງຊື້ໄດ້ຖືກໂຫລດແລ້ວ",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "ການຈ່າຍເງິນຂອງເຈົ້າແມ່ນເກີນກຳນົດ {{count}} ມື້",
+              "other": "ການຈ່າຍເງິນຂອງເຈົ້າແມ່ນເກີນກຳນົດ {{count}} ມື້"
+            },
+            "banner_due": {
+              "one": "ການຈ່າຍເງິນຂອງທ່ານຮອດກຳນົດໃນ {{count}} ມື້",
+              "other": "ການຈ່າຍເງິນຂອງທ່ານຮອດກຳນົດໃນ {{count}} ມື້"
+            },
+            "banner_due_today": "ການຈ່າຍເງິນຂອງທ່ານຮອດກຳນົດມື້ນີ້",
+            "title": "ຊໍາລະ",
+            "title_with_date": "ຮອດກຳນົດການຈ່າຍເງິນ {{date}}",
+            "title_due_on_receipt": "ການຈ່າຍເງິນຍັງບໍ່ຮອດກຳນົດເທື່ອ",
+            "title_due_on_fulfillment": "ການ​ຊໍາ​ລະ​ເນື່ອງ​ຈາກ​ການ​ປະ​ຕິ​ບັດ​",
+            "description_overdue": "ການຈ່າຍເງິນຂອງທ່ານຊ້າ.",
+            "description_partially_paid": "ຄໍາສັ່ງນີ້ຖືກຈ່າຍເປັນບາງສ່ວນ. ທ່ານມີຍອດຄົງເຫຼືອ.",
+            "description_authorized": "ວິທີການຊໍາລະຂອງທ່ານຈະຖືກຄິດຄ່າທໍານຽມໃນວັນທີກໍານົດ, ຫຼືທ່ານສາມາດຊໍາລະໄດ້ໃນປັດຈຸບັນ.",
+            "description_due_on_receipt": "ທ່ານຈະໄດ້ຮັບໃບແຈ້ງໜີ້ເມື່ອການຈ່າຍເງິນຄົບກຳນົດ.",
+            "description_due_on_fulfillment": "ການຈ່າຍເງິນແມ່ນຮອດກຳນົດເມື່ອລາຍການທັງໝົດໃນຄຳສັ່ງນີ້ສຳເລັດ."
+          },
+          "draft": {
+            "description": "ລາຍລະອຽດການຈ່າຍເງິນຖືກຕັດສິນໃຈເມື່ອຄໍາສັ່ງຖືກຢືນຢັນ.",
+            "title": "ການຈ່າຍເງິນຍັງບໍ່ທັນຮອດກຳນົດ",
+            "in_review": {
+              "description": "ລາຍລະອຽດການຈ່າຍເງິນຖືກຕັດສິນໃຈເມື່ອຄໍາສັ່ງຖືກຢືນຢັນ.",
+              "title": "ການຈ່າຍເງິນຍັງບໍ່ທັນຮອດກຳນົດ"
+            },
+            "submitted": {
+              "description": "ສົ່ງການຈ່າຍເງິນເພື່ອຢືນຢັນການສັ່ງຊື້ນີ້.",
+              "title": "ຈ່າຍເພື່ອຢືນຢັນ"
+            }
+          },
+          "paid": {
+            "title": "ຈ່າຍແລ້ວ",
+            "title_with_date": "ຈ່າຍແລ້ວ {{date}}",
+            "description": "ການສັ່ງຊື້ຂອງທ່ານຖືກຈ່າຍເຕັມທີ່."
+          },
+          "refund": {
+            "title": "ສົ່ງເງິນຄືນແລ້ວ",
+            "title_with_date": "ສົ່ງເງິນຄືນແລ້ວ {{date}}",
+            "description_full_refund": "ທ່ານໄດ້ຮັບເງິນຄືນເຕັມຈໍານວນສໍາລັບຄໍາສັ່ງນີ້.",
+            "description_single_refund": "ທ່ານໄດ້ຮັບເງິນຄືນບາງສ່ວນສໍາລັບຄໍາສັ່ງນີ້.",
+            "description_multiple_refunds": "ທ່ານໄດ້ຮັບເງິນຄືນບາງສ່ວນສໍາລັບຄໍາສັ່ງນີ້."
+          },
+          "canceled": {
+            "title": "ຍົກເລີກການຈ່າຍເງິນແລ້ວ",
+            "description": "ທ່ານບໍ່ໄດ້ຖືກຮຽກເກັບເງິນ."
+          },
+          "pay_now": "ຈ່າຍດຽວນີ້",
+          "pay_now_accessibility_label": "ຈ່າຍດຽວນີ້ເພື່ອສັ່ງ {{orderName}}",
+          "title": "ສະຖານະການຈ່າຍເງິນ"
+        },
+        "order_timeline": {
+          "expand_events_label": "ສະ​ແດງ​ລາຍ​ລະ​ອຽດ",
+          "expand_events_accessibility_label": "ສະແດງລາຍລະອຽດການສັ່ງຊື້ສະບັບຮ່າງ",
+          "hide_events_label": "ເຊື່ອງລາຍລະອຽດ",
+          "hide_events_accessibility_label": "ເຊື່ອງລາຍລະອຽດການສັ່ງຊື້ສະບັບຮ່າງ"
+        },
+        "subtitle": "ສົ່ງແລ້ວ {{date}}",
+        "title": "ສັ່ງ {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "ວິທີການຈ່າຍເງິນນີ້ຈະບໍ່ສາມາດໃຊ້ໄດ້ສໍາລັບການຊື້ໃນອະນາຄົດຈາກສະຖານທີ່ນີ້.",
+          "description_with_replacement": "ການລຶບວິທີການຊຳລະເງິນນີ້ຈະມີຜົນຕໍ່ການຈ່າຍເງິນທີ່ໄດ້ຮັບອະນຸຍາດລ່ວງໜ້າສຳລັບສະຖານທີ່ນີ້. ແທນທີ່ມັນດ້ວຍວິທີການຊໍາລະເງິນທາງເລືອກເພື່ອສືບຕໍ່ຮັບຄໍາສັ່ງທີ່ຈະມາເຖິງ."
+        },
+        "payment_details": {
+          "order_label": "ສັ່ງ {{name}}",
+          "draft_label": "ຮ່າງຄຳສັ່ງ {{name}}"
+        }
       }
     },
     "errors": {
