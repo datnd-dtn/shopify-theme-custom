@@ -1604,12 +1604,29 @@
         "view_order_for_details": "ເບິ່ງຄໍາສັ່ງສໍາລັບລາຍລະອຽດ",
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "ຕິດຕາມແລະຈັດການການຊື້ດ້ວຍຄໍາສັ່ງ Prime"
+            "text": "ຕິດຕາມແລະຈັດການການຊື້ດ້ວຍຄໍາສັ່ງ Prime",
+            "new_window_disclaimer": "(ເປີດໜ້າຕ່າງໃໝ່)"
           }
         }
       },
       "list_layout_accessibility_label": "ຕົວເລືອກໂຄງຮ່າງ",
-      "list_title": "ຄໍາສັ່ງ"
+      "list_title": "ຄໍາສັ່ງ",
+      "status_mark_as_delivered": "ໝາຍວ່າສົ່ງແລ້ວ",
+      "status_title": "ສະຖານະການສັ່ງຊື້",
+      "buy_again": "ຊື້ອີກ",
+      "buy_again_accessibility_label": "ຊື້ອີກຄັ້ງເພື່ອສັ່ງ {{orderId}}",
+      "manage": "ຈັດການ",
+      "manage_accessiblity_label": "ຈັດການຄໍາສັ່ງ {{orderId}}",
+      "group_title_label": "ສ່ວນຫນຶ່ງຂອງ: {{groupTitle}}",
+      "havent_received_your_delivery": "ຍັງບໍ່ໄດ້ຮັບການຈັດສົ່ງຂອງທ່ານບໍ?",
+      "didnt_pick_up_order": "ບໍ່​ໄດ້​ຮັບ​ຄໍາ​ສັ່ງ​ຂອງ​ທ່ານ​?",
+      "if_you_didnt_receive_this": "ຖ້າທ່ານບໍ່ໄດ້ຮັບອັນນີ້,",
+      "if_not_received": {
+        "one": "ຖ້າ​ຫາກ​ວ່າ​ມັນ​ບໍ່​ໄດ້​ຮັບ​,",
+        "other": "ຖ້າພວກເຂົາບໍ່ໄດ້ຮັບ,"
+      },
+      "let_us_know": "ໃຫ້ພວກເຮົາຮູ້",
+      "contact_us": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ."
     },
     "payment_methods": {
       "card_fields": {
@@ -1872,7 +1889,12 @@
       "edit_summary": {
         "returned": "ກັບຄືນ",
         "returned_with_quantities": "ສົ່ງຄືນ {{delta}} ຂອງ {{total}} ແລ້ວ",
-        "removed_with_quantities": "ລຶບ {{delta}} ຂອງ {{total}} ອອກແລ້ວ"
+        "removed_with_quantities": "ລຶບ {{delta}} ຂອງ {{total}} ອອກແລ້ວ",
+        "added": "ເພີ່ມແລ້ວ",
+        "added_with_quantity": "ເພີ່ມ {{quantity}} ແລ້ວ",
+        "removed": "ລຶບອອກແລ້ວ",
+        "removed_with_quantity": "ລຶບ {{quantity}} ອອກແລ້ວ",
+        "updated_at": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກອັບເດດເມື່ອ {{date}}"
       },
       "shop_pay": {
         "order_completed_with": "ຄໍາສັ່ງສໍາເລັດດ້ວຍ",
@@ -1895,7 +1917,111 @@
       "login_to_view_all_order_details": "ເຂົ້າສູ່ລະບົບເພື່ອເບິ່ງລາຍລະອຽດການສັ່ງຊື້ທັງໝົດ.",
       "log_in": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
       "logged_in_account_no_permission_to_order": "ທ່ານເຂົ້າສູ່ລະບົບເປັນ {{email}} . ບັນຊີນີ້ບໍ່ມີການອະນຸຍາດໃຫ້ຈັດການຄໍາສັ່ງນີ້.",
-      "log_in_to_a_different_account": "ເຂົ້າສູ່ລະບົບບັນຊີອື່ນ"
+      "log_in_to_a_different_account": "ເຂົ້າສູ່ລະບົບບັນຊີອື່ນ",
+      "shipment_timeline": {
+        "expand_events_label": "ສະ​ແດງ​ລາຍ​ລະ​ອຽດ",
+        "expand_events_accessibility_label": "ສະແດງລາຍລະອຽດການຈັດສົ່ງສິນຄ້າ",
+        "hide_events_label": "ເຊື່ອງລາຍລະອຽດ",
+        "hide_events_accessibility_label": "ເຊື່ອງລາຍລະອຽດການຂົນສົ່ງຄໍາສັ່ງ"
+      },
+      "addresses_section_title": "ໃບບິນແລະການຂົນສົ່ງ",
+      "order_details": "ລາຍລະອຽດການສັ່ງຊື້",
+      "order_details_skeleton_accessibility_label": "ເຂົ້າສູ່ລະບົບເພື່ອເບິ່ງລາຍລະອຽດການສັ່ງຊື້ທັງໝົດ.",
+      "billing_address": "ທີ່ຢູ່ໃບບິນ",
+      "card_ending_with": "ລົງທ້າຍດ້ວຍ {{lastDigits}}",
+      "contact": "ຕິດຕໍ່",
+      "contact_information": "ຂໍ້​ມູນ​ຕິດ​ຕໍ່",
+      "company": "ບໍລິສັດ",
+      "fully_refunded_label": "ສົ່ງເງິນຄືນແລ້ວ",
+      "group_title_label": "ສ່ວນຫນຶ່ງຂອງ: {{groupTitle}}",
+      "discount": "ສ່ວນຫຼຸດ",
+      "hide_items": "ເຊື່ອງລາຍການ",
+      "loading": "ກຳລັງໂຫຼດລາຍລະອຽດການສັ່ງຊື້",
+      "loading_finished_accessibility_message": "ລາຍລະອຽດການສັ່ງຊື້ໄດ້ຖືກໂຫລດແລ້ວ",
+      "location": "ສະຖານທີ່",
+      "image_gallery": {
+        "next": "ສະແດງລາຍການຕໍ່ໄປ",
+        "previous": "ສະແດງລາຍການກ່ອນໜ້າ"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "ສະແດງສະຫຼຸບຄໍາສັ່ງ",
+        "closed": "ເຊື່ອງສະຫຼຸບຄໍາສັ່ງ"
+      },
+      "no_data": "ບໍ່ມີ",
+      "no_data_provided_accessibility_label": "{{fieldName}} ຫວ່າງເປົ່າ",
+      "not_applicable": "ບໍ່ມີ",
+      "paid_amount": "ຈ່າຍແລ້ວ",
+      "partially_refunded_label": "ສົ່ງເງິນຄືນບາງສ່ວນ",
+      "payment": {
+        "status_in_review": "ຊໍາລະຫຼັງຈາກການກວດສອບ",
+        "status_unpaid": "ຊໍາລະໃນ {{date}}",
+        "title": "ການຈ່າຍເງິນ",
+        "card_payment_details": "ລົງທ້າຍດ້ວຍ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "ລົງທ້າຍດ້ວຍ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "ຈ່າຍເປັນງວດກັບ Shop Pay.",
+          "view_schedule": "ເບິ່ງຕາຕະລາງ"
+        },
+        "manual_payment_methods": {
+          "money_order": "ການສັ່ງຊື້ເງິນ - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "ເງິນສົດໃນການຈັດສົ່ງ (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "ເງິນຝາກທະນາຄານ - {{formattedTransactionAmount}}",
+          "manual": "ຄູ່ມື - {{formattedTransactionAmount}}"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "ຈ່າຍກັບ Shop ຈ່າຍຜ່ອນ",
+        "description": "ຢູ່ເທິງສຸດຂອງຕາຕະລາງການຈ່າຍເງິນຂອງທ່ານດ້ວຍການແຈ້ງເຕືອນໃນແອັບ Shop.",
+        "payment_reminders_button": "ຮັບການແຈ້ງເຕືອນການຈ່າຍເງິນ",
+        "desktop_qr_code_content": {
+          "title": "ສະແກນຫາການແຈ້ງເຕືອນ",
+          "description": "ຮັບການເຕືອນກ່ຽວກັບການຊໍາລະຂອງທ່ານກັບ Shop."
+        }
+      },
+      "refunded_amount": "ສົ່ງເງິນຄືນແລ້ວ",
+      "request_return_failed": "ມີບັນຫາໃນການປະມວນຜົນຄຳຮ້ອງຂໍຂອງທ່ານ. ກະລຸນາລອງອີກຄັ້ງ.",
+      "remaining_amount": "ຍັງເຫຼືອ",
+      "marketing_section_title": "ຂ່າວແລະຂໍ້ສະເຫນີ",
+      "marketing_description": "ທ່ານຈະໄດ້ຮັບອີເມວການຕະຫຼາດ. ທ່ານສາມາດຍົກເລີກການຈອງໄດ້ທຸກເວລາ.",
+      "marketing_checkbox_label": "ສົ່ງອີເມວຫາຂ້ອຍດ້ວຍຂ່າວ ແລະຂໍ້ສະເໜີ",
+      "marketing_checkmark_label": "ທ່ານສະໝັກຮັບຂ່າວສານ ແລະຂໍ້ສະເໜີທາງອີເມວ",
+      "returns": {
+        "expand_events_label": "ສະ​ແດງ​ລາຍ​ລະ​ອຽດ",
+        "hide_events_label": "ເຊື່ອງລາຍລະອຽດ",
+        "ineligible_return_message": "ບໍ່ມີລາຍການໃດໃນຄໍາສັ່ງນີ້ມີສິດໄດ້ຮັບການສົ່ງຄືນ.",
+        "ineligible_return_message_when_returned": "ບໍ່ມີລາຍການເພີ່ມເຕີມໃນຄໍາສັ່ງນີ້ມີສິດໄດ້ຮັບການສົ່ງຄືນ.",
+        "print_shipping_label": "ພິມປ້າຍສົ່ງ",
+        "return_and_refund_modal_header": "ນະໂຍບາຍການຄືນເງິນ",
+        "tracking_number": "ໝາຍເລກຕິດຕາມ:"
+      },
+      "shipping": {
+        "address": "ທີ່ຢູ່ຈັດສົ່ງ",
+        "address_map_marker": "ທີ່ຢູ່ຈັດສົ່ງ",
+        "method": "ວິທີການຂົນສົ່ງ",
+        "summary": "ການ​ຂົນ​ສົ່ງ",
+        "free": "ຟຣີ",
+        "free_shipping_discount": "ການຂົນສົ່ງຟຣີ",
+        "one_time": "ການຂົນສົ່ງຄັ້ງດຽວ",
+        "subscription": "ການຂົນສົ່ງການສະໝັກໃຊ້"
+      },
+      "pickup": {
+        "pickup": "ຮັບ",
+        "pickup_location": "ສະຖານທີ່ຮັບ"
+      },
+      "show_items": "ສະແດງລາຍການ",
+      "show_order_summary": "ສະແດງສະຫຼຸບຄໍາສັ່ງ",
+      "hide_order_summary": "ເຊື່ອງສະຫຼຸບຄໍາສັ່ງ",
+      "subtitle": "ຢືນຢັນແລ້ວ {{date}}",
+      "subtotal": "ທັງໝົດຍ່ອຍ",
+      "summary_list_title_accessibility_label": "ສັ່ງສິນຄ້າ",
+      "summary_title": "ສະຫຼຸບການສັ່ງ",
+      "summary_totals_title_accessibility_label": "ຈໍານວນຄໍາສັ່ງທັງຫມົດ",
+      "shop_order_tracking": {
+        "download_shop_to_track": "ດາວໂຫລດຮ້ານຄ້າເພື່ອຕິດຕາມຊຸດ",
+        "track_order_with_shop": "ຕິດຕາມການສັ່ງຊື້ກັບຮ້ານ",
+        "title_header": "ສະແກນດ້ວຍໂທລະສັບຂອງທ່ານ",
+        "real_time_delivery_updates": "ຮ້ານຄ້າຈະສົ່ງອັບເດດການຈັດສົ່ງໃຫ້ທ່ານຕາມເວລາຈິງເມື່ອຄຳສັ່ງຊື້ຂອງທ່ານຖືກຈັດສົ່ງ."
+      }
     },
     "addresses": {
       "add_button": "ເພີ່ມທີ່ຢູ່",
