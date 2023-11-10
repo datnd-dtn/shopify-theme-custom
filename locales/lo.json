@@ -1309,14 +1309,25 @@
           "card_verification_value_explanation_amex": "ລະຫັດຄວາມປອດໄພ 4 ຕົວເລກຢູ່ດ້ານໜ້າຂອງບັດຂອງທ່ານ",
           "card_verification_value_explanation_other": "ລະຫັດຄວາມປອດໄພ 3 ຕົວເລກຢູ່ດ້ານຫຼັງບັດຂອງທ່ານ",
           "card_verification_value_explanation": "ປົກກະຕິແລ້ວລະຫັດຄວາມປອດໄພ 3 ຕົວເລກຈະພົບເຫັນຢູ່ດ້ານຫຼັງຂອງບັດຂອງທ່ານ. ບັດ American Express ມີລະຫັດ 4 ຕົວເລກຢູ່ດ້ານໜ້າ.",
-          "card_security_notice": "ທຸລະກໍາທັງຫມົດແມ່ນປອດໄພແລະຖືກເຂົ້າລະຫັດ."
+          "card_security_notice": "ທຸລະກໍາທັງຫມົດແມ່ນປອດໄພແລະຖືກເຂົ້າລະຫັດ.",
+          "tooltip_accessibility_label": "ຂໍ້ມູນເພີ່ມເຕີມ"
         },
         "field_errors": {
           "credit_card_name_invalid": "ໃສ່ຊື່ຂອງເຈົ້າໃຫ້ຖືກຕ້ອງຕາມທີ່ມັນຂຽນໄວ້ໃນບັດຂອງເຈົ້າ",
           "credit_card_number_invalid": "ໃສ່ໝາຍເລກບັດທີ່ຖືກຕ້ອງ",
           "credit_card_expiry_invalid": "ໃສ່ວັນໝົດອາຍຸບັດທີ່ຖືກຕ້ອງ",
           "credit_card_verification_value_blank": "ໃສ່ລະຫັດ CVV ຫຼືລະຫັດຄວາມປອດໄພໃສ່ບັດຂອງທ່ານ"
-        }
+        },
+        "card_number_label": "ເລກບັດ",
+        "card_number_placeholder": "ເລກບັດ",
+        "name_on_card_label": "ຊື່​ໃນ​ບັດ",
+        "name_on_card_placeholder": "ຊື່​ໃນ​ບັດ",
+        "card_expiry_label": "ວັນທີໝົດອາຍຸ (MM \/ YY)",
+        "card_expiry_placeholder": "ວັນທີໝົດອາຍຸ (MM \/ YY)",
+        "card_verification_value_label": "ລະ​ຫັດ​ຄວາມ​ປອດ​ໄພ",
+        "card_verification_value_placeholder": "ລະ​ຫັດ​ຄວາມ​ປອດ​ໄພ",
+        "card_start_label": "ວັນທີອອກ (MM \/ YY)",
+        "card_start_placeholder": "ວັນທີອອກ (MM \/ YY)"
       },
       "payment_delete": {
         "title": "ລຶບວິທີການຈ່າຍເງິນ",
@@ -1353,6 +1364,76 @@
           "missing_billing_address_error_message": "ກະລຸນາລະບຸທີ່ຢູ່ໃບບິນ",
           "default_checkbox": "ຕັ້ງເປັນວິທີການຈ່າຍເງິນເລີ່ມຕົ້ນ"
         }
+      },
+      "title": "ວິທີການຈ່າຍເງິນ",
+      "add_payment_method_button": "ເພີ່ມວິທີການຊໍາລະ",
+      "add_payment_method_banner": "ເພີ່ມວິທີຈ່າຍເງິນເພື່ອຈ່າຍເງິນໃຫ້ໄວຂຶ້ນ ຫຼືການບໍລິການທີ່ໄດ້ຮັບອະນຸຍາດລ່ວງໜ້າ",
+      "no_payment_methods_banner": "ບໍ່ມີການເພີ່ມວິທີການຊໍາລະເງິນ",
+      "edit_payment_method_button_accessibility_label": "ແກ້ໄຂ {{paymentMethodName}} ທີ່ລົງທ້າຍດ້ວຍ {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "ແກ້ໄຂ {{paymentMethodName}}",
+      "delete_payment_method_button": "ລຶບ",
+      "delete_payment_method_button_accessibility_label": "ລຶບ {{paymentMethodName}}",
+      "back_button": "ກັບຄືນໄປບ່ອນ",
+      "back_button_accessibility_label": "ກັບໄປທີ່ {{paymentMethodStepTitle}}",
+      "default": "ຄ່າເລີ່ມຕົ້ນ",
+      "generic_card": "ບັດ",
+      "expiration_warning_button_accessibility_label": "ສະແດງຄຳເຕືອນໝົດອາຍຸສຳລັບ {{paymentMethodName}} ທີ່ລົງທ້າຍດ້ວຍ {{lastDigits}}",
+      "expires_soon": "ບັດນີ້ກຳລັງຈະໝົດອາຍຸໃນໄວໆນີ້",
+      "expired": "ບັດນີ້ໝົດອາຍຸແລ້ວ",
+      "card_update_consent": "ວິທີການຈ່າຍເງິນນີ້ຈະຖືກບັນທຶກໄວ້ສໍາລັບການຊື້ໃນອະນາຄົດ.",
+      "digital_wallet_title": "ກະເປົາເງິນດິຈິຕອນ",
+      "credit_or_debit_card_title": "ບັດເຄຣດິດ ຫຼືບັດເດບິດ",
+      "google_pay": {
+        "loading": "ກຳລັງໂຫຼດ Google Pay",
+        "errors": {
+          "generic": "ມີບັນຫາກັບ Google Pay. ລອງອີກຄັ້ງ ຫຼືໃຊ້ວິທີຈ່າຍເງິນອື່ນ.",
+          "missing_billing_address": "Google Pay ຕ້ອງການທີ່ຢູ່ໃບບິນ. ກະລຸນາເພີ່ມອັນໜຶ່ງໃສ່ບັນຊີຂອງທ່ານ."
+        }
+      },
+      "apple_pay": {
+        "loading": "ກຳລັງໂຫຼດ Apple Pay",
+        "errors": {
+          "generic": "ມີບັນຫາກັບ Apple Pay. ລອງອີກຄັ້ງ ຫຼືໃຊ້ວິທີຈ່າຍເງິນອື່ນ.",
+          "not_available": "Apple Pay ບໍ່ສາມາດໃຊ້ໄດ້ໃນອຸປະກອນນີ້.",
+          "missing_billing_address": "Apple Pay ຕ້ອງການທີ່ຢູ່ໃບບິນ. ກະລຸນາເພີ່ມອັນໜຶ່ງໃສ່ບັນຊີຂອງທ່ານ."
+        }
+      },
+      "payment_details": {
+        "title": "ລາຍລະອຽດວິທີການຊໍາລະ",
+        "credit_card_details_accessibility_label": "ສິ້ນສຸດໃນ {{lastDigits}}",
+        "billing_title": "ທີ່ຢູ່ໃບບິນ",
+        "card_info_title": "ຂໍ້ມູນບັດ",
+        "payment_method_expiring_on": "ໝົດອາຍຸໃນ {{expiryDate}}",
+        "payment_method_expired_on": "ໝົດອາຍຸໃນ {{expiryDate}}",
+        "preauthorized_payments": "ການຈ່າຍເງິນລ່ວງໜ້າ",
+        "close_payment_modal": "ປິດ",
+        "close_payment_modal_accessibility_label": "ປິດລາຍລະອຽດວິທີການຊໍາລະ",
+        "payment_method_not_found_error": "ບໍ່ສາມາດຊອກຫາວິທີຈ່າຍເງິນໄດ້",
+        "payment_details_loading": "ກຳລັງໂຫຼດລາຍລະອຽດວິທີການຊຳລະເງິນ",
+        "pre_authorized_payments": "ການຈ່າຍເງິນລ່ວງໜ້າທີ່ໄດ້ຮັບອະນຸຍາດ",
+        "total_amount_of_subscription_line_items_left": "ແລະອີກ {{total}} ອັນ",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} ລາຍການທັງໝົດ, ກຳລັງສະແດງ {{totalItemsToDisplay}} ລາຍການ.",
+        "next_payment_due": "ການຈ່າຍເງິນຄັ້ງຕໍ່ໄປຮອດກຳນົດ {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "ແກ້ໄຂ",
+        "edit_payment_method_button_accessibility_label": "ແກ້ໄຂວິທີການຈ່າຍເງິນທີ່ລົງທ້າຍດ້ວຍ {{lastDigits}}",
+        "loading_shop_pay": "ກຳລັງໂຫຼດຮ້ານຄ້າ Pay",
+        "invalid_payment_method": "ວິທີການຈ່າຍເງິນບໍ່ຖືກຕ້ອງ",
+        "invalid_payment_method_message": "ໃຊ້ບັດເຄຣດິດໃໝ່ເພື່ອສືບຕໍ່ຮັບຄຳສັ່ງຊື້ທີ່ຈະມາເຖິງ.",
+        "replace_payment_method": "ປ່ຽນວິທີຈ່າຍເງິນ",
+        "checkout_card_banner": "ວິທີການຊໍາລະເງິນນີ້ສາມາດໃຊ້ໄດ້ພຽງແຕ່ສໍາລັບການຈ່າຍເງິນລ່ວງໜ້າທີ່ໄດ້ຮັບອະນຸຍາດເທົ່ານັ້ນ. ມັນຈະບໍ່ປາກົດຢູ່ບ່ອນຈ່າຍເງິນ ຖ້າທ່ານເຂົ້າສູ່ລະບົບຮ້ານນີ້.",
+        "default_checkbox": "ກໍາ​ນົດ​ເປັນ​ຄ່າ​ເລີ່ມ​ຕົ້ນ",
+        "default_checkbox_accessibility_label": "ຕັ້ງວິທີການຊໍາລະນີ້ເປັນຄ່າເລີ່ມຕົ້ນ"
+      },
+      "edit_payment_method": {
+        "title": "ແກ້ໄຂວິທີການຈ່າຍເງິນ",
+        "save_payment_method_button": "ບັນທຶກ",
+        "cancel_edit_payment_method_button": "ຍົກເລີກ",
+        "payment_method_updated_toast": "ອັບເດດວິທີການຊໍາລະແລ້ວ",
+        "billing_address": "ທີ່ຢູ່ໃບບິນ",
+        "billing_address_add_new": "ເພີ່ມໃໝ່",
+        "billing_address_choose_from_list": "ເລືອກຈາກບັນຊີລາຍຊື່",
+        "future_purchases_notice": "ວິທີການຈ່າຍເງິນນີ້ຈະຖືກບັນທຶກໄວ້ສໍາລັບການຊື້ໃນອະນາຄົດ.",
+        "generic_error": "ມີບັນຫາໃນການອັບເດດ. ກະລຸນາລອງອີກຄັ້ງ."
       }
     },
     "payment_method_brands": {
@@ -1603,6 +1684,67 @@
         "tax_id": "ID ພາ​ສີ",
         "tax_exemptions": "ການຍົກເວັ້ນພາສີ",
         "multiple_tax_exemptions": "ເພີ່ມເຕີມອີກ {{taxExemptionsCount}}"
+      },
+      "purchase_order_number": {
+        "discard_changes_modal_title": "ຍົກເລີກການປ່ຽນແປງບໍ?",
+        "edit_accessibility_label": "ແກ້ໄຂໝາຍເລກ PO",
+        "edit_modal_title": "ແກ້ໄຂໝາຍເລກ PO",
+        "empty_state": "ບໍ່ມີໝາຍເລກ PO",
+        "modal_po_number_input_label": "ໝາຍເລກ PO",
+        "modal_po_number_input_max_length_error": "ໝາຍເລກ PO ມີສູງສຸດ {{maxLength}} ຕົວອັກສອນ.",
+        "save": "ບັນທຶກ",
+        "title": "PO # {{poNumber}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "ມີບັນຫາໃນການລຶບທີ່ຢູ່ນີ້. ລອງອີກຄັ້ງ ຫຼືໂຫຼດໜ້ານີ້ຄືນໃໝ່."
+      },
+      "addresses_loading_issue": {
+        "description": "ການເຊື່ອມຕໍ່ຜິດພາດ. ກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງເຈົ້າແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+      },
+      "banner_title": {
+        "one": "ມີ {{count}} ຂໍ້ຜິດພາດ",
+        "other": "ມີ {{count}} ຂໍ້ຜິດພາດ"
+      },
+      "failed_address_creation": {
+        "description": "ມີບັນຫາໃນການສ້າງທີ່ຢູ່ຂອງເຈົ້າ. ລອງໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ."
+      },
+      "failed_address_update": {
+        "description": "ມີບັນຫາໃນການອັບເດດທີ່ຢູ່ຂອງເຈົ້າ. ລອງໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ."
+      },
+      "load_orders_error": {
+        "title": "ບໍ່ສາມາດໂຫຼດຄຳສັ່ງໄດ້",
+        "description": "ລອງໃໝ່ ຫຼືກັບມາພາຍຫຼັງ.",
+        "retry_button": "ລອງໃໝ່"
+      },
+      "load_paypal_error": {
+        "description": "ມີບັນຫາໃນການໂຫຼດ PayPal. ກະລຸນາລອງອີກຄັ້ງ."
+      },
+      "no_access": {
+        "back_to_authentication_link": "ເຂົ້າສູ່ລະບົບບັນຊີອື່ນ",
+        "description": "ທ່ານບໍ່ໄດ້ລົງທະບຽນເປັນລູກຄ້າ B2B ກັບ {{shopName}}",
+        "title": "ບໍ່ມີການເຂົ້າເຖິງ"
+      },
+      "no_access_to_locations": {
+        "description": "ທ່ານບໍ່ມີການເຂົ້າເຖິງສະຖານທີ່ໃດໆ"
+      },
+      "not_found": {
+        "description": "ກວດເບິ່ງ URL ຫຼືລອງໃໝ່ໃນອີກສອງສາມນາທີ.",
+        "title": "ມີບັນຫາໃນການໂຫຼດໜ້ານີ້"
+      },
+      "order_not_found": {
+        "description": "ຄຳສັ່ງນີ້ບໍ່ມີຢູ່ ຫຼືທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເບິ່ງມັນ.",
+        "title": "ບໍ່ພົບຄໍາສັ່ງ"
+      },
+      "profile_update_error": {
+        "description": "ມີບັນຫາໃນການອັບເດດໂປຣໄຟລ໌ຂອງທ່ານ. ລອງໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ."
+      },
+      "retry_action_label": "ລອງໃໝ່",
+      "load_extension_error": {
+        "title": "ຜິດພາດ",
+        "description": "ໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືລອງໃໝ່ໃນອີກສອງສາມນາທີ.",
+        "refresh_button": "ໂຫຼດໜ້າຄືນໃໝ່"
       }
     }
   },
