@@ -738,6 +738,182 @@
         "incomplete_address": "ທີ່ຢູ່ທີ່ເລືອກບໍ່ຄົບຖ້ວນ. %{update_address_link} ຫຼືເລືອກທີ່ຢູ່ອື່ນ.",
         "rollup_label": "ບັນຊີ",
         "invalid_shipping_method_summary": "ເລືອກທີ່ຢູ່ຈັດສົ່ງທີ່ຖືກຕ້ອງເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່"
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "week": {
+            "one": "ອາທິດ",
+            "other": "%{count} ອາທິດ"
+          },
+          "month": {
+            "one": "ເດືອນ",
+            "other": "%{count} ເດືອນ"
+          },
+          "year": {
+            "one": "ປີ",
+            "other": "%{count} ປີ"
+          }
+        },
+        "recurring_totals": "%{total_price} ທຸກໆ %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "ການຈ່າຍເງິນຄັ້ງທຳອິດ %{total_price_with_discount}, ຈາກນັ້ນ %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "ການຈ່າຍເງິນຄັ້ງທຳອິດ %{total_price}",
+            "other": "ການຈ່າຍເງິນ %{count} ຄັ້ງທຳອິດ %{total_price} ແຕ່ລະຄັ້ງ"
+          },
+          "following_cycles": ", ຈາກນັ້ນ %{total_price} ທຸກໆ %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", ຈາກນັ້ນຈ່າຍ %{count} ທີ່ %{total_price}",
+            "other": ", ຈາກນັ້ນຈ່າຍ %{count} ໃນລາຄາ %{total_price} ແຕ່ລະຄັ້ງ"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "ວິທີການຈ່າຍເງິນ",
+        "title": "ວິທີການຈ່າຍເງິນ",
+        "update_card_button_label": "ອັບເດດບັດ",
+        "delete_customer_mandate": {
+          "generic_error": "ມີບັນຫາໃນການປະມວນຜົນຄຳຮ້ອງຂໍຂອງທ່ານ.",
+          "success_message": "ວິທີການຈ່າຍເງິນຂອງທ່ານໄດ້ຖືກລຶບຖິ້ມສຳເລັດແລ້ວ"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "ພະຍາຍາມຫຼາຍເກີນໄປ",
+          "description": "ກະລຸນາລອງໃໝ່ໃນອີກສອງສາມນາທີ"
+        },
+        "line_to_check_out": "ເຈົ້າຢູ່ໃນແຖວເພື່ອເຊັກເອົາ",
+        "cart_summary_heading": "ກະຕ່າຂອງເຈົ້າ",
+        "merchandise": {
+          "available": "ມີໃຫ້",
+          "sold_out": "ຂາຍອອກ"
+        },
+        "inventory": {
+          "partial_inventory_banner": "ບາງສ່ວນຂອງກະຕ່າຂອງທ່ານຖືກຂາຍອອກ ແລະຈະບໍ່ມີໃຫ້ຊື້ໃນເວລາຈ່າຍເງິນ.",
+          "sold_out": {
+            "heading": "ກະຕ່າຂອງເຈົ້າຖືກຂາຍໝົດແລ້ວ",
+            "storefront_body": "ກັບຄືນໄປຮ້ານເພື່ອສືບຕໍ່ຊື້ເຄື່ອງ",
+            "no_storefront_body": "ແຕ່ຫນ້າເສຍດາຍ, ລາຍການທີ່ທ່ານຕ້ອງການທີ່ຈະຊື້ແມ່ນບໍ່ມີຕໍ່ໄປອີກແລ້ວ.",
+            "link": "ກັບໄປທີ່ຮ້ານ"
+          }
+        },
+        "title": "ຄິວ",
+        "time_to_checkout_title": "ໄດ້ເວລາເຊັກເອົ້າ - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "ການຄິດໄລ່ເວລາລໍຖ້າໂດຍປະມານ",
+          "less_than_one": "ເວລາລໍຖ້າໂດຍປະມານ: ໜ້ອຍກວ່າໜຶ່ງນາທີ",
+          "one": "ເວລາລໍຖ້າໂດຍປະມານ: {{count}} ນາທີ",
+          "other": "ເວລາລໍຖ້າໂດຍປະມານ: {{count}} ນາທີ"
+        },
+        "last_checked": "(ກວດຄັ້ງສຸດທ້າຍ: {{time}} )",
+        "footer": {
+          "heading": "ຢ່າໂຫຼດໜ້ານີ້ຄືນໃໝ່, ມັນຈະອັບເດດອັດຕະໂນມັດ.",
+          "body": "ລາຍການໃນກະຕ່າຂອງທ່ານບໍ່ໄດ້ຖືກຈອງໄວ້ຈົນກວ່າທ່ານຈະຈ່າຍເງິນໃຫ້ສຳເລັດ."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "ມີບັນຫາໃນການປະມວນຜົນຄຳຮ້ອງຂໍຂອງທ່ານ, ກະລຸນາຕິດຕໍ່ເຈົ້າຂອງຮ້ານ."
+      },
+      "no_address_location": {
+        "title": "ສະຖານທີ່ທີ່ບໍ່ມີທີ່ຢູ່",
+        "header": "ທ່ານບໍ່ມີທີ່ຢູ່ຈັດສົ່ງສຳລັບສະຖານທີ່ນີ້",
+        "alt_header": "ບໍ່ມີທີ່ຢູ່ຈັດສົ່ງ",
+        "message": "ຕິດຕໍ່ພວກເຮົາເພື່ອເພີ່ມທີ່ຢູ່ສໍາລັບສະຖານທີ່ນີ້ເພື່ອສໍາເລັດການຈ່າຍເງິນ.",
+        "email_us_button_label": "ສົ່ງອີເມວຫາພວກເຮົາ"
+      },
+      "order_errors": {
+        "creation_failure": "ມີບັນຫາໃນການສ້າງຄໍາສັ່ງຂອງທ່ານ. ລອງອີກຄັ້ງ ຫຼືຕິດຕໍ່ພວກເຮົາສຳລັບລາຍລະອຽດເພີ່ມເຕີມ.",
+        "network_failure": "ບໍ່ສາມາດສົ່ງຄຳສັ່ງຊື້ຂອງທ່ານໄດ້ເນື່ອງຈາກເຄືອຂ່າຍຜິດພາດ. ກວດເບິ່ງການເຊື່ອມຕໍ່ຂອງທ່ານແລ້ວລອງໃໝ່ອີກຄັ້ງ.",
+        "inventory_reservation_failure": "ບາງລາຍການແມ່ນບໍ່ມີແລ້ວ."
+      },
+      "session_errors": {
+        "session_not_unique": "ມີບັນຫາໃນການປະມວນຜົນຄຳສັ່ງຊື້ຂອງທ່ານ. ໂຫຼດໜ້ານີ້ຄືນໃໝ່ເພື່ອກັບຄືນຫາຮ້ານ.",
+        "session_already_finished": "ຄໍາສັ່ງນີ້ໄດ້ຖືກສົ່ງໄປກ່ອນແລ້ວ. ທ່ານສາມາດກັບຄືນໄປຮ້ານເພື່ອເລີ່ມຕົ້ນການສັ່ງຊື້ໃຫມ່."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "ປິດ",
+        "business_hours": "ເວລາເປີດ",
+        "title": "ຈຸດຮັບ",
+        "or": "ຫຼື",
+        "search_button": "ຊອກຫາ",
+        "selector_tabs": "ຕົວເລືອກຈຸດຮັບ",
+        "selector_tab_map": "ແຜນທີ່",
+        "selector_tab_list": "ລາຍການ",
+        "could_not_resolve_address": "ທີ່ຢູ່ຂອງເຈົ້າບໍ່ສາມາດຕັ້ງໄດ້. ລອງອີກຄັ້ງ ຫຼືໃຊ້ທີ່ຢູ່ອື່ນ",
+        "no_pickup_points_near_you": "ບໍ່ພົບຈຸດຮັບທີ່ຢູ່ໃກ້ກັບທີ່ຢູ່ທີ່ເລືອກ",
+        "no_pickup_points_near_location": "ບໍ່ພົບຈຸດຮັບເຄື່ອງໃກ້ກັບສະຖານທີ່ຂອງເຈົ້າ",
+        "no_pickup_points_found": "ບໍ່ພົບຈຸດຮັບ",
+        "paginator": {
+          "next_accessibility_label": "ໜ້າຕໍ່ໄປ",
+          "previous_accessibility_label": "ໜ້າກ່ອນໜ້ານີ້",
+          "header": {
+            "one": "ກຳລັງສະແດງ %{first} - %{last} ຂອງ %{count} ຈຸດ",
+            "other": "ກຳລັງສະແດງ %{first} - %{last} ຂອງ %{count} ຈຸດ"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} ຂອງ %{count} ຈຸດ",
+            "other": "%{pickup_point_index} ຂອງ %{count} ຈຸດ"
+          },
+          "selected_page": {
+            "one": "%{first} - %{ສຸດທ້າຍ} ຂອງ %{count} ຈຸດ",
+            "other": "%{first} - %{ສຸດທ້າຍ} ຂອງ %{count} ຈຸດ"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "ຈຸດຮັບ %{count} ຈຸດຢູ່ໃກ້ກັບສະຖານທີ່ຂອງທ່ານ",
+          "other": "ຈຸດຮັບ %{count} ຈຸດຢູ່ໃກ້ກັບສະຖານທີ່ຂອງທ່ານ"
+        },
+        "change": "ປ່ຽນແປງ",
+        "waiting_on_pickup_point_location_notice": "ກຳລັງຊອກຫາຈຸດຮັບ...",
+        "geolocation": {
+          "shared_location_button": "ໃຊ້ສະຖານທີ່ຂອງຂ້ອຍ",
+          "errors": {
+            "unsuported_by_browser": "ບຼາວເຊີຂອງທ່ານບໍ່ຮອງຮັບການຮັບເອົາສະຖານທີ່ຕັ້ງພູມສາດ. ລອງອີກຄັ້ງ ຫຼືໃຊ້ໂປຣແກຣມທ່ອງເວັບອື່ນ.",
+            "permission_not_allowed": "ອະນຸຍາດໃຫ້ແບ່ງປັນສະຖານທີ່ຂອງທ່ານ.",
+            "permission_denied": "ບໍ່ສາມາດຮັບເອົາສະຖານທີ່ຂອງທ່ານໄດ້. ລອງ​ອີກ​ຄັ້ງ."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "ມີບັນຫາກັບການຈ່າຍເງິນຂອງພວກເຮົາ",
+          "message": "ໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືລອງໃໝ່ໃນອີກສອງສາມນາທີ",
+          "action": {
+            "cta": "ໂຫຼດໜ້າຄືນໃໝ່"
+          },
+          "request_id": "ຂໍ ID: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "ກັບໄປທີ່ກະຕ່າ",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} ເພື່ອອັບເດດປະລິມານ",
+        "subscription_changed": "ຫນຶ່ງໃນການສະໝັກໃຊ້ຂອງທ່ານມີການປ່ຽນແປງ.",
+        "company_location_changed": "ກະຕ່າຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວ. ກວດເບິ່ງຄໍາສັ່ງຂອງທ່ານກ່ອນທີ່ຈະສົ່ງມັນ.",
+        "company_location_changed_product_removed": "ໂຄງຮ່າງການຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວເພາະວ່າບາງຜະລິດຕະພັນບໍ່ສາມາດໃຊ້ໄດ້ຢູ່ສະຖານທີ່ນີ້. ກວດເບິ່ງຄໍາສັ່ງຂອງທ່ານກ່ອນທີ່ຈະສົ່ງມັນ.",
+        "violations_title": "{{violation}} ຫາຍໄປ ຫຼືບໍ່ຖືກຕ້ອງ",
+        "individual_violations_title": {
+          "DeliveryViolations": "ທີ່ຢູ່ຈັດສົ່ງ",
+          "PaymentViolations": "ທີ່ຢູ່ໃບບິນ",
+          "OtherViolations": "ຂໍ້ມູນການສັ່ງຊື້"
+        },
+        "all_violations_content": "ໂທຫາ ຫຼື {{emailLink}} ພວກເຮົາເພື່ອອັບເດດຂໍ້ມູນນີ້ ແລະເຮັດສຳເລັດການສັ່ງຊື້ຂອງເຈົ້າ:",
+        "all_violations_email_link": "ອີເມວ",
+        "editable_shipping_address_violations_message_title": "ເພີ່ມຂໍ້ມູນນີ້ເພື່ອເຮັດສໍາເລັດການສັ່ງຊື້ຂອງທ່ານ:",
+        "editable_shipping_address_violations_message_footer": "ເພື່ອອັບເດດທີ່ຢູ່ນີ້ຢ່າງຖາວອນ, {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ",
+        "shipping_address_incomplete_title": "ທີ່ຢູ່ການຂົນສົ່ງບໍ່ຄົບຖ້ວນ",
+        "calculating_shipping": "ການຂົນສົ່ງຍັງຖືກຄິດໄລ່. ກະລຸນາລອງໃໝ່ໃນອີກສອງສາມວິນາທີ. ທ່ານຍັງບໍ່ໄດ້ຄິດຄ່າບໍລິການ."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "ທົບທວນຄືນ",
+          "link_label": "ຂໍ້ກຳນົດ ແລະເງື່ອນໄຂຂອງ {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "ຄໍາຖາມ? ສົນທະນາກັບພວກເຮົາ"
       }
     },
     "pagination": {
