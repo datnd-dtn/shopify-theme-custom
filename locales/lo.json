@@ -985,6 +985,10 @@
           "year": {
             "one": "ປີ",
             "other": "%{count} ປີ"
+          },
+          "day": {
+            "one": "ມື້",
+            "other": "%{count} ມື້"
           }
         },
         "recurring_totals": "%{total_price} ທຸກໆ %{interval}",
@@ -1275,6 +1279,28 @@
         "gift_card_confirmation_by_text_typ": {
           "one": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມດ້ວຍບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ.",
           "other": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມທີ່ມີບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "ທ່ານຈະໄດ້ຮັບອີເມວພ້ອມກັບບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ.",
+          "other": "ທ່ານຈະໄດ້ຮັບອີເມວພ້ອມກັບບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ."
+        },
+        "gift_card_email_title": {
+          "one": "ບັດຂອງຂວັນຖືກສົ່ງໄປທາງອີເມວ",
+          "other": "ບັດຂອງຂວັນຖືກສົ່ງໄປທາງອີເມວ"
+        },
+        "gift_card_text_title": {
+          "one": "ບັດຂອງຂວັນຖືກສົ່ງໄປທາງຂໍ້ຄວາມ",
+          "other": "ບັດຂອງຂວັນຖືກສົ່ງໄປທາງຂໍ້ຄວາມ"
+        },
+        "resend_gift_cards_by_email": "ສົ່ງອີເມວຄືນໃໝ່",
+        "resend_gift_cards_by_text": "ສົ່ງຂໍ້ຄວາມຄືນໃໝ່",
+        "gift_card_resent_confirmation": {
+          "one": "ບັດຂອງຂວັນຖືກສົ່ງຄືນ.",
+          "other": "ບັດຂອງຂວັນຖືກສົ່ງຄືນ."
+        },
+        "gift_card_resend_failure": {
+          "one": "ມີບັນຫາໃນການສົ່ງບັດຂອງຂວັນຂອງເຈົ້າຄືນໃໝ່. ລອງອີກຄັ້ງ ຫຼືຕິດຕໍ່ພວກເຮົາ.",
+          "other": "ມີບັນຫາໃນການສົ່ງບັດຂອງຂວັນຂອງເຈົ້າຄືນໃໝ່. ລອງອີກຄັ້ງ ຫຼືຕິດຕໍ່ພວກເຮົາ."
         }
       },
       "billing": {
@@ -1383,6 +1409,129 @@
         "payment_gateway_unsupported_for_development_store_html": "ເພື່ອວາງຄໍາສັ່ງທົດສອບ, ທ່ານຈະຕ້ອງໃຊ້ປະຕູການຈ່າຍເງິນທົດສອບ. ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບ <a href=\"%{docs_link}\">ການທົດສອບຄໍາສັ່ງໃນຮ້ານພັດທະນາ<\/a> .",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "ທ່ານໄດ້ຮອດຂີດຈຳກັດສຳລັບຄຳສັ່ງຊື້ຂອງຮ້ານພັດທະນາດ້ວຍຕົວປະມວນຜົນການຈ່າຍເງິນນີ້ແລ້ວ. ເພື່ອວາງຄໍາສັ່ງອື່ນ, ທ່ານຈະຕ້ອງໃຊ້ປະຕູການຈ່າຍເງິນທົດສອບ. ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບ <a href=\"%{docs_link}\">ການທົດສອບຄໍາສັ່ງໃນຮ້ານພັດທະນາ<\/a> .",
         "purchase_options_agreement_blank": "ເພື່ອສືບຕໍ່ການຊື້ຂອງທ່ານ, ຕົກລົງເຫັນດີກັບເງື່ອນໄຂການຊື້ທີ່ເລື່ອນເວລາ ຫຼືເກີດຂຶ້ນຊ້ຳໆ."
+      },
+      "vaulted": {
+        "change_button": "ປ່ຽນແປງ"
+      },
+      "review": {
+        "title": "ທົບທວນຄືນ",
+        "review_title": "ທົບທວນແລະຈ່າຍ",
+        "checkout_as_guest": "ເຊັກເອົາເປັນແຂກ",
+        "checkout_a_different_way": "ຈ່າຍເງິນດ້ວຍວິທີອື່ນ",
+        "blocks": {
+          "contact_method_title": "ຕິດຕໍ່",
+          "billing_address_title": "ໃບບິນ",
+          "shipping_address_title": "ສົ່ງ​ໄປ​ທີ່",
+          "shipping_method_title": "ວິທີການຂົນສົ່ງ",
+          "payment_method_title": "ວິທີການຈ່າຍເງິນ",
+          "change_link_label": "ປ່ຽນແປງ",
+          "change_contact_method_link_label": "ປ່ຽນຂໍ້ມູນການຕິດຕໍ່",
+          "change_billing_address_link_label": "ປ່ຽນທີ່ຢູ່ໃບບິນ",
+          "change_shipping_address_link_label": "ປ່ຽນທີ່ຢູ່ຈັດສົ່ງ",
+          "change_shipping_method_link_label": "ປ່ຽນວິທີການຈັດສົ່ງ",
+          "change_payment_method_link_label": "ປ່ຽນວິທີການຊໍາລະ",
+          "pick_up_in_store_shipping_method_html": "ຮັບໃນຮ້ານ · %{location_name}",
+          "purchase_order_number_title": "ໝາຍເລກ PO",
+          "change_purchase_order_number_label": "ປ່ຽນໝາຍເລກ PO",
+          "change_delivery_method_link_label": "ປ່ຽນວິທີການຈັດສົ່ງ",
+          "no_address": "(ບໍ່ມີທີ່ຢູ່)",
+          "no_purchase_order_number": "(ບໍ່ມີໝາຍເລກ PO)",
+          "due_after_order_reviewed_html": "ຮອດກຳນົດຫຼັງຈາກຄຳສັ່ງຊື້ຖືກກວດສອບແລ້ວ",
+          "review_title_free_order": "ກວດເບິ່ງແລະເຮັດສໍາເລັດຄໍາສັ່ງຂອງທ່ານ",
+          "payment_method_saved_company_location": "ບັນທຶກບັດສໍາລັບສະຖານທີ່ນີ້"
+        },
+        "block_title": "ທົບທວນຂໍ້ມູນຂອງທ່ານ"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "ສົ່ງອີເມວຫາຂ້ອຍດ້ວຍຂ່າວ ແລະຂໍ້ສະເໜີ",
+        "post_accept_marketing_checkbox_label": "ທ່ານສະໝັກຮັບຂ່າວສານ ແລະຂໍ້ສະເໜີທາງອີເມວ",
+        "pending_accept_marketing_checkbox_label": "ກວດເບິ່ງອີເມວຂອງທ່ານເພື່ອຢືນຢັນການສະ ໝັກ ຂ່າວສານແລະຂໍ້ສະ ເໜີ ຂອງທ່ານ",
+        "accept_sms_checkbox_label": "ສົ່ງຂໍ້ຄວາມຫາຂ້ອຍດ້ວຍຂ່າວ ແລະຂໍ້ສະເໜີ",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+            "terms_of_service": "ເງື່ອນໄຂການໃຫ້ບໍລິການ",
+            "description_html": "ໂດຍການລົງທະບຽນຜ່ານທາງຂໍ້ຄວາມ, ທ່ານຕົກລົງທີ່ຈະຮັບຂໍ້ຄວາມການຕະຫຼາດອັດຕະໂນມັດທີ່ເກີດຂຶ້ນຊ້ຳໆ, ລວມທັງການເຕືອນລົດເຂັນ, ຕາມເບີໂທລະສັບທີ່ລະບຸໄວ້. ການຍິນຍອມບໍ່ແມ່ນເງື່ອນໄຂຂອງການຊື້. ຕອບ STOP ເພື່ອເຊົາຕິດຕາມ. ຕອບ HELP ເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ. ຄວາມຖີ່ຂອງຂໍ້ຄວາມແຕກຕ່າງກັນ. ອາດຈະນຳໃຊ້ອັດຕາຂໍ້ຄວາມ ແລະຂໍ້ມູນ. ເບິ່ງ %{privacy_policy_link} ແລະ %{terms_of_service_link} ຂອງພວກເຮົາ.",
+            "description_transactional_html": "ທ່ານອາດຈະໄດ້ຮັບຂໍ້ຄວາມທີ່ກ່ຽວຂ້ອງກັບການຢືນຢັນການສັ່ງຊື້ແລະການອັບເດດການຂົນສົ່ງ. ຕອບ STOP ເພື່ອເຊົາຕິດຕາມ. ຕອບ HELP ເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ. ຄວາມຖີ່ຂອງຂໍ້ຄວາມແຕກຕ່າງກັນ. ອາດຈະນຳໃຊ້ອັດຕາຂໍ້ຄວາມ ແລະຂໍ້ມູນ. ເບິ່ງ %{privacy_policy_modal_link} ແລະ %{terms_of_service_modal_link} ຂອງພວກເຮົາ."
+          },
+          "mobile_phone_number": "ເບີໂທລະສັບ",
+          "get_offers_by_text": "ຮັບຂໍ້ສະເໜີທາງຂໍ້ຄວາມ"
+        },
+        "unsubscribe": {
+          "title": "ທ່ານໄດ້ເຊົາຕິດຕາມແລ້ວ",
+          "description": "ທ່ານຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນລົດເຂັນຈາກພວກເຮົາອີກຕໍ່ໄປ."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "ລົງທະບຽນຂ້ອຍສໍາລັບຂ່າວແລະຂໍ້ສະເຫນີຈາກຮ້ານນີ້"
+      },
+      "shop_policies": {
+        "refund_policy": "ນະໂຍບາຍການຄືນເງິນ",
+        "privacy_policy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+        "terms_of_service": "ເງື່ອນໄຂການໃຫ້ບໍລິການ",
+        "legal_notice": "ແຈ້ງການທາງກົດໝາຍ",
+        "shipping_policy": "ນະໂຍບາຍການຂົນສົ່ງ",
+        "terms_of_sale": "ເງື່ອນໄຂການຂາຍ",
+        "subscription_policy": "ນະ​ໂຍ​ບາຍ​ການ​ສະ​ຫມັກ​",
+        "purchase_options_policy": "ນະໂຍບາຍທາງເລືອກໃນການຊື້",
+        "contact_information": "ຂໍ້​ມູນ​ຕິດ​ຕໍ່",
+        "purchase_options_cancellation_policy": "ນະໂຍບາຍການຍົກເລີກ"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "ຜູ້ຄ້າຂອງບັນທຶກຂໍ້ກໍານົດແລະເງື່ອນໄຂ",
+        "privacy_policy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງຜູ້ຄ້າ"
+      },
+      "markets": {
+        "invalid_market_manager_error": "ກວດເບິ່ງຂໍ້ມູນການຕິດຕໍ່ຂອງທ່ານກ່ອນທີ່ຈະເຮັດການຈ່າຍເງິນໃຫ້ສໍາເລັດ"
+      },
+      "notifications": {
+        "title": "ການແຈ້ງເຕືອນ"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "ຈຳນວນທີ່ຕ້ອງຈ່າຍສຳລັບຄຳສັ່ງຊື້ %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "ເພີ່ມແລ້ວ",
+            "other": "ເພີ່ມ %{count} ແລ້ວ"
+          },
+          "removed": "ລຶບອອກແລ້ວ",
+          "subtracted": "ລຶບ %{count} ອອກແລ້ວ",
+          "returned": "%{count} ກັບຄືນມາ"
+        },
+        "additional_payment_requested": "ຕ້ອງການການຈ່າຍເງິນ %{total_outstanding}",
+        "checkout_review_and_pay": "ອັບເດດຄຳສັ່ງຊື້ %{order_name} ຂອງທ່ານແລ້ວ. ກວດເບິ່ງການປ່ຽນແປງເຫຼົ່ານີ້, ຈາກນັ້ນຈ່າຍເພື່ອຢືນຢັນການສັ່ງຊື້ຂອງທ່ານ.",
+        "order_updated_on": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກອັບເດດເມື່ອ %{last_edited_at}.",
+        "order_review_and_pay": "ອັບເດດຄຳສັ່ງຊື້ຂອງທ່ານແລ້ວ. ກວດສອບແລະຈ່າຍເງິນເພື່ອຢືນຢັນການສັ່ງຊື້ຂອງທ່ານ.",
+        "pay_now": "ຈ່າຍດຽວນີ້"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "ບັດເຄຣດິດຂອງທ່ານຈະຖືກຮຽກເກັບເງິນ %{amount}",
+        "payment_total_label": "ການຈ່າຍເງິນທັງໝົດ",
+        "change_currency_link": "ປ່ຽນເປັນ %{currency_name}",
+        "card_provider_fx_charges_warning": "ຜູ້ໃຫ້ບໍລິການບັດຂອງທ່ານອາດຮຽກເກັບຄ່າທຳນຽມໃນທຸລະກຳ %{currency_code}.",
+        "currency_not_supported_by_shop": "ສະກຸນເງິນທີ່ທ່ານເລືອກແມ່ນບໍ່ມີແລ້ວ. ລາຄາທັງໝົດຕອນນີ້ຢູ່ໃນ %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "ໂຄງຮ່າງການຂອງທ່ານໄດ້ຮັບການປັບປຸງໂດຍອີງໃສ່ປະເທດການຂົນສົ່ງຂອງທ່ານ.",
+        "cart_and_currency_updated_based_on_country": "ໂຄງຮ່າງການ ແລະສະກຸນເງິນຂອງທ່ານໄດ້ຖືກອັບເດດໂດຍອ້າງອີງຈາກປະເທດຂົນສົ່ງຂອງທ່ານ."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "ປະເທດ\/ພາກພື້ນຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວ. ໃສ່ທີ່ຢູ່ຈັດສົ່ງຂອງທ່ານເພື່ອສືບຕໍ່ຈ່າຍເງິນ."
+      },
+      "tips": {
+        "title": "ເພີ່ມຄໍາແນະນໍາ",
+        "description": "ສະແດງການສະໜັບສະໜູນທີມຂອງທ່ານຢູ່ %{shop_name}",
+        "presets_description": "ເລືອກເປີເຊັນປາຍ",
+        "custom_label": "ຄໍາແນະນໍາທີ່ກໍາຫນົດເອງ",
+        "add_tip": "ເພີ່ມຄໍາແນະນໍາ",
+        "update_tip": "ອັບເດດເຄັດລັບ",
+        "message": "ຂອບໃຈ, ພວກເຮົາຂອບໃຈ.",
+        "no_tip_label": "ບໍ່ມີ"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "ຊື້ %{product_name}",
+          "one": "ຊື້ %{product_name} ແລະ %{count} ລາຍການອື່ນໆ",
+          "other": "ຊື້ %{product_name} ແລະ %{count} ລາຍການອື່ນໆ"
+        }
       }
     },
     "pagination": {
