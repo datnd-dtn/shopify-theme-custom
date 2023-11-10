@@ -792,7 +792,288 @@
       "blocked_address": "ບໍ່ຮອງຮັບສະຖານທີ່ນີ້.",
       "credit_card_session_expired": "ການອະນຸຍາດບັດເຄຣດິດໝົດອາຍຸແລ້ວ, ກະລຸນາໃສ່ຂໍ້ມູນການຈ່າຍເງິນຂອງທ່ານອີກຄັ້ງ. ບັດຂອງທ່ານບໍ່ໄດ້ຖືກເກັບເງິນ.",
       "empty": "ບໍ່ສາມາດຫວ່າງເປົ່າໄດ້",
-      "invalid_email": "ຕ້ອງ​ເປັນ​ທີ່​ຢູ່ e​-mail ທີ່​ຖືກ​ຕ້ອງ"
+      "invalid_email": "ຕ້ອງ​ເປັນ​ທີ່​ຢູ່ e​-mail ທີ່​ຖືກ​ຕ້ອງ",
+      "discount_disabled": "ສ່ວນຫຼຸດນີ້ຖືກປິດການນຳໃຊ້ແລ້ວ",
+      "discount_expired": "ສ່ວນຫຼຸດນີ້ໃຊ້ບໍ່ໄດ້ອີກຕໍ່ໄປ",
+      "discount_limit_reached": "ສ່ວນຫຼຸດນີ້ຮອດຂີດຈຳກັດການນຳໃຊ້ແລ້ວ",
+      "discount_not_found": "ບໍ່ສາມາດຊອກຫາສ່ວນຫຼຸດທີ່ຖືກຕ້ອງທີ່ກົງກັບລະຫັດທີ່ລະບຸ",
+      "customer_already_used_once_per_customer_discount_notice": "ສ່ວນຫຼຸດນີ້ຮອດຂີດຈຳກັດການນຳໃຊ້ແລ້ວ",
+      "gift_card_already_applied": "ລະຫັດໄດ້ຖືກນໍາໃຊ້ກັບການຈ່າຍເງິນຂອງທ່ານແລ້ວ",
+      "gift_card_code_invalid": "ລະຫັດບໍ່ຖືກຕ້ອງ",
+      "gift_card_currency_mismatch": "ບັດຂອງຂວັນຂອງເຈົ້າຢູ່ໃນ %{gift_card_currency}. ຕິດຕໍ່ພວກເຮົາເພື່ອໃຫ້ມັນອອກໃໝ່ໃນ %{checkout_currency}.",
+      "gift_card_depleted": "ບໍ່ມີເງິນເຫຼືອຢູ່ໃນບັດຂອງຂວັນນີ້",
+      "gift_card_disabled": "ບັດຂອງຂວັນຖືກປິດໄວ້",
+      "gift_card_expired": "ບັດຂອງຂວັນໝົດອາຍຸແລ້ວ",
+      "invalid": "ບໍ່ຖືກຕ້ອງ",
+      "bad_domain": "ມີຊື່ໂດເມນທີ່ບໍ່ຖືກຕ້ອງ",
+      "taken": "ໄດ້ຖືກປະຕິບັດແລ້ວ",
+      "contains_html_tags": "ບໍ່ສາມາດມີແທັກ HTML ໄດ້",
+      "too_short": "ສັ້ນເກີນໄປ (ຂັ້ນຕ່ຳແມ່ນ %{count} ຕົວອັກສອນ)",
+      "too_long": "ຍາວເກີນໄປ (ສູງສຸດແມ່ນ %{count} ຕົວອັກສອນ)",
+      "password_mismatch": "ຕ້ອງກົງກັບລະຫັດຜ່ານທີ່ລະບຸ",
+      "contains_spaces": "ເລີ່ມຕົ້ນ ຫຼືສິ້ນສຸດດ້ວຍຍະຫວ່າງ.",
+      "email_domain_invalid": "ບໍ່ຮອງຮັບຜູ້ໃຫ້ບໍລິການ",
+      "invalid_for_country": "ບໍ່ຖືກຕ້ອງສຳລັບ %{country}",
+      "invalid_for_country_and_province": "ບໍ່ຖືກຕ້ອງສຳລັບ %{province} ແລະ %{country}",
+      "invalid_province_in_country": "ບໍ່ແມ່ນແຂວງທີ່ຖືກຕ້ອງໃນ %{country}",
+      "invalid_state_in_country": "ບໍ່ແມ່ນສະຖານະທີ່ຖືກຕ້ອງໃນ %{country}",
+      "invalid_region_in_country": "ບໍ່ແມ່ນພາກພື້ນທີ່ຖືກຕ້ອງໃນ %{country}",
+      "less_than_or_equal_to": "ຕ້ອງໜ້ອຍກວ່າ ຫຼືເທົ່າກັບ %{count}",
+      "not_supported": "ບໍ່ຮອງຮັບ",
+      "full_name_required": "ໃສ່ຊື່ ແລະນາມສະກຸນ",
+      "invalid_for_card_type": "ບໍ່ຖືກຕ້ອງ",
+      "invalid_type": "ຂໍອະໄພ, ພວກເຮົາບໍ່ຮັບບັດປະເພດນີ້",
+      "invalid_format": "ຮູບແບບບໍ່ຖືກຕ້ອງ",
+      "expired": "ໝົດອາຍຸແລ້ວ",
+      "invalid_start_date_or_issue_number_for_debit": "ວັນທີເລີ່ມຕົ້ນທີ່ຖືກຕ້ອງຫຼືເລກທີ່ອອກແມ່ນຕ້ອງການ",
+      "invalid_expiry_year": "ບໍ່ແມ່ນປີໝົດອາຍຸທີ່ຖືກຕ້ອງ",
+      "reset_password_html": "ທີ່ຢູ່ອີເມວນີ້ຖືກເຊື່ອມໂຍງກັບບັນຊີແລ້ວ. ຖ້າບັນຊີນີ້ເປັນຂອງທ່ານ, ທ່ານສາມາດ <a href=\"\/account\/login#recover\">ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານໄດ້<\/a>",
+      "verify_email": "ພວກເຮົາໄດ້ສົ່ງອີເມວໄປຫາ %{customer_email}, ກະລຸນາຄລິກທີ່ລິ້ງທີ່ຮວມມາເພື່ອຢືນຢັນທີ່ຢູ່ອີເມວຂອງທ່ານ.",
+      "product_not_available": "ຜະລິດຕະພັນບໍ່ໄດ້ຖືກເຜີຍແຜ່ສໍາລັບລູກຄ້ານີ້.",
+      "shop_404": {
+        "title": "ສ້າງເວັບໄຊທ໌ອີຄອມເມີຊແລະຂາຍອອນໄລນ໌! ຊອບແວອີຄອມເມີຊໂດຍ Shopify",
+        "heros": {
+          "store_unavailable": "ຂໍອະໄພ, ຮ້ານນີ້ບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະນີ້.",
+          "store_not_exist": "ຮ້ານນີ້ບໍ່ມີຢູ່.",
+          "no_storefront": "ຮ້ານນີ້ຍັງບໍ່ມີເວັບໄຊທ໌."
+        },
+        "links": {
+          "explore_other_stores": "ສຳຫຼວດຮ້ານອື່ນ",
+          "start_free_trial": "ເລີ່ມການທົດລອງໃຊ້ຟຣີ"
+        },
+        "owner_ctas": {
+          "header": "ເຈົ້າເປັນເຈົ້າຂອງຮ້ານບໍ?",
+          "fix_domain": "ສຳເລັດການຕັ້ງຄ່າທີ່ຢູ່ເວັບໃໝ່ຂອງທ່ານ, ໄປທີ່ %{domain_settings_link}. ຄລິກ “ເຊື່ອມຕໍ່ໂດເມນ” ແລະໃສ່: %{domain}.<br> ຖ້າເຈົ້າມີບັນຫາໃນການເຂົ້າຮ້ານຂອງເຈົ້າ, ໃຫ້ລອງໄປທີ່ໜ້າ %{forgot_your_store_link}.",
+          "fix_domain_link_text": "ການຕັ້ງຄ່າໂດເມນຂອງທ່ານ",
+          "forgot_your_store_link_text": "ລືມຮ້ານຂອງເຈົ້າ",
+          "add_storefront": "ທ່ານສາມາດຕັ້ງຄ່າເວັບໄຊທ໌ຂອງທ່ານໂດຍການເພີ່ມຊ່ອງທາງຮ້ານຄ້າອອນໄລນ໌ໃນ %{admin_link} ຂອງທ່ານ. ຖ້າເຈົ້າມີບັນຫາໃນການເຂົ້າຮ້ານຂອງເຈົ້າ, ໃຫ້ລອງໄປທີ່ໜ້າ %{forgot_your_store_link}."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "ຂາຍໃນຄົນ",
+            "caption": "ໄດ້ຮັບຄຸນສົມບັດທີ່ທ່ານຕ້ອງການເພື່ອດໍາເນີນການຮ້ານຂາຍຍ່ອຍຂອງທ່ານບໍ່ວ່າທ່ານກໍາລັງເລີ່ມຕົ້ນຫຼືຂະຫຍາຍ.",
+            "link_text": "ເລີ່ມການທົດລອງໃຊ້ຟຣີ"
+          },
+          "open_a_store": {
+            "header": "ເປີດຮ້ານ Shopify ໃໝ່",
+            "caption": "ເລີ່ມການທົດລອງໃຊ້ຟຣີ 3 ມື້, ຈາກນັ້ນສືບຕໍ່ໃນລາຄາ $1\/ເດືອນ ເປັນເວລາ 3 ເດືອນຕໍ່ໄປ.",
+            "link_text": "ລົງທະບຽນດຽວນີ້"
+          },
+          "editions": {
+            "header": "ກວດເບິ່ງ Shopify Editions",
+            "caption": "ດ້ວຍ 100+ ການປັບປຸງຜະລິດຕະພັນ, ທ່ານສາມາດສ້າງຜະລິດຕະພັນແລະສ້າງສັນ, ແລະມີອໍານາດໃນການຄ້າຫຼາຍກວ່າທີ່ທ່ານເຄີຍຈິນຕະນາການ.",
+            "link_text": "ສຳຫຼວດສະບັບຫຼ້າສຸດ"
+          },
+          "store_owner": {
+            "header": "ເຈົ້າເປັນເຈົ້າຂອງຮ້ານບໍ?",
+            "caption": "ທ່ານມີບັນຫາໃນການເຂົ້າໄປໃນຮ້ານຂອງທ່ານບໍ? ລອງໃຊ້ຄຸນສົມບັດ %{forgot_your_store_link}. ຖ້າທ່ານຕ້ອງການເປີດໃຊ້ຮ້ານຂອງທ່ານຄືນໃໝ່ ຕິດຕໍ່ %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify ສະຫນັບສະຫນູນ"
+          }
+        }
+      }
+    },
+    "notices": {
+      "order": {
+        "cash_on_delivery": "ເງິນສົດໃນການຈັດສົ່ງ (COD)",
+        "not_available": "ຄຳສັ່ງນີ້ບໍ່ສາມາດໃຊ້ໄດ້",
+        "financial_status": {
+          "authorized": "ອະນຸຍາດ",
+          "pending": "ລໍຖ້າຢູ່",
+          "paid": "ຈ່າຍແລ້ວ",
+          "unpaid": "ບໍ່ໄດ້ຈ່າຍ",
+          "voided": "ໂມໂຫ",
+          "partially_paid": "ຈ່າຍເປັນບາງສ່ວນ",
+          "partially_refunded": "ສົ່ງເງິນຄືນບາງສ່ວນ",
+          "refunded": "ສົ່ງເງິນຄືນແລ້ວ",
+          "expired": "ໝົດອາຍຸແລ້ວ"
+        },
+        "fulfillment_status": {
+          "fulfilled": "ສຳເລັດແລ້ວ",
+          "complete": "ສໍາເລັດ",
+          "partial": "ບາງສ່ວນ",
+          "unfulfilled": "ບໍ່ສຳເລັດ",
+          "restocked": "ເກັບຮັກສາຄືນໃໝ່"
+        },
+        "transaction_status": {
+          "success": "ຄວາມ​ສໍາ​ເລັດ",
+          "pending": "ລໍຖ້າຢູ່",
+          "failure": "ຄວາມລົ້ມເຫຼວ",
+          "error": "ຜິດພາດ"
+        },
+        "cancel_reason": {
+          "declined": "ການຈ່າຍເງິນຖືກປະຕິເສດ",
+          "inventory": "ລາຍການບໍ່ສາມາດໃຊ້ໄດ້",
+          "fraud": "ຄໍາສັ່ງສໍ້ໂກງ",
+          "customer": "ລູກຄ້າປ່ຽນ \/ ຍົກເລີກຄໍາສັ່ງ",
+          "staff": "ພະນັກງານຜິດພາດ",
+          "other": "ອື່ນໆ"
+        }
+      },
+      "cart": {
+        "only_n_items_available": "ທ່ານສາມາດເພີ່ມ %{count} %{name} ໃສ່ກະຕ່າເທົ່ານັ້ນ.",
+        "too_many_items_in_cart": "ທ່ານບໍ່ສາມາດເພີ່ມ %{name} ໃສ່ກະຕ່າໄດ້.",
+        "less_than_minimum": "ລາຍການນີ້ມີຢ່າງໜ້ອຍ %{min}.",
+        "more_than_maximum": "ລາຍການນີ້ມີຈຳນວນສູງສຸດ %{max}.",
+        "not_respect_step": "ທ່ານພຽງແຕ່ສາມາດເພີ່ມລາຍການນີ້ໃນຕົວຄູນ %{step}.",
+        "all_items_in_cart": "ທັງໝົດ %{count} %{name} ແມ່ນຢູ່ໃນກະຕ່າຂອງທ່ານ.",
+        "empty_update": "ບໍ່ສາມາດອັບເດດກະຕ່າເປົ່າໄດ້",
+        "missing_parameters": "ບໍ່ມີຕົວກໍານົດການ id ຫຼືເສັ້ນທີ່ຖືກຕ້ອງ",
+        "generic_error": "ກະຕ່າຜິດພາດ",
+        "product_not_available": "ບໍ່ມີຜະລິດຕະພັນ",
+        "too_many_line_items_error": "ກະຕ່າຂອງທ່ານບໍ່ສາມາດມີຫຼາຍກວ່າ %{max} ລາຍການ.",
+        "link_expired": "ລິ້ງໝົດອາຍຸແລ້ວ",
+        "link_no_longer_exists": "ບໍ່ມີລິ້ງແລ້ວ.",
+        "stock_problems_html": "ໜຶ່ງ ຫຼືຫຼາຍລາຍການແມ່ນບໍ່ມີແລ້ວ. ພວກ​ເຮົາ​ໄດ້​ສະ​ຫນອງ <a href=\"%{link}\">​ໂຄງ​ຮ່າງ​ການ​ປັບ​ປຸງ<\/a> ​.",
+        "changed": "ປ່ຽນກະຕ່າ",
+        "items_changed": "ໜຶ່ງ ຫຼືຫຼາຍລາຍການມີການປ່ຽນແປງ.",
+        "product_sold_out": "ສິນຄ້າ '%{name}' ຖືກຂາຍໝົດແລ້ວ.",
+        "variant_not_found": "ບໍ່ສາມາດຊອກຫາຕົວແປໄດ້",
+        "variant_requires_selling_plan": "ຕົວປ່ຽນແປງສາມາດຊື້ໄດ້ກັບແຜນການຂາຍເທົ່ານັ້ນ.",
+        "selling_plan_not_available_for_company_locations": "ມີການຊື້ຄັ້ງດຽວເທົ່ານັ້ນສໍາລັບການສັ່ງຊື້ B2B",
+        "digital_product_not_available_for_company_locations": "ລາຍການນີ້ບໍ່ສາມາດຖືກເພີ່ມໃສ່ຄໍາສັ່ງ B2B ໄດ້",
+        "selling_plan_not_applicable": "ບໍ່ສາມາດນຳໃຊ້ແຜນການຂາຍກັບຕົວແປໄດ້",
+        "shipping_address_not_required": "ໂຄງຮ່າງການນີ້ບໍ່ຈໍາເປັນຕ້ອງມີການຂົນສົ່ງ",
+        "shipping_address_invalid": "ມີບັນຫາໃນການຄິດໄລ່ອັດຕາຄ່າຂົນສົ່ງຂອງທ່ານ. ສືບຕໍ່ຈ່າຍເງິນເພື່ອເລືອກອັດຕາການຂົນສົ່ງກ່ອນທີ່ທ່ານຈະເຮັດສໍາເລັດການສັ່ງຊື້ຂອງທ່ານ.",
+        "bundle_requires_components": "ຜະລິດຕະພັນຊຸດ '%{name}' ບໍ່ສາມາດເພີ່ມໃສ່ກະຕ່າໄດ້.",
+        "gift_card_with_components_not_supported": "ຜະລິດຕະພັນຊຸດ '%{name}' ບໍ່ສາມາດເພີ່ມໃສ່ກະຕ່າໄດ້.",
+        "bundle_products_not_supported_for_b2b_draft": "ບໍ່ສາມາດເພີ່ມລາຍການທີ່ຮວມໃສ່ໃສ່ຄຳສັ່ງຊື້ B2B ສຳລັບສະຖານທີ່ນີ້ໄດ້.",
+        "view_lines_limit_reached": "ແຖວຈະຕ້ອງໜ້ອຍກວ່າ %{limit}"
+      },
+      "storefront": {
+        "invalid_password": "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."
+      },
+      "tags": {
+        "add_articles": "ການຄົ້ນຫາແຄບໄປຫາບົດຄວາມຍັງມີແທັກ %{tag}",
+        "add_products": "ການຄັດເລືອກແຄບຕໍ່ກັບຜະລິດຕະພັນທີ່ກົງກັບແທັກ %{tag}",
+        "remove_articles": "ຂະຫຍາຍການຊອກຫາບົດຄວາມທີ່ບໍ່ຖືກແທັກ %{tag}",
+        "remove_products": "ລຶບແທັກ %{tag}"
+      },
+      "customer": {
+        "password_reset_error": "ການຕັ້ງລະຫັດຜ່ານຜິດພາດ",
+        "no_account_found": "ບໍ່ພົບບັນຊີກັບອີເມວນັ້ນ.",
+        "invalid_credentials": "ອີເມວ ຫຼືລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ.",
+        "denylisted_reset_password": "ບັນຊີຂອງທ່ານບໍ່ສາມາດເຂົ້າເຖິງໄດ້ເພາະວ່າລະຫັດຜ່ານປັດຈຸບັນບໍ່ປອດໄພ. ທ່ານຈະໄດ້ຮັບອີເມວເພື່ອອັບເດດລະຫັດຜ່ານຂອງທ່ານ."
+      },
+      "address": {
+        "updated": "ອັບເດດທີ່ຢູ່ສຳເລັດແລ້ວ.",
+        "error_updating": "ເກີດຄວາມຜິດພາດໃນການອັບເດດທີ່ຢູ່",
+        "created": "ສ້າງທີ່ຢູ່ສຳເລັດແລ້ວ",
+        "error_creating": "ເກີດຄວາມຜິດພາດໃນການສ້າງທີ່ຢູ່.",
+        "deleted": "ລຶບທີ່ຢູ່ສຳເລັດແລ້ວ",
+        "error_deleting": "ເກີດຄວາມຜິດພາດໃນການລຶບທີ່ຢູ່."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "ເພີ່ມ %{delta} ແລ້ວ",
+          "increment_item": "ເພີ່ມ %{delta} ແລ້ວ",
+          "decrement_item": "ລຶບ %{delta} ຂອງ %{total} ອອກແລ້ວ",
+          "decrement_fulfilled_line_item": "ສົ່ງຄືນ %{delta} ຂອງ %{total}"
+        }
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "ຂອບໃຈສໍາລັບການຈອງບັນຊີລາຍຊື່ທາງໄປສະນີຂອງພວກເຮົາ.",
+        "disclaimer": "ທ່ານສາມາດຍົກເລີກການຈອງໄດ້ທຸກເວລາ.",
+        "unsubscribe": "ເຊົາຕິດຕາມ"
+      },
+      "unsubscribed": {
+        "confirmation": "ທ່ານ​ໄດ້​ຍົກ​ເລີກ​ການ​ສະ​ໝັກ​ຈາກ​ບັນ​ຊີ​ລາຍ​ຊື່​ທາງ​ໄປສະນີ​ຂອງ​ພວກ​ເຮົາ.",
+        "disclaimer": "ທ່ານຈະບໍ່ໄດ້ຮັບການປັບປຸງການຕະຫຼາດຈາກພວກເຮົາອີກຕໍ່ໄປ. ທ່ານສາມາດສະໝັກໃໝ່ໄດ້ທຸກເວລາ.",
+        "preview": "ທ່ານກຳລັງເບິ່ງຕົວຢ່າງສິ່ງທີ່ລູກຄ້າຈະເຫັນເມື່ອເຂົາເຈົ້າເຊົາຕິດຕາມ."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>ທ່ານ​ໄດ້​ເລືອກ​ເຂົ້າ​ໃນ​ການ​ຕິດ​ຕາມ​ອີ​ເມລ​໌​ເປີດ​.<\/b>",
+          "visibility": "ອັດຕາການເປີດອີເມວຈະຖືກລາຍງານໂດຍບໍ່ເປີດເຜີຍຊື່. ພວກເຮົາຈະເຫັນພຽງແຕ່ວ່າທ່ານໄດ້ເປີດອີເມວເປັນສ່ວນຫນຶ່ງຂອງອັດຕາການເປີດອີເມວລວມ.",
+          "opt_out_html": "ທ່ານສາມາດ <a style=\"text-decoration:underline;\" href=\"%{link}\">ເລືອກອອກ<\/a> ຈາກການຕິດຕາມການເປີດອີເມລ໌ຖ້າທ່ານບໍ່ຕ້ອງການແບ່ງປັນຂໍ້ມູນນີ້.",
+          "preview_bar": "ທ່ານກໍາລັງເບິ່ງຕົວຢ່າງສິ່ງທີ່ລູກຄ້າຈະເຫັນເມື່ອພວກເຂົາເລືອກເຂົ້າໃນການຕິດຕາມການເປີດອີເມວ."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>ທ່ານໄດ້ເລືອກອອກຈາກການຕິດຕາມການເປີດອີເມວ.<\/b>",
+          "visibility": "ພວກເຮົາຈະບໍ່ເຫັນວ່າທ່ານໄດ້ເປີດອີເມວຂອງພວກເຮົາຫຼືບໍ່.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">ເລືອກເຂົ້າ<\/a> ໃນການຕິດຕາມອີເມວເປີດ.",
+          "preview_bar": "ທ່ານກຳລັງເບິ່ງຕົວຢ່າງສິ່ງທີ່ລູກຄ້າຈະເຫັນເມື່ອພວກເຂົາເລືອກອອກຈາກການຕິດຕາມການເປີດອີເມວ."
+        },
+        "no_longer_track": {
+          "status_html": "<b>ພວກ​ເຮົາ​ບໍ່​ໄດ້​ຕິດ​ຕາມ​ອີ​ເມລ​໌​ໃດ​ຫນຶ່ງ​ທີ່​ເປີດ​.<\/b>",
+          "privacy_policy": "ຫຼັງຈາກອີເມວນີ້ຖືກສົ່ງໄປແລ້ວ, ພວກເຮົາອັບເດດນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງພວກເຮົາ ແລະພວກເຮົາບໍ່ໄດ້ຕິດຕາມການເປີດອີກຕໍ່ໄປ."
+        },
+        "track": {
+          "status_html": "<b>ການຕິດຕາມການເປີດອີເມວໄດ້ຖືກລາຍງານ.<\/b>",
+          "visibility": "ພວກເຮົາຈະເຫັນພຽງແຕ່ວ່າທ່ານໄດ້ເປີດອີເມວ, ເປັນສ່ວນຫນຶ່ງຂອງອັດຕາການເປີດອີເມວທັງຫມົດ."
+        },
+        "updated_policy": {
+          "status_html": "<b>ການຕິດຕາມການເປີດອີເມວໄດ້ຖືກລາຍງານ.<\/b>",
+          "visibility": "ພວກເຮົາໄດ້ປັບປຸງນະໂຍບາຍຂອງພວກເຮົາ, ແລະຕອນນີ້ຕິດຕາມອີເມວເປີດ. ອັດຕາການເປີດອີເມວຈະຖືກລາຍງານໂດຍບໍ່ເປີດເຜີຍຊື່. ພວກເຮົາຈະເບິ່ງພຽງແຕ່ວ່າທ່ານໄດ້ເປີດອີເມວເປັນສ່ວນຫນຶ່ງຂອງອັດຕາການເປີດອີເມວທັງຫມົດ.",
+          "opt_out_html": "ຖ້າທ່ານບໍ່ຕ້ອງການແບ່ງປັນຂໍ້ມູນນີ້, ທ່ານສາມາດ <a style=\"text-decoration:underline;\" href=\"%{link}\">ຍົກເລີກການຈອງໄດ້.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "ໃນ​ສາງ",
+          "out_of_stock": "ສິນຄ້າໝົດ"
+        }
+      },
+      "boolean": {
+        "true_label": "ແມ່ນແລ້ວ",
+        "false_label": "ບໍ່"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "ຄວາມກ່ຽວຂ້ອງ",
+        "price_ascending": "ລາຄາ, ຕ່ໍາຫາສູງ",
+        "price_descending": "ລາຄາ, ສູງຫາຕ່ໍາ"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "ຜິດພາດ - %{title}",
+      "products": "ຜະລິດຕະພັນ",
+      "shopping_cart": "ກະຕ່າຊື້ເຄື່ອງຂອງທ່ານ",
+      "account": "ບັນຊີ",
+      "create_account": "ສ້າງ​ບັນ​ຊີ",
+      "reset_account": "ຣີເຊັດບັນຊີ",
+      "addresses": "ທີ່ຢູ່",
+      "order": "ສັ່ງ %{name}",
+      "search": "ຊອກຫາ",
+      "search_results": {
+        "one": "ຊອກຫາ: ພົບ %{count} ຜົນການຄົ້ນຫາສໍາລັບ \"%{terms}\"",
+        "other": "ຊອກຫາ: ພົບ %{count} ຜົນການຄົ້ນຫາສຳລັບ \"%{terms}\""
+      },
+      "collections": "ຄໍເລັກຊັນ",
+      "not_found": "404 ບໍ່ພົບ",
+      "challenge": "ທ້າທາຍ",
+      "checkpoint": "ດ່ານ"
+    },
+    "cart": {
+      "discounts_with_count": "ສ່ວນຫຼຸດ %{count} ຖືກນຳໃຊ້ແລ້ວ"
+    },
+    "challenge": {
+      "message": "ເພື່ອສືບຕໍ່, ແຈ້ງໃຫ້ພວກເຮົາຮູ້ວ່າທ່ານບໍ່ແມ່ນຫຸ່ນຍົນ.",
+      "error": "ຄຳຕອບຂອງເຈົ້າບໍ່ຖືກຕ້ອງ, ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.",
+      "submit_button_text": "ສົ່ງ"
+    },
+    "checkpoint": {
+      "message": "ແກ້ໄຂ Captcha ເພື່ອສືບຕໍ່",
+      "error": "ການກວດສອບ Captcha ລົ້ມເຫລວ",
+      "submit_button_text": "ສົ່ງ"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 1 ຊົ່ວໂມງ",
+        "two_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 2 ຊົ່ວໂມງ",
+        "four_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 4 ຊົ່ວໂມງ",
+        "twenty_four_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 24 ຊົ່ວໂມງ",
+        "two_to_four_days": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 2-4 ມື້",
+        "five_or_more_days": "ປົກກະຕິແລ້ວພ້ອມໃນ 5+ ມື້",
+        "zero_to_two_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 2 ຊົ່ວໂມງ",
+        "two_to_four_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 4 ຊົ່ວໂມງ",
+        "immediately": "ພ້ອມຮັບແລ້ວດຽວນີ້",
+        "next_day": "ກຽມຮັບເຄື່ອງໃນມື້ຖັດໄປ"
+      }
     }
   },
   "customer_accounts": {
@@ -1141,7 +1422,12 @@
     "navigation_and_structure": {
       "account_menu": {
         "close_menu_accessibility_label": "ປິດການນໍາທາງບັນຊີ",
-        "loading_message": "ກຳລັງໂຫຼດການນຳທາງບັນຊີ"
+        "loading_message": "ກຳລັງໂຫຼດການນຳທາງບັນຊີ",
+        "hide_accessibility_label": "ເຊື່ອງເມນູບັນຊີ",
+        "label": "ບັນຊີ",
+        "show_accessibility_label": "ສະແດງເມນູບັນຊີ",
+        "nav_accessibility_label": "ການນໍາທາງບັນຊີ",
+        "open_menu_accessibility_label": "ເປີດການນຳທາງບັນຊີ"
       },
       "action_menu_accessibility_label": "ການປະຕິບັດເພີ່ມເຕີມ",
       "close_menu_accessibility_label": "ປິດການນໍາທາງຫຼັກ",
@@ -1191,6 +1477,133 @@
         }
       },
       "add_button": "ເພີ່ມ"
+    },
+    "enable_javascript": "ເພື່ອເບິ່ງບັນຊີຂອງທ່ານ, ເປີດໃຊ້ JavaScript ໃນການຕັ້ງຄ່າຕົວທ່ອງເວັບຂອງທ່ານ ຫຼືເຂົ້າສູ່ລະບົບດ້ວຍຕົວທ່ອງເວັບອື່ນ.",
+    "order_details": {
+      "edit_summary": {
+        "returned": "ກັບຄືນ",
+        "returned_with_quantities": "ສົ່ງຄືນ {{delta}} ຂອງ {{total}} ແລ້ວ",
+        "removed_with_quantities": "ລຶບ {{delta}} ຂອງ {{total}} ອອກແລ້ວ"
+      },
+      "shop_pay": {
+        "order_completed_with": "ຄໍາສັ່ງສໍາເລັດດ້ວຍ",
+        "learn_more": "ສຶກສາເພີ່ມເຕີມ"
+      },
+      "taxes": "ພາສີ",
+      "duties": "ໜ້າທີ່",
+      "ok_duties_tooltip": "ຄໍາສັ່ງນີ້ກໍາລັງຖືກສົ່ງມາຈາກປະເທດອື່ນ, ດັ່ງນັ້ນຫນ້າທີ່ໄດ້ຖືກເພີ່ມເຂົ້າໃນຈໍານວນຄໍາສັ່ງຂອງທ່ານທັງຫມົດ.",
+      "error_duties_tooltip": "ຄໍາສັ່ງນີ້ກໍາລັງຖືກສົ່ງມາຈາກປະເທດອື່ນ, ດັ່ງນັ້ນພາສີແລະພາສີອາດຈະຖືກຄິດຄ່າທໍານຽມໃນການຈັດສົ່ງ.",
+      "zero_duties_tooltip": "ຄໍາສັ່ງນີ້ກໍາລັງຖືກສົ່ງມາຈາກປະເທດອື່ນ. ຫນ້າທີ່ບໍ່ໄດ້ຖືກຄິດຄ່າທໍານຽມໃນຄໍາສັ່ງຂອງມູນຄ່ານີ້.",
+      "tip": "ເຄັດລັບ",
+      "title": "ສັ່ງ {{name}}",
+      "total": "ທັງໝົດ",
+      "unit_price": "{{price}} \/ea",
+      "pagination": {
+        "load_more": "ໂຫຼດເພີ່ມເຕີມ",
+        "load_more_accessibility_label": "ໂຫຼດລາຍການເພີ່ມເຕີມ",
+        "loading_accessibility_label": "ກຳລັງໂຫຼດລາຍການ"
+      },
+      "login_to_view_all_order_details": "ເຂົ້າສູ່ລະບົບເພື່ອເບິ່ງລາຍລະອຽດການສັ່ງຊື້ທັງໝົດ.",
+      "log_in": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+      "logged_in_account_no_permission_to_order": "ທ່ານເຂົ້າສູ່ລະບົບເປັນ {{email}} . ບັນຊີນີ້ບໍ່ມີການອະນຸຍາດໃຫ້ຈັດການຄໍາສັ່ງນີ້.",
+      "log_in_to_a_different_account": "ເຂົ້າສູ່ລະບົບບັນຊີອື່ນ"
+    },
+    "addresses": {
+      "add_button": "ເພີ່ມທີ່ຢູ່",
+      "add_button_text": "ເພີ່ມ",
+      "add_button_accessibility_label": "ເພີ່ມທີ່ຢູ່",
+      "back_button": "ກັບຄືນໄປບ່ອນ",
+      "back_button_accessibility_label": "ກັບໄປທີ່ການແກ້ໄຂທີ່ຢູ່ {{address}}",
+      "add_address_banner": "ເພີ່ມທີ່ຢູ່ເພື່ອໃຊ້ໃນເວລາຈ່າຍເງິນ",
+      "no_addresses_banner": "ບໍ່ໄດ້ເພີ່ມທີ່ຢູ່",
+      "address_deleted_notification": "ລຶບທີ່ຢູ່ແລ້ວ",
+      "cancel_adding_address_accessibility_label": "ຍົກເລີກການເພີ່ມທີ່ຢູ່",
+      "cancel_deletion_button": "ຍົກເລີກ",
+      "cancel_deletion_button_accessibility_label": "ຍົກເລີກການລຶບ {{address}}",
+      "default_address": {
+        "title": "ທີ່ຢູ່ເລີ່ມຕົ້ນ",
+        "title_accessibility_label": "ທີ່ຢູ່ເລີ່ມຕົ້ນ: {{address}}"
+      },
+      "delete_button": "ລຶບ",
+      "delete_button_accessibility_label": "ລຶບ {{address}}",
+      "delete_confirmation_button": "ລຶບທີ່ຢູ່",
+      "delete_confirmation_button_accessibility_label": "ລຶບ {{address}}",
+      "delete_confirmation_message": "ລຶບທີ່ຢູ່ບໍ? ຄໍາສັ່ງທີ່ມີຢູ່ແມ່ນບໍ່ໄດ້ຮັບຜົນກະທົບ.",
+      "delete_confirmation_title": "ລຶບທີ່ຢູ່ບໍ?",
+      "delete_confirmation_description": "ຄໍາສັ່ງທີ່ມີຢູ່ແມ່ນບໍ່ໄດ້ຮັບຜົນກະທົບ.",
+      "edit_button": "ແກ້ໄຂ",
+      "edit_button_accessibility_label": "ແກ້ໄຂ {{address}}",
+      "edit_section_accessibility_label": "ແກ້ໄຂ {{address}}",
+      "edit_modal_title": {
+        "default": "ແກ້ໄຂທີ່ຢູ່",
+        "billing": "ແກ້ໄຂທີ່ຢູ່ໃບບິນ",
+        "shipping": "ແກ້ໄຂທີ່ຢູ່ຈັດສົ່ງ"
+      },
+      "loading_accessibility_message": "ກຳລັງໂຫລດທີ່ຢູ່",
+      "loading_addresses_accessibility_message": "ກຳລັງໂຫຼດທີ່ຢູ່",
+      "loading_billing_accessibility_message": "ກຳລັງໂຫຼດທີ່ຢູ່ໃບບິນ",
+      "loading_finished_accessibility_message": "ໂຫຼດໜ້າໃໝ່ຂອງທີ່ຢູ່ແລ້ວ",
+      "loading_shipping_accessibility_message": "ກຳລັງໂຫຼດທີ່ຢູ່ຈັດສົ່ງ",
+      "pagination": {
+        "load_more": "ໂຫຼດເພີ່ມເຕີມ",
+        "load_more_accessibility_label": "ໂຫຼດທີ່ຢູ່ເພີ່ມເຕີມ"
+      },
+      "save_new_address_accessibility_label": "ບັນທຶກທີ່ຢູ່",
+      "title": "ທີ່ຢູ່",
+      "billing_address_dropdown_placeholder": "ທີ່ຢູ່ໃບບິນ"
+    },
+    "address_form": {
+      "attention": "ເອົາໃຈໃສ່",
+      "attention_help_text": "ຊື່ຂອງບຸກຄົນຫຼືພະແນກ",
+      "auto_complete_close_accessibility_label": "ປິດຄຳແນະນຳ",
+      "auto_complete_title": "ຄຳແນະນຳ",
+      "billing_address": "ໃຊ້ເປັນທີ່ຢູ່ໃບບິນ",
+      "cancel": "ຍົກເລີກ",
+      "cancel_accessibility_label": "ຍົກເລີກການແກ້ໄຂທີ່ຢູ່ {{address}}",
+      "creation_success_notification": "ເພີ່ມທີ່ຢູ່",
+      "default_address": "ນີ້ແມ່ນທີ່ຢູ່ເລີ່ມຕົ້ນຂອງຂ້ອຍ",
+      "default_address_creation_success_notification": "ເພີ່ມທີ່ຢູ່ເລີ່ມຕົ້ນແລ້ວ",
+      "default_address_update_success_notification": "ອັບເດດທີ່ຢູ່ເລີ່ມຕົ້ນແລ້ວ",
+      "loading_add_form_accessibility_message": "ກຳລັງໂຫຼດແບບຟອມທີ່ຢູ່ໃໝ່",
+      "loading_edit_form_accessibility_message": "ກຳລັງໂຫລດແບບຟອມແກ້ໄຂທີ່ຢູ່",
+      "loading_form_accessibility_message": "ກຳລັງໂຫຼດແບບຟອມທີ່ຢູ່",
+      "loading_finished_accessibility_message": "ແບບຟອມທີ່ຢູ່ຖືກໂຫລດແລ້ວ",
+      "save": "ບັນທຶກ",
+      "save_accessibility_label": "ບັນທຶກທີ່ຢູ່ {{address}}",
+      "section_title_accessibility_label": "ເພີ່ມທີ່ຢູ່",
+      "update_success_notification": "ອັບເດດທີ່ຢູ່"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "ຊື່​ບໍ​ລິ​ສັດ",
+        "company_card_section_accessibility_label": "ບໍລິສັດ"
+      },
+      "locations": {
+        "contact_email": "ອີເມວ",
+        "contact_list_title": "ຄົນ",
+        "contact_name": "ຊື່",
+        "contact_permissions": "ການອະນຸຍາດ",
+        "contact_phone_number": "ເບີ​ໂທລະ​ສັບ",
+        "location_picker_label": "ຊື່ສະຖານທີ່",
+        "location_picker_accessibility_label": "ຊື່ສະຖານທີ່: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : ຊໍາລະພາຍໃນ {{numberOfDays}} ມື້",
+        "own_role_contact_name": "ເຈົ້າ",
+        "pagination": {
+          "load_more": "ໂຫຼດເພີ່ມເຕີມ",
+          "load_more_accessibility_label": "ໂຫຼດສະຖານທີ່ເພີ່ມເຕີມ"
+        },
+        "payment_details_title": "ລາຍ​ລະ​ອຽດ​ການ​ຊໍາ​ລະ​ເງິນ",
+        "payment_terms": "ເງື່ອນໄຂການຈ່າຍເງິນ",
+        "permissions_label": "ການ​ອະ​ນຸ​ຍາດ​ຂອງ​ທ່ານ​",
+        "permissions_title": "ການອະນຸຍາດ",
+        "section_title": "ສະຖານທີ່",
+        "shipping_address_required": "ເພີ່ມທີ່ຢູ່ຈັດສົ່ງໃສ່ສະຖານທີ່ນີ້ເພື່ອເລີ່ມການສັ່ງຊື້.",
+        "staff_and_permissions_title": "ພະນັກງານແລະການອະນຸຍາດ",
+        "tax_details_title": "ລາຍລະອຽດພາສີ",
+        "tax_id": "ID ພາ​ສີ",
+        "tax_exemptions": "ການຍົກເວັ້ນພາສີ",
+        "multiple_tax_exemptions": "ເພີ່ມເຕີມອີກ {{taxExemptionsCount}}"
+      }
     }
   },
   "customer": {
