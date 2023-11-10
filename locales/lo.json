@@ -816,5 +816,80 @@
         "one": "ມີ {{count}} ລາຍການ"
       }
     }
+  },
+  "customer": {
+    "order": {
+      "total": "ທັງໝົດ",
+      "total_refunded": "ສົ່ງເງິນຄືນແລ້ວ",
+      "fulfilled_at_html": "ສຳເລັດແລ້ວ {{ date }}",
+      "track_shipment": "ຕິດຕາມການຂົນສົ່ງ",
+      "tracking_url": "ການຕິດຕາມການເຊື່ອມຕໍ່",
+      "tracking_company": "ຜູ້ໃຫ້ບໍລິການ",
+      "tracking_number": "ໝາຍເລກຕິດຕາມ",
+      "subtotal": "ທັງໝົດຍ່ອຍ",
+      "total_duties": "ໜ້າທີ່"
+    },
+    "orders": {
+      "title": "ປະຫວັດການສັ່ງຊື້",
+      "order_number": "ສັ່ງ",
+      "order_number_link": "ໝາຍເລກສັ່ງຊື້ {{ number }}",
+      "date": "ວັນທີ",
+      "payment_status": "ສະຖານະການຈ່າຍເງິນ",
+      "fulfillment_status": "ສະຖານະພາບການປະຕິບັດຕາມ",
+      "total": "ທັງໝົດ",
+      "none": "ເຈົ້າຍັງບໍ່ໄດ້ສັ່ງຫຍັງເທື່ອ."
+    },
+    "recover_password": {
+      "title": "ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານ",
+      "subtext": "ພວກເຮົາຈະສົ່ງອີເມວໃຫ້ທ່ານເພື່ອປ່ຽນລະຫັດຜ່ານຂອງທ່ານ",
+      "success": "ພວກເຮົາໄດ້ສົ່ງອີເມວພ້ອມກັບລິ້ງເພື່ອອັບເດດລະຫັດຜ່ານຂອງທ່ານ."
+    },
+    "register": {
+      "title": "ສ້າງ​ບັນ​ຊີ",
+      "first_name": "ຊື່​ແທ້",
+      "last_name": "ນາມ​ສະ​ກຸນ",
+      "email": "ອີເມວ",
+      "password": "ລະຫັດຜ່ານ",
+      "submit": "ສ້າງ"
+    },
+    "reset_password": {
+      "title": "ຣີເຊັດລະຫັດຜ່ານບັນຊີ",
+      "subtext": "ໃສ່ລະຫັດຜ່ານໃໝ່",
+      "password": "ລະຫັດຜ່ານ",
+      "password_confirm": "ຢືນ​ຢັນ​ລະ​ຫັດ",
+      "submit": "ຣີເຊັດລະຫັດຜ່ານ"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "ໃຊ້ລະຫັດບັດຂອງຂວັນອອນລາຍ ຫຼືລະຫັດ QR ໃນຮ້ານ",
+      "title": "ນີ້ແມ່ນບັດຂອງຂວັນ {{ value }} ຂອງທ່ານສຳລັບ {{ shop }} !",
+      "subtext": "ບັດຂອງຂວັນຂອງເຈົ້າ",
+      "gift_card_code": "ລະຫັດບັດຂອງຂວັນ",
+      "shop_link": "ຢ້ຽມຢາມຮ້ານອອນໄລນ໌",
+      "add_to_apple_wallet": "ເພີ່ມໃສ່ Apple Wallet",
+      "qr_image_alt": "ລະຫັດ QR — ສະແກນເພື່ອແລກບັດຂອງຂວັນ",
+      "copy_code": "ສຳເນົາລະຫັດບັດຂອງຂວັນ",
+      "expiration_date": "ໝົດອາຍຸ {{ expires_on }}",
+      "copy_code_success": "ສຳເນົາລະຫັດສຳເລັດແລ້ວ",
+      "expired": "ໝົດອາຍຸແລ້ວ"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "ຂ້ອຍຕ້ອງການສົ່ງນີ້ເປັນຂອງຂວັນ",
+      "expanded": "ຂະຫຍາຍແບບຟອມຜູ້ຮັບບັດຂອງຂວັນແລ້ວ",
+      "collapsed": "ຫຍໍ້ແບບຟອມຜູ້ຮັບບັດຂອງຂວັນແລ້ວ",
+      "email_label": "ອີເມວຜູ້ຮັບ",
+      "email_label_optional_for_no_js_behavior": "ອີເມວຜູ້ຮັບ (ທາງເລືອກ)",
+      "email": "ອີເມວ",
+      "name_label": "ຊື່ຜູ້ຮັບ (ເລືອກໄດ້)",
+      "name": "ຊື່",
+      "message_label": "ຂໍ້ຄວາມ (ທາງເລືອກ)",
+      "message": "ຂໍ້ຄວາມ",
+      "max_characters": "ສູງສຸດ {{ max_chars }} ຕົວອັກສອນ",
+      "send_on": "ປປປປປປປປປ",
+      "send_on_label": "ສົ່ງຕໍ່ (ທາງເລືອກ)"
+    }
   }
 }
