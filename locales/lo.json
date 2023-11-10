@@ -803,7 +803,20 @@
             "due_without_date": "ຮອດກຳນົດ",
             "due_on_fulfillment": "ຄົບກຳນົດ",
             "pay_to_confirm": "ຈ່າຍເພື່ອຢືນຢັນ",
-            "payment_not_due": "ຍັງບໍ່ທັນຮອດກຳນົດ"
+            "payment_not_due": "ຍັງບໍ່ທັນຮອດກຳນົດ",
+            "overdue": "ເກີນກຳນົດ",
+            "due": "ຮອດກຳນົດ {{date}}",
+            "due_today": "ຮອດກຳນົດມື້ນີ້",
+            "paid": "ຈ່າຍແລ້ວ"
+          },
+          "list_view": {
+            "overdue": "ຊໍາລະເກີນກຳນົດ",
+            "due": "ຮອດກຳນົດການຈ່າຍເງິນ {{date}}",
+            "due_today": "ຊໍາລະມື້ນີ້",
+            "due_without_date": "ຊໍາລະ",
+            "due_on_fulfillment": "ການ​ຊໍາ​ລະ​ເນື່ອງ​ຈາກ​ການ​ປະ​ຕິ​ບັດ​",
+            "pay_to_confirm": "ຈ່າຍເພື່ອຢືນຢັນ",
+            "payment_not_due": "ການຈ່າຍເງິນຍັງບໍ່ທັນຮອດກຳນົດ"
           }
         },
         "sort_by": "ຈັດຮຽງຕາມ: {{option}}",
@@ -847,7 +860,68 @@
           }
         },
         "table_view": "ສະແດງຕາຕະລາງ",
-        "show_order_actions_accessibility_label": "ສະແດງຄຳສັ່ງຄຳສັ່ງສຳລັບຄຳສັ່ງ {{name}}"
+        "show_order_actions_accessibility_label": "ສະແດງຄຳສັ່ງຄຳສັ່ງສຳລັບຄຳສັ່ງ {{name}}",
+        "column_headers": {
+          "order": "ສັ່ງ",
+          "items": "ລາຍການ",
+          "total": "ທັງໝົດ"
+        },
+        "delivered": "ຈັດສົ່ງແລ້ວ {{date}}",
+        "empty_state_order_source_description": "ມີແຕ່ຄຳສັ່ງຊື້ທີ່ວາງໄວ້ໂດຍ {{email}} ທີ່ຈະສະແດງຢູ່ບ່ອນນີ້.",
+        "empty_state_subtitle": "ໄປຮ້ານເພື່ອວາງຄໍາສັ່ງ.",
+        "empty_state_title": "ຍັງບໍ່ມີຄໍາສັ່ງ",
+        "empty_state_title_for_pending_orders": "ບໍ່ມີຄໍາສັ່ງທີ່ຍັງຄ້າງຢູ່",
+        "estimated_shortform": "ຄາດຄະເນ {{date}}",
+        "estimated_delivery": "ການຈັດສົ່ງໂດຍປະມານ {{date}}",
+        "one_images_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}}",
+        "two_images_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} , {{lineItemName2}} , ແລະ {{numberOfAdditionalProducts}} ຜະລິດຕະພັນເພີ່ມເຕີມ",
+        "more_than_four_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , ແລະ {{numberOfAdditionalProducts}} ຜະລິດຕະພັນເພີ່ມເຕີມ",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ ຜະລິດຕະພັນ {{numberOfAdditionalProducts}}",
+        "carousel": {
+          "one_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} ປະລິມານ {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} quantity {{lineItemQuantity2}} , {{lineItemName3}} quantity {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} quantity {{lineItemQuantity2}} , {{lineItemName3}} quantity {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} quantity {{lineItemQuantity2}} , {{lineItemName3}} quantity {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} ປະລິມານ {{lineItemName5}} {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} quantity {{lineItemQuantity2}} , {{lineItemName3}} quantity {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} {{lineItemName5}} ປະລິມານ {{lineItemQuantity5}} , {{lineItemName6}} ປະລິມານ {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "ການສັ່ງຊື້ລວມມີ {{lineItemName1}} ປະລິມານ {{lineItemQuantity1}} , {{lineItemName2}} quantity {{lineItemQuantity2}} , {{lineItemName3}} quantity {{lineItemQuantity3}} , {{lineItemName4}} {{lineItemQuantity4}} {{lineItemName5}} ປະລິມານ {{lineItemQuantity5}} , {{lineItemName6}} ປະລິມານ {{lineItemQuantity6}} ແລະອື່ນໆອີກ",
+          "view_order_details": "ເບິ່ງລາຍລະອຽດການສັ່ງຊື້",
+          "previous": "ທີ່ຜ່ານມາ",
+          "next": "ຕໍ່ໄປ"
+        },
+        "items": {
+          "one": "{{count}} ລາຍການ",
+          "other": "{{count}} ລາຍການ"
+        },
+        "list_view": "ສະແດງລາຍການເບິ່ງ",
+        "no_filtered_results_description": "ເອົາອອກຫຼືປັບຕົວກອງເພື່ອເບິ່ງຄໍາສັ່ງຂອງທ່ານ",
+        "no_filtered_results_title": "ບໍ່ມີຜົນໄດ້ຮັບການກັ່ນຕອງ",
+        "order_link": "ເບິ່ງຄໍາສັ່ງ {{name}}",
+        "order_number": "ສັ່ງ {{name}}",
+        "orders_title": "ຢືນຢັນ",
+        "pagination": {
+          "nav_accessibility_label": "ສັ່ງປຸ່ມນຳທາງ",
+          "next": "ຕໍ່ໄປ",
+          "next_accessibility_label": "ຄໍາສັ່ງຕໍ່ໄປ",
+          "previous": "ກ່ອນໜ້າ",
+          "previous_accessibility_label": "ຄໍາສັ່ງທີ່ຜ່ານມາ",
+          "load_more": "ໂຫຼດເພີ່ມເຕີມ",
+          "load_more_accessibility_label": "ໂຫຼດຄໍາສັ່ງເພີ່ມເຕີມ"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "ເບິ່ງຄໍາສັ່ງສໍາລັບລາຍລະອຽດ",
+            "estimated_delivery": "ການຈັດສົ່ງໂດຍປະມານ {{date}}",
+            "last_updated": "ອັບເດດຫຼ້າສຸດ {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "ຄາດຄະເນ ການຈັດສົ່ງ {{date}}"
+          }
+        }
       },
       "order_status": {
         "attempted_delivery_label": "ພະຍາຍາມຈັດສົ່ງ",
@@ -944,7 +1018,9 @@
             "text": "ຕິດຕາມແລະຈັດການການຊື້ດ້ວຍຄໍາສັ່ງ Prime"
           }
         }
-      }
+      },
+      "list_layout_accessibility_label": "ຕົວເລືອກໂຄງຮ່າງ",
+      "list_title": "ຄໍາສັ່ງ"
     },
     "payment_methods": {
       "card_fields": {
@@ -1061,6 +1137,60 @@
       "autocompleteOptionsAvailable": {
         "one": "ມີ {{count}} ລາຍການ"
       }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "close_menu_accessibility_label": "ປິດການນໍາທາງບັນຊີ",
+        "loading_message": "ກຳລັງໂຫຼດການນຳທາງບັນຊີ"
+      },
+      "action_menu_accessibility_label": "ການປະຕິບັດເພີ່ມເຕີມ",
+      "close_menu_accessibility_label": "ປິດການນໍາທາງຫຼັກ",
+      "contact_email_subject": "ຕິດຕໍ່ຈາກ {{shopName}} ຮ້ານຄ້າອອນໄລນ໌",
+      "contact_link": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ",
+      "delete_confirmation": {
+        "cancel": "ຍົກເລີກ",
+        "delete": "ລຶບ"
+      },
+      "dismiss_toast": "ປິດ",
+      "document_title": "{{sectionName}} - {{shopName}} - ບັນຊີ",
+      "go_to_store_link": "ໄປຮ້ານ",
+      "loading_message": "ກຳລັງໂຫຼດ",
+      "log_out_link": "ອອກ​ຈາກ​ລະ​ບົບ",
+      "logout_overlay_label": "ກຳລັງອອກຈາກລະບົບ...",
+      "nav_label_accessibility_label": "ການນໍາທາງຕົ້ນຕໍ",
+      "navigation_accessibility_message": "ທ່ານໄດ້ໄປຫາ {{sectionName}} ແລ້ວ",
+      "open_menu_accessibility_label": "ເປີດການນໍາທາງຕົ້ນຕໍ",
+      "orders_link_label": "ຄໍາສັ່ງ",
+      "shop_logo_accessibility_label": "ໂລໂກ້ {{shopName}}",
+      "subscriptions_link_label": "ການສະໝັກໃຊ້"
+    },
+    "account_information": {
+      "loading_accessibility_message": "ກຳລັງໂຫຼດຂໍ້ມູນບັນຊີ",
+      "loading_finished_accessibility_message": "ຂໍ້ມູນບັນຊີໄດ້ຖືກໂຫລດແລ້ວ",
+      "profile_card": {
+        "cancel": "ຍົກເລີກ",
+        "cancel_accessibility_label": "ຍົກເລີກການແກ້ໄຂໂປຣໄຟລ໌",
+        "edit": "ແກ້ໄຂ",
+        "edit_accessibility_label": "ແກ້ໄຂໂປຣໄຟລ໌",
+        "email_help_text": "ອີເມວທີ່ໃຊ້ສຳລັບການເຂົ້າສູ່ລະບົບບໍ່ສາມາດປ່ຽນແປງໄດ້",
+        "first_name": "ຊື່​ແທ້",
+        "last_name": "ນາມ​ສະ​ກຸນ",
+        "no_name_provided_accessibility_label": "ບໍ່ໄດ້ເພີ່ມຊື່",
+        "phone_number_help_text": "ເບີໂທລະສັບທີ່ໃຊ້ສຳລັບການເຂົ້າສູ່ລະບົບບໍ່ສາມາດປ່ຽນແປງໄດ້",
+        "save": "ບັນທຶກ",
+        "save_accessibility_label": "ບັນທຶກໂປຣໄຟລ໌",
+        "title": "ໂປຣໄຟລ໌"
+      },
+      "profile_update_confirmation_message": "ອັບເດດໂປຣໄຟລ໌ແລ້ວ",
+      "title": "ໂປຣໄຟລ໌",
+      "people": {
+        "pagination": {
+          "load_more": "ໂຫຼດເພີ່ມເຕີມ",
+          "load_more_accessibility_label": "ໂຫຼດຄົນຫຼາຍຂຶ້ນ",
+          "loading_accessibility_label": "ກຳລັງໂຫຼດຄົນ"
+        }
+      },
+      "add_button": "ເພີ່ມ"
     }
   },
   "customer": {
