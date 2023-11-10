@@ -128,7 +128,61 @@
         "address_title": "ທີ່ຢູ່",
         "shipping_used_as_billing_notice": "ອັນນີ້ຈະຖືກໃຊ້ເປັນທີ່ຢູ່ໃບບິນຂອງທ່ານສຳລັບຄຳສັ່ງຊື້ນີ້.",
         "delivery_option_title": "ວິທີການຈັດສົ່ງ",
-        "contact_method_title": "ຕິດຕໍ່"
+        "contact_method_title": "ຕິດຕໍ່",
+        "email_label": "ອີເມວ",
+        "email_placeholder": "ອີເມວ",
+        "email_or_phone_label": "ອີເມວ ຫຼືເບີໂທລະສັບ",
+        "email_or_phone_placeholder": "ອີເມວ ຫຼືເບີໂທລະສັບ",
+        "stored_addresses_label": "ທີ່ຢູ່ທີ່ບັນທຶກໄວ້",
+        "new_address_label": "ໃຊ້ທີ່ຢູ່ໃໝ່",
+        "first_name_label": "ຊື່​ແທ້",
+        "optional_first_name_label": "ຊື່ (ທາງເລືອກ)",
+        "last_name_label": "ນາມ​ສະ​ກຸນ",
+        "company_label": "ບໍລິສັດ",
+        "optional_company_label": "ບໍລິສັດ (ທາງເລືອກ)",
+        "address1_label": "ທີ່ຢູ່",
+        "address2_label": "ອາພາດເມັນ, ຊຸດ, ແລະອື່ນໆ.",
+        "optional_address2_label": "ອາພາດເມັນ, ຊຸດ, ແລະອື່ນໆ (ທາງເລືອກ)",
+        "city_label": "ເມືອງ",
+        "country_label": "ປະເທດ\/ພາກພື້ນ",
+        "country_code": "ລະຫັດປະເທດ\/ພາກພື້ນ",
+        "province_label": "ແຂວງ",
+        "province_placeholder": "ແຂວງ",
+        "county_label": "ຄາວຕີ້",
+        "county_placeholder": "ຄາວຕີ້",
+        "state_label": "ລັດ",
+        "state_placeholder": "ລັດ",
+        "region_label": "ພາກພື້ນ",
+        "region_placeholder": "ພາກພື້ນ",
+        "region_none": "ບໍ່ໄດ້ເລືອກອັນໃດ",
+        "prefecture_label": "ແຂວງ",
+        "prefecture_placeholder": "ແຂວງ",
+        "governorate_label": "ເຈົ້າແຂວງ",
+        "governorate_placeholder": "ເຈົ້າແຂວງ",
+        "emirate_label": "ເອມິເຣດ",
+        "emirate_placeholder": "ເອມິເຣດ",
+        "state_and_territory_label": "ລັດ\/ອານາເຂດ",
+        "state_and_territory_placeholder": "ລັດ\/ອານາເຂດ",
+        "phone_label": "ໂທລະສັບ",
+        "optional_phone_label": "ໂທລະສັບ (ທາງເລືອກ)",
+        "phone_placeholder": "ໂທລະສັບ",
+        "phone_tooltip": "ໃນກໍລະນີທີ່ພວກເຮົາຕ້ອງການຕິດຕໍ່ທ່ານກ່ຽວກັບຄໍາສັ່ງຂອງທ່ານ",
+        "zip_code_label": "ລະ​ຫັດ​ໄປ​ສະ​ນີ",
+        "zip_code_placeholder": "ລະ​ຫັດ​ໄປ​ສະ​ນີ",
+        "postal_code_label": "ລະ​ຫັດ​ໄປ​ສະ​ນີ",
+        "postal_code_placeholder": "ລະ​ຫັດ​ໄປ​ສະ​ນີ",
+        "postcode_label": "ລະຫັດໄປສະນີ",
+        "postcode_placeholder": "ລະຫັດໄປສະນີ",
+        "pincode_label": "ລະຫັດ PIN",
+        "pincode_placeholder": "ລະຫັດ PIN",
+        "civic_number_warning": "ເພີ່ມເລກເຮືອນຖ້າທ່ານມີ",
+        "optional_last_name_label": "ນາມສະກຸນ (ເລືອກໄດ້)",
+        "optional_recipient_label": "ເອົາໃຈໃສ່ (ທາງເລືອກ)",
+        "different_shipping_address_label": "ສົ່ງໄປທີ່ທີ່ຢູ່ອື່ນ",
+        "different_shipping_address_text": "ໃຊ້ທີ່ຢູ່ຄັ້ງດຽວສໍາລັບຄໍາສັ່ງນີ້",
+        "change_company_location_link_label": "ປ່ຽນສະຖານທີ່ບໍລິສັດ",
+        "change_location_link_label": "ປ່ຽນສະຖານທີ່",
+        "ship_to_company": "ສົ່ງໄປ {{companyName}}"
       },
       "order_summary": {
         "quantity_label": "ປະລິມານ",
@@ -201,7 +255,78 @@
             "other": "%{count} ລາຍການ"
           }
         },
-        "alternative_payment_currency_total": "ຮຽກເກັບເປັນ %{amount_due}"
+        "alternative_payment_currency_total": "ຮຽກເກັບເປັນ %{amount_due}",
+        "title": "ສະຫຼຸບການສັ່ງ",
+        "group_title_label": "ສ່ວນໜຶ່ງຂອງ \"%{group_title}\"",
+        "order_name_label": "ສັ່ງ %{name}",
+        "shopping_cart_label": "ໂຄງຮ່າງການຊື້ເຄື່ອງ",
+        "discount_title": "ສ່ວນຫຼຸດ",
+        "discount_title_stacking": {
+          "one": "ສ່ວນຫຼຸດ",
+          "other": "ສ່ວນຫຼຸດ"
+        },
+        "discount_order_stacking": {
+          "one": "ສັ່ງຫຼຸດລາຄາ",
+          "other": "ສັ່ງຊື້ສ່ວນຫຼຸດ"
+        },
+        "discount_label": "ລະຫັດສ່ວນຫຼຸດ",
+        "discount_not_found": "ບໍ່ສາມາດຊອກຫາສ່ວນຫຼຸດທີ່ຖືກຕ້ອງທີ່ກົງກັບລະຫັດທີ່ລະບຸ",
+        "discount_placeholder": "ລະຫັດສ່ວນຫຼຸດ",
+        "gift_card_title": "ບັດ​ຂອງ​ຂວັນ",
+        "gift_card_label": "ບັດ​ຂອງ​ຂວັນ",
+        "gift_card_placeholder": "ບັດ​ຂອງ​ຂວັນ",
+        "gift_card_and_discount_title": "ລະຫັດສ່ວນຫຼຸດ ຫຼືບັດຂອງຂວັນ",
+        "gift_card_and_discount_label": "ລະຫັດສ່ວນຫຼຸດ ຫຼືບັດຂອງຂວັນ",
+        "gift_card_and_discount_placeholder": "ລະຫັດສ່ວນຫຼຸດ ຫຼືບັດຂອງຂວັນ",
+        "remove_gift_card_label": "ລຶບບັດຂອງຂວັນ",
+        "remove_discount_label": "ເອົາສ່ວນຫຼຸດ",
+        "free_shipping_discount_label": "ສົ່ງຟຣີ",
+        "applied_free_shipping_discount_label": "ນຳໃຊ້ແລ້ວ",
+        "apply_discount_button_label": "ສະໝັກ",
+        "applied_discount_message": "%{amount} ສ່ວນຫຼຸດລາຄາການສັ່ງຊື້ທັງໝົດ",
+        "discount_has_been_applied": "ສ່ວນຫຼຸດໄດ້ຖືກນຳໃຊ້ແລ້ວ",
+        "discount_has_been_removed": "ສ່ວນຫຼຸດໄດ້ຖືກລຶບອອກແລ້ວ",
+        "gift_card_has_been_applied": "ບັດຂອງຂວັນຖືກນຳໃຊ້ແລ້ວ",
+        "gift_card_has_been_removed": "ບັດຂອງຂວັນຖືກລຶບອອກແລ້ວ",
+        "gift_card_subscriptions_notice": "ບັດຂອງຂວັນຈະນຳໃຊ້ກັບການຈ່າຍເງິນຄັ້ງທຳອິດຂອງທ່ານເທົ່ານັ້ນ",
+        "discount_already_applied": "ສ່ວນຫຼຸດໄດ້ຖືກນຳໃຊ້ກັບຄຳສັ່ງຊື້ນີ້. ທ່ານບໍ່ສາມາດເພີ່ມສ່ວນຫຼຸດອື່ນໄດ້.",
+        "cart_does_not_meet_discount_requirements_notice": "ລະຫັດສ່ວນຫຼຸດ <strong style=\"text-transform:uppercase\">%{code}<\/strong> ບໍ່ຖືກຕ້ອງສຳລັບລາຍການທີ່ຢູ່ໃນກະຕ່າຂອງທ່ານ",
+        "discount_requires_customer_notice": "ໃສ່ຂໍ້ມູນການຈັດສົ່ງຂອງທ່ານເພື່ອນຳໃຊ້ລະຫັດສ່ວນຫຼຸດ <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "ລະຫັດສ່ວນຫຼຸດ <strong style=\"text-transform:uppercase\">%{code}<\/strong> ບໍ່ມີໃຫ້ທ່ານໃນຕອນນີ້",
+        "shipping_information_does_not_meet_discount_requirements_notice": "ລະຫັດສ່ວນຫຼຸດ <strong style=\"text-transform:uppercase\">%{code}<\/strong> ບໍ່ສາມາດໃຊ້ໄດ້ກັບທີ່ຢູ່ຈັດສົ່ງຂອງເຈົ້າ",
+        "customer_already_used_once_per_customer_discount_notice": "ລະຫັດສ່ວນຫຼຸດ <strong style=\"text-transform:uppercase\">%{code}<\/strong> ຖືກໃຊ້ແລ້ວ",
+        "subtotal_label": "ທັງໝົດຍ່ອຍ",
+        "shipping_label": "ການ​ຂົນ​ສົ່ງ",
+        "pickup_label": "ຮັບ",
+        "no_pickup_location": "ບໍ່ສາມາດຮັບໄດ້ສຳລັບການສັ່ງນີ້. ເລືອກວິທີການຈັດສົ່ງອື່ນ.",
+        "tip_label": "ເຄັດລັບ",
+        "calculating_shipping": "ກຳລັງຄິດໄລ່...",
+        "calculating": "ກຳລັງຄິດໄລ່...",
+        "shipping_default_value": "ໃສ່ທີ່ຢູ່ຈັດສົ່ງ",
+        "shipping_pending_message": "ຍັງບໍ່ມີ",
+        "shipping_policy_link": "ຄ່າຂົນສົ່ງ",
+        "taxes_label": "ພາສີ",
+        "estimated_taxes_label": "ພາສີທີ່ຄາດຄະເນ",
+        "information_estimated_taxes_label": "ພາສີ (ຄາດຄະເນ)",
+        "estimated_taxes_finalization_tooltip_content": "ພາສີສຸດທ້າຍແລະຈໍານວນທັງຫມົດຈະຖືກຢືນຢັນໂດຍອີເມວຫຼືຂໍ້ຄວາມຫຼັງຈາກທີ່ທ່ານວາງຄໍາສັ່ງຂອງທ່ານ.",
+        "order_total_label": "ຈໍານວນຄໍາສັ່ງທັງຫມົດ",
+        "total_savings": "ເງິນຝາກປະຢັດທັງໝົດ",
+        "total_label": "ທັງໝົດ",
+        "total_outstanding_label": "ຈຳນວນທີ່ຕ້ອງຈ່າຍ",
+        "partial_total_label": "ທັງໝົດ",
+        "free_total_label": "ຟຣີ",
+        "paid_label": "ຈ່າຍແລ້ວ",
+        "payment_due_label": "ຊໍາລະ",
+        "vat_label_html": "ລວມທັງ %{amount} ໃນພາສີ",
+        "discount_and_gift_card_savings_notice": "ຫຼັງຈາກ %{discount_amount} ໃນສ່ວນຫຼຸດ ແລະ %{gift_card_amount} ໃນບັດຂອງຂວັນ",
+        "discount_savings_notice": "ຫຼັງຈາກ %{discount_amount} ໃນສ່ວນຫຼຸດ",
+        "gift_card_savings_notice": "ຫຼັງຈາກ %{gift_card_amount} ໃນບັດຂອງຂວັນ",
+        "cost_table_title": "ສະຫຼຸບຄ່າໃຊ້ຈ່າຍ",
+        "description_label": "ລາຍລະອຽດ",
+        "price_label": "ລາຄາ",
+        "price_per_item": {
+          "accessibility_label": "%{price} ຕໍ່ລາຍການ"
+        }
       },
       "shipping": {
         "title": "ການຈັດສົ່ງ",
@@ -492,6 +617,127 @@
       },
       "note": {
         "length_exceeds_maximum": "ຫຼຸດຂະໜາດຂອງບັນທຶກລົງເປັນ 5000 ຕົວ ຫຼືໜ້ອຍກວ່າ."
+      },
+      "stock": {
+        "item_label": {
+          "other": "{{count}} ລາຍການ",
+          "one": "{{count}} ລາຍການ"
+        },
+        "empty_cart_label": "ກະຕ່າຂອງເຈົ້າຫວ່າງເປົ່າ",
+        "quantity_update": {
+          "page_title": "ການປັບປຸງປະລິມານ",
+          "title": "ການປັບປຸງປະລິມານ",
+          "description": "ປະລິມານທີ່ມີຢູ່ສໍາລັບລາຍການເຫຼົ່ານີ້ມີການປ່ຽນແປງແລະຖືກປັບປຸງຢູ່ໃນກະຕ່າຂອງທ່ານ."
+        },
+        "unpurchasable_product": {
+          "title": "ຜະລິດຕະພັນທີ່ບໍ່ສາມາດຊື້ໄດ້",
+          "header": "ບາງລາຍການຖືກລຶບອອກຈາກກະຕ່າຂອງເຈົ້າແລ້ວ",
+          "message": "ລາຍການເຫຼົ່ານີ້ບໍ່ມີໃຫ້ສໍາລັບການສັ່ງຊື້ B2B.",
+          "status_column_header": "ບໍ່​ສາ​ມາດ​ໃຊ້​ໄດ້"
+        },
+        "unpurchasable_product_generic": {
+          "title": "ຜະລິດຕະພັນທີ່ບໍ່ສາມາດຊື້ໄດ້",
+          "header": "ບາງລາຍການຖືກລຶບອອກຈາກກະຕ່າຂອງເຈົ້າແລ້ວ",
+          "message": "ລາຍການເຫຼົ່ານີ້ບໍ່ມີໃຫ້.",
+          "status_column_header": "ບໍ່​ສາ​ມາດ​ໃຊ້​ໄດ້"
+        },
+        "unshippable_product": {
+          "title": "ບໍ່ມີການຈັດສົ່ງ",
+          "header": {
+            "one": "ບໍ່ມີການຈັດສົ່ງສຳລັບ %{count} ລາຍການ",
+            "other": "ບໍ່ມີການຈັດສົ່ງສຳລັບ %{count} ລາຍການ"
+          },
+          "message": {
+            "one": "ລາຍ​ການ​ນີ້​ຈະ​ຖືກ​ເອົາ​ອອກ​ຈາກ​ກະຕ່າ​ຂອງ​ທ່ານ​ເນື່ອງ​ຈາກ​ວ່າ​ບໍ່​ມີ​ວິ​ທີ​ການ​ຈັດ​ສົ່ງ​ສໍາ​ລັບ​ທີ່​ຢູ່​ຂອງ​ທ່ານ​.",
+            "other": "ລາຍ​ການ​ເຫຼົ່າ​ນີ້​ຈະ​ຖືກ​ເອົາ​ອອກ​ຈາກ​ກະ​ຕຸ້ນ​ຂອງ​ທ່ານ​ເນື່ອງ​ຈາກ​ວ່າ​ບໍ່​ມີ​ວິ​ທີ​ການ​ຈັດ​ສົ່ງ​ສໍາ​ລັບ​ທີ່​ຢູ່​ຂອງ​ທ່ານ​."
+          },
+          "status_column_header": "ບໍ່ມີການຈັດສົ່ງ"
+        },
+        "price_update": {
+          "title": "ອັບເດດລາຄາ",
+          "description": "ລາຄາສໍາລັບລາຍການເຫຼົ່ານີ້ມີການປ່ຽນແປງແລະຖືກປັບປຸງຢູ່ໃນກະຕ່າຂອງທ່ານ."
+        },
+        "out_of_stock": {
+          "description": "ລາຍ​ການ​ເຫຼົ່າ​ນີ້​ແມ່ນ​ບໍ່​ມີ​ຕໍ່​ໄປ​ອີກ​ແລ້ວ​ແລະ​ໄດ້​ຖືກ​ໂຍກ​ຍ້າຍ​ອອກ​ຈາກ​ກະຕ່າ​ຂອງ​ທ່ານ​.",
+          "items_unavailable": "ບາງລາຍການແມ່ນບໍ່ມີແລ້ວ ແລະໄດ້ຖືກລຶບອອກຈາກກະຕ່າຂອງເຈົ້າແລ້ວ."
+        },
+        "page_title": "ບັນຫາສິນຄ້າຄົງຄັງ",
+        "title": "ສິນຄ້າໝົດ",
+        "items_unavailable_notice": "ບາງລາຍການແມ່ນບໍ່ມີແລ້ວ.",
+        "product_column_header": "ຜະລິດຕະພັນ",
+        "quantity_column_header": "ປະລິມານ",
+        "price_column_header": "ລາຄາ",
+        "status_column_header": "ສະຖານະ",
+        "removed_from_cart_notice": "ເອົາອອກຈາກກະຕ່າ",
+        "sold_out_label": "ຂາຍອອກ",
+        "reduced_label": "ຫຼຸດລົງ",
+        "reduced_with_quantity_label": "ຍັງເຫຼືອພຽງ %{quantity_available} ເທົ່ານັ້ນ",
+        "remove_from_cart_button_label": "ເອົາອອກຈາກກະຕ່າ",
+        "continue_shopping_button_label": "ສືບຕໍ່",
+        "go_back_to_cart_button_label": "ກັບຄືນໄປຫາກະຕ່າຂອງຂ້ອຍ",
+        "remove": "ເອົາອອກ",
+        "return_to_store_label": "ກັບໄປທີ່ຮ້ານ",
+        "continue_cta_label": "ສືບຕໍ່ຈ່າຍເງິນ"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "ຜະລິດຕະພັນທີ່ບໍ່ສາມາດໃຊ້ໄດ້",
+          "other": "ຜະລິດຕະພັນທີ່ບໍ່ສາມາດໃຊ້ໄດ້"
+        },
+        "products_not_available": {
+          "one": "ຜະລິດຕະພັນນີ້ຈະຖືກລຶບອອກຈາກກະຕ່າຂອງເຈົ້າ ເພາະວ່າມັນບໍ່ສາມາດໃຊ້ໄດ້ໃນປະເທດ\/ພາກພື້ນຂອງເຈົ້າ.",
+          "other": "ຜະລິດຕະພັນເຫຼົ່ານີ້ຈະຖືກລຶບອອກຈາກກະຕ່າຂອງເຈົ້າ ເພາະວ່າພວກມັນບໍ່ສາມາດໃຊ້ໄດ້ໃນປະເທດ\/ພາກພື້ນຂອງເຈົ້າ."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "ຜະລິດຕະພັນນີ້ບໍ່ມີຢູ່ໃນປະເທດ\/ພາກພື້ນຂອງທ່ານ.",
+          "other": "ຜະລິດຕະພັນເຫຼົ່ານີ້ບໍ່ມີຢູ່ໃນປະເທດ\/ພາກພື້ນຂອງທ່ານ."
+        },
+        "unavailable_label": "ບໍ່ສາມາດໃຊ້ໄດ້"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "ບໍ່ມີການຈັດສົ່ງສຳລັບ %{count} ລາຍການ",
+            "other": "ບໍ່ມີການຈັດສົ່ງສຳລັບ %{count} ລາຍການ"
+          },
+          "message": {
+            "one": "ລາຍ​ການ​ນີ້​ຈະ​ຖືກ​ເອົາ​ອອກ​ຈາກ​ກະຕ່າ​ຂອງ​ທ່ານ​ເນື່ອງ​ຈາກ​ວ່າ​ບໍ່​ມີ​ວິ​ທີ​ການ​ຈັດ​ສົ່ງ​ສໍາ​ລັບ​ທີ່​ຢູ່​ຂອງ​ທ່ານ​.",
+            "other": "ລາຍ​ການ​ເຫຼົ່າ​ນີ້​ຈະ​ຖືກ​ເອົາ​ອອກ​ຈາກ​ກະ​ຕຸ້ນ​ຂອງ​ທ່ານ​ເນື່ອງ​ຈາກ​ວ່າ​ບໍ່​ມີ​ວິ​ທີ​ການ​ຈັດ​ສົ່ງ​ທີ່​ມີ​ຢູ່​ສໍາ​ລັບ​ທີ່​ຢູ່​ຂອງ​ທ່ານ​."
+          },
+          "label": "ບໍ່ມີການຈັດສົ່ງ"
+        }
+      },
+      "delivery_options": {
+        "free_total_label": "ຟຣີ",
+        "ship": "ເຮືອ",
+        "shipping_address": "ການຈັດສົ່ງ",
+        "pick_up": "ຮັບ",
+        "pick_up_locations": "ສະຖານທີ່ຮັບ",
+        "pick_up_in_one_hour": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 1 ຊົ່ວໂມງ",
+        "pick_up_in_two_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 2 ຊົ່ວໂມງ",
+        "pick_up_in_four_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 4 ຊົ່ວໂມງ",
+        "pick_up_in_twenty_four_hours": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 24 ຊົ່ວໂມງ",
+        "pick_up_in_two_to_four_days": "ປົກກະຕິແລ້ວກຽມພ້ອມໃນ 2-4 ມື້",
+        "pick_up_in_five_or_more_days": "ປົກກະຕິແລ້ວພ້ອມໃນ 5+ ມື້",
+        "pick_up_in_zero_to_two_hours": "ກຽມພ້ອມສໍາລັບການຮັບໃນ 2 ຊົ່ວໂມງ",
+        "pick_up_in_two_to_four_hours": "ກຽມພ້ອມສໍາລັບການຮັບໃນ 4 ຊົ່ວໂມງ",
+        "pick_up_immediately": "ພ້ອມຮັບແລ້ວດຽວນີ້",
+        "pick_up_next_day": "ກຽມຮັບເຄື່ອງໃນມື້ຖັດໄປ",
+        "pickup_point_method_definition": "ສົ່ງໄປຈຸດຮັບ",
+        "retail_method_definition": "ຂາຍສົ່ງຂາຍຍ່ອຍ",
+        "none_method_definition": "ບໍ່ມີການຂົນສົ່ງ",
+        "subscription_pickup_information": "ວິທີການຈັດສົ່ງນີ້ຈະນໍາໃຊ້ກັບທຸກລາຍການໃນຄໍາສັ່ງນີ້ແລະທຸກຄໍາສັ່ງໃນອະນາຄົດສໍາລັບການສະຫມັກນີ້."
+      },
+      "customer_account": {
+        "not_user_label": "ບໍ່ແມ່ນ %{first_name}?",
+        "have_an_account_label": "ມີບັນຊີບໍ?",
+        "sign_in_link_label": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+        "sign_out_link_label": "ອອກ​ຈາກ​ລະ​ບົບ",
+        "save_my_information_label": "ບັນທຶກຂໍ້ມູນນີ້ໄວ້ສໍາລັບຄັ້ງຕໍ່ໄປ",
+        "invalid_address": "ທີ່ຢູ່ທີ່ເລືອກບໍ່ຖືກຕ້ອງ. %{update_address_link} ຫຼືເລືອກທີ່ຢູ່ອື່ນ.",
+        "incomplete_address": "ທີ່ຢູ່ທີ່ເລືອກບໍ່ຄົບຖ້ວນ. %{update_address_link} ຫຼືເລືອກທີ່ຢູ່ອື່ນ.",
+        "rollup_label": "ບັນຊີ",
+        "invalid_shipping_method_summary": "ເລືອກທີ່ຢູ່ຈັດສົ່ງທີ່ຖືກຕ້ອງເພື່ອເບິ່ງວິທີການຈັດສົ່ງທີ່ມີຢູ່"
       }
     },
     "pagination": {
@@ -827,7 +1073,21 @@
       "tracking_company": "ຜູ້ໃຫ້ບໍລິການ",
       "tracking_number": "ໝາຍເລກຕິດຕາມ",
       "subtotal": "ທັງໝົດຍ່ອຍ",
-      "total_duties": "ໜ້າທີ່"
+      "total_duties": "ໜ້າທີ່",
+      "title": "ສັ່ງ {{ name }}",
+      "date_html": "ວາງໃນ {{ date }}",
+      "cancelled_html": "ຍົກເລີກຄຳສັ່ງຊື້ໃນ {{ date }}",
+      "cancelled_reason": "ເຫດຜົນ: {{ reason }}",
+      "billing_address": "ທີ່ຢູ່ໃບບິນ",
+      "payment_status": "ສະຖານະການຈ່າຍເງິນ",
+      "shipping_address": "ທີ່ຢູ່ຈັດສົ່ງ",
+      "fulfillment_status": "ສະຖານະພາບການປະຕິບັດຕາມ",
+      "discount": "ສ່ວນຫຼຸດ",
+      "shipping": "ການ​ຂົນ​ສົ່ງ",
+      "tax": "ພາສີ",
+      "product": "ຜະລິດຕະພັນ",
+      "price": "ລາຄາ",
+      "quantity": "ປະລິມານ"
     },
     "orders": {
       "title": "ປະຫວັດການສັ່ງຊື້",
@@ -858,6 +1118,58 @@
       "password": "ລະຫັດຜ່ານ",
       "password_confirm": "ຢືນ​ຢັນ​ລະ​ຫັດ",
       "submit": "ຣີເຊັດລະຫັດຜ່ານ"
+    },
+    "account": {
+      "title": "ບັນຊີ",
+      "details": "ລາຍລະອຽດບັນຊີ",
+      "view_addresses": "ເບິ່ງທີ່ຢູ່",
+      "return": "ກັບໄປທີ່ລາຍລະອຽດບັນຊີ"
+    },
+    "account_fallback": "ບັນຊີ",
+    "activate_account": {
+      "title": "ເປີດໃຊ້ບັນຊີ",
+      "subtext": "ສ້າງລະຫັດຜ່ານຂອງທ່ານເພື່ອເປີດໃຊ້ບັນຊີຂອງທ່ານ.",
+      "password": "ລະຫັດຜ່ານ",
+      "password_confirm": "ຢືນ​ຢັນ​ລະ​ຫັດ",
+      "submit": "ເປີດໃຊ້ບັນຊີ",
+      "cancel": "ປະຕິເສດຄຳເຊີນ"
+    },
+    "addresses": {
+      "title": "ທີ່ຢູ່",
+      "default": "ຄ່າເລີ່ມຕົ້ນ",
+      "add_new": "ເພີ່ມທີ່ຢູ່ໃໝ່",
+      "edit_address": "ແກ້ໄຂທີ່ຢູ່",
+      "first_name": "ຊື່​ແທ້",
+      "last_name": "ນາມ​ສະ​ກຸນ",
+      "company": "ບໍລິສັດ",
+      "address1": "ທີ່​ຢູ່ 1",
+      "address2": "ທີ່ຢູ່ 2",
+      "city": "ເມືອງ",
+      "country": "ປະເທດ\/ພາກພື້ນ",
+      "province": "ແຂວງ",
+      "zip": "ລະຫັດໄປສະນີ\/ລະຫັດໄປສະນີ",
+      "phone": "ໂທລະສັບ",
+      "set_default": "ຕັ້ງເປັນທີ່ຢູ່ເລີ່ມຕົ້ນ",
+      "add": "ເພີ່ມທີ່ຢູ່",
+      "update": "ອັບເດດທີ່ຢູ່",
+      "cancel": "ຍົກເລີກ",
+      "edit": "ແກ້ໄຂ",
+      "delete": "ລຶບ",
+      "delete_confirm": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບທີ່ຢູ່ນີ້?"
+    },
+    "log_in": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+    "log_out": "ອອກ​ຈາກ​ລະ​ບົບ",
+    "login_page": {
+      "cancel": "ຍົກເລີກ",
+      "create_account": "ສ້າງ​ບັນ​ຊີ",
+      "email": "ອີເມວ",
+      "forgot_password": "ລືມລະຫັດຜ່ານຂອງທ່ານບໍ?",
+      "guest_continue": "ສືບຕໍ່",
+      "guest_title": "ສືບຕໍ່ໃນຖານະແຂກ",
+      "password": "ລະຫັດຜ່ານ",
+      "title": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+      "sign_in": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+      "submit": "ສົ່ງ"
     }
   },
   "gift_cards": {
@@ -891,5 +1203,78 @@
       "send_on": "ປປປປປປປປປ",
       "send_on_label": "ສົ່ງຕໍ່ (ທາງເລືອກ)"
     }
+  },
+  "products": {
+    "facets": {
+      "max_price": "ລາຄາສູງສຸດແມ່ນ {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} ຂອງ {{ count }} ຜະລິດຕະພັນ",
+        "other": "{{ product_count }} ຂອງ {{ count }} ຜະລິດຕະພັນ"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} ຜະລິດຕະພັນ",
+        "other": "{{ count }} ຜະລິດຕະພັນ"
+      },
+      "reset": "ຣີເຊັດ",
+      "sort_button": "ຄັດ",
+      "sort_by_label": "ຈັດຮຽງຕາມ:",
+      "to": "ເຖິງ",
+      "clear_filter": "ເອົາຕົວກອງອອກ"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "ບໍ່ພົບຜົນການຊອກຫາສຳລັບ “ {{ terms }} ”. ກວດເບິ່ງການສະກົດຄໍາຫຼືໃຊ້ຄໍາສັບຫຼືປະໂຫຍກທີ່ແຕກຕ່າງກັນ.",
+      "page": "ຫນ້າ",
+      "products": "ຜະລິດຕະພັນ",
+      "results_pages_with_count": {
+        "one": "{{ count }} ໜ້າ",
+        "other": "{{ count }} ໜ້າ"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} ຄຳແນະນຳ",
+        "other": "{{ count }} ຄຳແນະນຳ"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} ຜະລິດຕະພັນ",
+        "other": "{{ count }} ຜະລິດຕະພັນ"
+      },
+      "results_with_count": {
+        "one": "{{ count }} ຜົນໄດ້ຮັບ",
+        "other": "{{ count }} ຜົນການຄົ້ນຫາ"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} ຜົນການຄົ້ນຫາສໍາລັບ “ {{ terms }} ”",
+        "other": "{{ count }} ຜົນການຄົ້ນຫາສໍາລັບ “ {{ terms }} ”"
+      },
+      "title": "ຜົນການຄົ້ນຫາ",
+      "search_for": "ຊອກຫາ “ {{ terms }} ”",
+      "suggestions": "ຄຳແນະນຳ",
+      "pages": "ໜ້າ"
+    },
+    "cart": {
+      "cart": "ກະຕ່າ"
+    },
+    "contact": {
+      "form": {
+        "title": "ແບບຟອມຕິດຕໍ່",
+        "name": "ຊື່",
+        "email": "ອີເມວ",
+        "phone": "ເບີ​ໂທລະ​ສັບ",
+        "comment": "ຄໍາເຫັນ",
+        "send": "ສົ່ງ",
+        "post_success": "ຂອບໃຈສໍາລັບການຕິດຕໍ່ພວກເຮົາ. ພວກເຮົາຈະຕິດຕໍ່ກັບເຈົ້າໄວເທົ່າທີ່ຈະໄວໄດ້.",
+        "error_heading": "ກະລຸນາປັບຕົວຕໍ່ໄປນີ້:"
+      }
+    },
+    "404": {
+      "title": "ບໍ່ພົບໜ້າ"
+    }
+  },
+  "localization": {
+    "country_label": "ປະເທດ\/ພາກພື້ນ",
+    "language_label": "ພາສາ",
+    "update_language": "ອັບເດດພາສາ",
+    "update_country": "ອັບເດດປະເທດ\/ພາກພື້ນ"
   }
 }
