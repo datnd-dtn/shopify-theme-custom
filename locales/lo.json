@@ -1046,6 +1046,130 @@
         "additional_information": {
           "title": "ຂໍ້​ມູນ​ເພີ່ມ​ເຕີມ"
         }
+      },
+      "thank_you": {
+        "ready_for_delivery_description": "ພວກ​ເຮົາ​ໄດ້​ກະ​ກຽມ​ຄໍາ​ສັ່ງ​ຂອງ​ທ່ານ​.",
+        "order_updates_title": "ອັບເດດຄໍາສັ່ງ",
+        "shop_phone_description": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມທີ່ມີລິ້ງໄປຫາແອັບ Shop ເພື່ອຊ່ວຍຕິດຕາມການສັ່ງຊື້ຂອງທ່ານ.",
+        "order_updates_description_html": "ການອັບເດດຈະຖືກສົ່ງໄປຫາ %{customer_contact}",
+        "order_updates_current_step_prefix": "ຂັ້ນຕອນປະຈຸບັນ: ",
+        "order_updates_past_step_prefix": "ຂັ້ນຕອນທີ່ຜ່ານມາ: ",
+        "order_updates_upcoming_step_prefix": "ຂັ້ນຕອນທີ່ຈະມາເຖິງ: ",
+        "in_transit": "ກ່ຽວກັບວິທີການຂອງມັນ",
+        "in_transit_title": "ຄຳສັ່ງຂອງເຈົ້າກຳລັງມາ",
+        "in_transit_description": "ທ່ານຈະໄດ້ຮັບອັບເດດກ່ຽວກັບຄວາມຄືບໜ້າຂອງມັນ.",
+        "in_transit_description_days": "ທ່ານຄວນໄດ້ຮັບຄໍາສັ່ງຂອງທ່ານໃນ %{number} ມື້ຕໍ່ໄປ.",
+        "in_transit_description_today": "ທ່ານຄວນໄດ້ຮັບຄໍາສັ່ງຂອງທ່ານໃນມື້ນີ້.",
+        "in_transit_description_tomorrow": "ທ່ານຄວນໄດ້ຮັບຄໍາສັ່ງຂອງທ່ານໃນມື້ຕໍ່ມາ.",
+        "no_tracking_number": "ບໍ່ມີໝາຍເລກຕິດຕາມສຳລັບຄຳສັ່ງນີ້.",
+        "out_for_delivery": "ອອກສໍາລັບການຈັດສົ່ງ",
+        "out_for_delivery_title": "ການສັ່ງຊື້ຂອງທ່ານໝົດແລ້ວສຳລັບການຈັດສົ່ງ",
+        "out_for_delivery_description_html": "ຄໍາສັ່ງຂອງທ່ານມາຮອດແລ້ວ ແລະຄວນຈະມາຮອດມື້ນີ້. ຖ້າມັນບໍ່ໄດ້ຖືກຈັດສົ່ງໃນ 2 ມື້ຕໍ່ໄປ, %{contact_us}.",
+        "out_for_delivery_local_title": "ການສັ່ງຊື້ຂອງທ່ານໝົດແລ້ວສຳລັບການຈັດສົ່ງ",
+        "out_for_delivery_local_description_html": "ຄໍາສັ່ງຂອງທ່ານຈະມາຮອດໃນໄວໆນີ້.",
+        "attempted_delivery": "ພະຍາຍາມຈັດສົ່ງ",
+        "attempted_delivery_title": "ມີຄວາມພະຍາຍາມທີ່ຈະຈັດສົ່ງຄໍາສັ່ງຂອງທ່ານ",
+        "attempted_delivery_description_html": "ໄດ້ພະຍາຍາມຈັດສົ່ງຄຳສັ່ງຊື້ຂອງເຈົ້າແຕ່ບໍ່ສຳເລັດ. %{contact_us} ເພື່ອຈັດໃຫ້ມີຄວາມພະຍາຍາມຈັດສົ່ງອີກຄັ້ງ.",
+        "attempted_delivery_local_title": "ຂາດການຈັດສົ່ງ",
+        "attempted_delivery_local_description_html": "ພວກເຮົາບໍ່ສາມາດຈັດສົ່ງຄຳສັ່ງຊື້ຂອງທ່ານໄດ້. ເພື່ອກຳນົດເວລາການຈັດສົ່ງອື່ນ, %{contact_us}.",
+        "delivered": "ຈັດສົ່ງແລ້ວ",
+        "delivered_title": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກຈັດສົ່ງແລ້ວ",
+        "delivered_description_html": "ຄໍາສັ່ງຂອງທ່ານໄດ້ຖືກສົ່ງໄປຫາທີ່ຢູ່ທີ່ທ່ານສະຫນອງໃຫ້. ຖ້າ​ຫາກ​ທ່ານ​ຍັງ​ບໍ່​ທັນ​ໄດ້​ຮັບ​ມັນ, ຫຼື​ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ມີ​ບັນ​ຫາ​ອື່ນໆ, %{contact_us}.",
+        "delivered_local_title": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກຈັດສົ່ງແລ້ວ",
+        "delivered_local_description_html": "ຍັງ​ບໍ່​ໄດ້​ຮັບ​ຄໍາ​ສັ່ງ​ຂອງ​ທ່ານ​? %{let_us_know}.",
+        "payment_method_draft_order": "ຮອດກຳນົດຫຼັງຈາກຄຳສັ່ງຊື້ຖືກກວດສອບແລ້ວ",
+        "choose_payment_method_later": "ເລືອກວິທີການຊໍາລະເງິນໃນພາຍຫຼັງ",
+        "picked_up_title": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກຮັບແລ້ວ",
+        "picked_up_description_html": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກຮັບຢູ່ທີ່ %{location_name} ໃນ %{date}.",
+        "contact_us": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ",
+        "contact_us_lowercase": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ",
+        "contact_us_html": "ຕ້ອງ​ການ​ຄວາມ​ຊ່ວຍ​ເຫຼືອ? %{ຕິດ​ຕໍ່​ພວກ​ເຮົາ}",
+        "updated_time": "ອັບເດດ %{time_ago} ກ່ອນ",
+        "failure": "ບໍ່ໄດ້ຈັດສົ່ງ",
+        "failed_title": "ບໍ່ສາມາດຈັດສົ່ງຄຳສັ່ງຊື້ຂອງທ່ານໄດ້",
+        "failed_contact_merchant": "ຕິດຕໍ່ %{company} ເພື່ອຈັດແຈງການຈັດສົ່ງ.",
+        "failed_contact_merchant_no_company": "ຕິດຕໍ່ພວກເຮົາເພື່ອຈັດແຈງການຈັດສົ່ງ.",
+        "non_shippable_title": "ຄຳສັ່ງຂອງເຈົ້າສຳເລັດແລ້ວ",
+        "let_us_know": "ໃຫ້ພວກເຮົາຮູ້",
+        "login_title": "ເຂົ້າສູ່ລະບົບເພື່ອເບິ່ງລາຍລະອຽດການສັ່ງຊື້ທັງໝົດ",
+        "login_description": "ທ່ານສາມາດຊອກຫາໝາຍເລກການສັ່ງຊື້ຂອງທ່ານໃນໃບຮັບເງິນທີ່ທ່ານໄດ້ຮັບຜ່ານທາງອີເມວ.",
+        "login_description_phone": "ທ່ານສາມາດຊອກຫາໝາຍເລກການສັ່ງຊື້ຂອງທ່ານໃນໃບຮັບເງິນທີ່ທ່ານໄດ້ຮັບຜ່ານທາງຂໍ້ຄວາມ.",
+        "login_not_customer_html": "ບໍ່ແມ່ນ %{name}? ທ່ານສາມາດ %{link}",
+        "login_reorder_link_text": {
+          "one": "ຊື້ຜະລິດຕະພັນນີ້ຄືກັນ",
+          "other": "ຊື້ຜະລິດຕະພັນເຫຼົ່ານີ້ຄືກັນ"
+        },
+        "customer_information_hidden_fields_message": "ເຂົ້າສູ່ລະບົບເພື່ອເບິ່ງຂໍ້ມູນລູກຄ້າທັງຫມົດ.",
+        "cancelled_title": "ຄໍາສັ່ງຂອງທ່ານໄດ້ຖືກຍົກເລີກ",
+        "cancelled_description": "ການສັ່ງຊື້ຂອງທ່ານຖືກຍົກເລີກໃນ %{date}. ຕິດຕໍ່ພວກເຮົາຖ້າທ່ານມີຄໍາຖາມໃດໆ.",
+        "order_number_label": "ໝາຍເລກສັ່ງຊື້",
+        "customer_validation_error": "ໃສ່ອີເມວທີ່ຖືກຕ້ອງ ຫຼືໝາຍເລກການສັ່ງຊື້.",
+        "customer_validation_error_phone": "ໃສ່ໂທລະສັບ ຫຼືໝາຍເລກສັ່ງຊື້ທີ່ຖືກຕ້ອງ.",
+        "login": "ເຂົ້າ​ສູ່​ລະ​ບົບ",
+        "unfulfilled_items_title": "ກຳລັງກະກຽມການຂົນສົ່ງ",
+        "unfulfilled_items_description": "ປະຈຸບັນພວກເຮົາກຳລັງກະກຽມລາຍການເຫຼົ່ານີ້ເພື່ອຂົນສົ່ງ.",
+        "marker": {
+          "current": "ສະຖານທີ່ຈັດສົ່ງໃນປະຈຸບັນ",
+          "shipping": "ທີ່ຢູ່ຈັດສົ່ງ"
+        },
+        "pick_up_in_store_marker": {
+          "current": "ສະຖານທີ່ຈັດສົ່ງໃນປະຈຸບັນ",
+          "shipping": "ສະຖານທີ່ຮັບ"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "ລາຍການໃນການຂົນສົ່ງນີ້",
+          "unfulfilled_table_title": "ລາຍການກະກຽມສໍາລັບການຈັດສົ່ງ",
+          "product_image_label": "ຮູບພາບຜະລິດຕະພັນ",
+          "description_label": "ລາຍລະອຽດ",
+          "quantity_label": "ປະລິມານ"
+        },
+        "order_updates_description_missing": "ທ່ານບໍ່ໄດ້ຮັບການອັບເດດການຂົນສົ່ງ.",
+        "order_updates_subscribe_to_email_notifications": "ໄດ້ຮັບການອັບເດດການຂົນສົ່ງທາງອີເມວ",
+        "order_updates_subscribe_to_email_or_phone_notifications": "ໄດ້ຮັບການອັບເດດການຂົນສົ່ງທາງອີເມວ ຫຼືຂໍ້ຄວາມ",
+        "order_updates_subscribe_to_phone_notifications": "ໄດ້ຮັບການອັບເດດການຂົນສົ່ງທາງຂໍ້ຄວາມ",
+        "order_updates_submit_subscription": "ສົ່ງ",
+        "track_shipment": "ຕິດຕາມການຂົນສົ່ງ",
+        "other_options": "ທາງເລືອກອື່ນ",
+        "delivery_information_label": "ຂໍ້ມູນການຈັດສົ່ງ:",
+        "gift_card_sent_confirmation": "ສົ່ງບັດຂອງຂວັນແລ້ວ",
+        "qr_code": {
+          "send_link_to_phone": "ຫຼືສົ່ງລິ້ງໄປຫາໂທລະສັບຂອງທ່ານ",
+          "title": "ຕິດຕາມຢູ່ໃນໂທລະສັບຂອງທ່ານ"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "ສະແກນດ້ວຍໂທລະສັບຂອງທ່ານ"
+          },
+          "sms": {
+            "title": "ຫຼືສົ່ງລິ້ງໄປຫາໂທລະສັບຂອງທ່ານ"
+          }
+        },
+        "view_business_customer_account": "ເບິ່ງບັນຊີ",
+        "breadcrumbs_submitted": "ສົ່ງແລ້ວ",
+        "breadcrumbs_in_review": "ຢູ່ໃນການທົບທວນຄືນ",
+        "breadcrumbs_confirmed": "ຢືນຢັນ",
+        "missing_shipping_address_banner": {
+          "title": "ການສັ່ງຊື້ບໍ່ມີທີ່ຢູ່ສົ່ງ",
+          "text_html": "%{contact_us} ເພື່ອເພີ່ມທີ່ຢູ່ຂອງທ່ານ",
+          "contact_us": "ຕິດ​ຕໍ່​ພວກ​ເຮົາ"
+        },
+        "first_payment_complete": "ການຈ່າຍເງິນຄັ້ງທຳອິດສຳເລັດແລ້ວ",
+        "in_store_purchase": "ການຊື້ໃນຮ້ານ",
+        "location_title": "ສະຖານທີ່",
+        "thank_you_ready_for_picked_up": "ການສັ່ງຊື້ຂອງທ່ານໄດ້ຖືກຮັບຢູ່ທີ່ %{address}.",
+        "ready_for_delivery": "ກຽມພ້ອມສໍາລັບການຈັດສົ່ງ",
+        "order_updates_subscribe_to_email_notifications_failed": "ພວກເຮົາບໍ່ສາມາດເກັບອີເມວນີ້ໄວ້ເພື່ອອັບເດດໄດ້. ກະລຸນາລອງອີກຄັ້ງ ຫຼືໃຊ້ອີເມວອື່ນ.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "ອີເມວທີ່ທ່ານລະບຸນັ້ນມີຢູ່ແລ້ວ.",
+        "subscriptions_management": {
+          "title": "ການສະໝັກໃຊ້",
+          "description": "ສືບຕໍ່ໄປຫາບັນຊີຂອງທ່ານເພື່ອເບິ່ງ ແລະຈັດການການສະໝັກໃຊ້ຂອງທ່ານ.",
+          "button_label": "ຈັດການການສະໝັກໃຊ້ຂອງທ່ານ"
+        },
+        "manage_order_label": "ຈັດການຄໍາສັ່ງຂອງເຈົ້າ",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມດ້ວຍບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ.",
+          "other": "ທ່ານຈະໄດ້ຮັບຂໍ້ຄວາມທີ່ມີບັດຂອງຂວັນຂອງທ່ານໃນສອງສາມນາທີ."
+        }
       }
     },
     "pagination": {
