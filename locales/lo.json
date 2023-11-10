@@ -1,0 +1,396 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " ແລະ ",
+      "last_word_connector": ", ແລະ "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບທີ່ຢູ່ {{address}} ?"
+      },
+      "general": {
+        "page_title": "ຈ່າຍເງິນ",
+        "error_page_title": "ຜິດພາດ",
+        "skip_to_content": "ຂ້າມໄປຫາເນື້ອຫາ",
+        "breadcrumb": "ເຂົ້າໜົມປັງ",
+        "continue_button_label": "ສືບຕໍ່",
+        "complete_purchase_button_label": "ສໍາເລັດຄໍາສັ່ງ",
+        "pay_now_button_label": "ຈ່າຍດຽວນີ້",
+        "authenticate_purchase_button_label": "ຢືນຢັນການຈ່າຍເງິນ",
+        "edit_link_label": "ແກ້ໄຂ",
+        "all_rights_reserved": "ສະຫງວນລິຂະສິດ %{shop_name}",
+        "print_policies_link_label": "ພິມ",
+        "cart": "ກະຕ່າ",
+        "close_modal_label": "ປິດ",
+        "close_notice_label": "ປິດ",
+        "expand_notice_label": "ເບິ່ງເພີ່ມເຕີມ",
+        "continue_to_shipping_method": "ສືບຕໍ່ການຂົນສົ່ງ",
+        "continue_to_payment_method": "ສືບຕໍ່ຈ່າຍເງິນ",
+        "continue_to_review": "ທົບທວນຄໍາສັ່ງ",
+        "back_to_cart": "ກັບໄປທີ່ກະຕ່າ",
+        "back_to_contact_information": "ກັບໄປທີ່ຂໍ້ມູນ",
+        "back_to_shipping_method": "ກັບໄປຫາການຂົນສົ່ງ",
+        "back_to_payment_method": "ກັບຄືນຫາການຈ່າຍເງິນ",
+        "choose_shipping_method": "ເລືອກວິທີການຂົນສົ່ງ",
+        "choose_payment_method": "ເລືອກວິທີການຊໍາລະເງິນ",
+        "choose_billing_address": "ເລືອກທີ່ຢູ່ໃບບິນ",
+        "contact_us_html": "ຕິດຕໍ່ພວກເຮົາສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ",
+        "autocomplete_title": "ຄຳແນະນຳ",
+        "autocomplete_single_item": "ມີ 1 ລາຍການ",
+        "autocomplete_multi_item": "ມີ {{number}} ລາຍການ",
+        "autocomplete_close": "ປິດຄຳແນະນຳ",
+        "forwarding_indicator": {
+          "new_window": "ເປີດໃນໜ້າຈໍໃໝ່.",
+          "external": "ເປີດເວັບໄຊທ໌ພາຍນອກ.",
+          "external_and_new_window": "ເປີດເວັບໄຊທ໌ພາຍນອກຢູ່ໃນປ່ອງຢ້ຽມໃຫມ່."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - ຈ່າຍເງິນ"
+        },
+        "tooltip_accessibility_label": "ຂໍ້ມູນເພີ່ມເຕີມ",
+        "errors": {
+          "session_identifier_not_unique_error": "ມີບາງຢ່າງຜິດພາດເກີດຂຶ້ນກັບຄຳສັ່ງຊື້ຂອງເຈົ້າ, ກະລຸນາລອງເຊັກເອົາໃໝ່ອີກຄັ້ງ.",
+          "line_item_limit_reached": "ຮອດຈຳນວນລາຍການແຖວສູງສຸດແລ້ວ."
+        },
+        "full_price": "ລາຄາເຕັມ:",
+        "title": "ຈ່າຍເງິນ - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - ຈ່າຍເງິນ",
+        "loading_title": "ຈ່າຍເງິນ - {{shopName}}",
+        "google_map_title": "ແຜ່ນ​ທີ່​ກູ​ໂກ",
+        "submit_order_button_label": "ສົ່ງຄໍາສັ່ງ",
+        "submit_for_review_button_label": "ສົ່ງສໍາລັບການທົບທວນຄືນ",
+        "submit_for_review_notice_label": "ການຈ່າຍເງິນຈະບໍ່ຮອດກຳນົດຈົນກວ່າຄຳສັ່ງຊື້ຂອງທ່ານຈະຖືກກວດສອບ",
+        "continue_to_payment_plans_button_label": "ສືບຕໍ່ແຜນການຈ່າຍເງິນ",
+        "back_button_label": "ກັບຄືນ",
+        "choose_delivery_strategy": "ເລືອກວິທີການຈັດສົ່ງ",
+        "autocomplete_zero_item": "ບໍ່ມີລາຍການທີ່ມີຢູ່",
+        "autocomplete_powered_by_google": "ຂັບເຄື່ອນໂດຍ {{brandName}}",
+        "submit": "ສົ່ງ",
+        "processing": "ກຳລັງປະມວນຜົນ...",
+        "stepper": {
+          "increase": "ເພີ່ມ {{type}}",
+          "decrease": "ຫຼຸດ {{type}}",
+          "minimum_reached": "ຮອດຂັ້ນຕ່ຳ {{value}} ແລ້ວ",
+          "maximum_reached": "ຮອດສູງສຸດ {{value}} ແລ້ວ"
+        },
+        "remove_item": "ລຶບ %{label} ອອກ",
+        "remove_tag": "ລຶບແທັກ",
+        "dates": {
+          "weekdays": {
+            "monday": "ວັນຈັນ",
+            "tuesday": "ວັນອັງຄານ",
+            "wednesday": "ວັນພຸດ",
+            "thursday": "ວັນພະຫັດ",
+            "friday": "ວັນ​ສຸກ",
+            "saturday": "ວັນເສົາ",
+            "sunday": "ວັນອາທິດ"
+          },
+          "weekdays_abbreviation": {
+            "monday": "ມ",
+            "tuesday": "ທູ",
+            "wednesday": "ພວກເຮົາ",
+            "thursday": "ທ",
+            "friday": "ຟຣ",
+            "saturday": "ສ",
+            "sunday": "ສຸ"
+          },
+          "months": {
+            "january": "ມັງກອນ",
+            "february": "ເດືອນກຸມພາ",
+            "march": "ມີນາ",
+            "april": "ເດືອນເມສາ",
+            "may": "ພຶດສະພາ",
+            "june": "ເດືອນມິຖຸນາ",
+            "july": "ກໍລະກົດ",
+            "august": "ສິງຫາ",
+            "september": "ກັນຍາ",
+            "october": "ຕຸລາ",
+            "november": "ເດືອນພະຈິກ",
+            "december": "ເດືອນທັນວາ"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "ສະແດງເດືອນກ່ອນ, {{month}} {{year}}",
+          "show_next_month": "ສະແດງເດືອນໜ້າ, {{month}} {{year}}",
+          "range_start": "ຊ່ວງເລີ່ມຕົ້ນ",
+          "in_range": "ຢູ່ໃນຂອບເຂດ",
+          "range_end": "ຊ່ວງທ້າຍ"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "ກຸ່ມຂອງເຄື່ອງໝາຍ {{number}}",
+            "other": "ກຸ່ມຂອງ {{number}} ເຄື່ອງໝາຍ"
+          }
+        }
+      },
+      "contact": {
+        "title": "ຕິດຕໍ່",
+        "address_title": "ທີ່ຢູ່",
+        "shipping_used_as_billing_notice": "ອັນນີ້ຈະຖືກໃຊ້ເປັນທີ່ຢູ່ໃບບິນຂອງທ່ານສຳລັບຄຳສັ່ງຊື້ນີ້.",
+        "delivery_option_title": "ວິທີການຈັດສົ່ງ",
+        "contact_method_title": "ຕິດຕໍ່"
+      },
+      "order_summary": {
+        "quantity_label": "ປະລິມານ",
+        "product_change_label": "ປ່ຽນແປງ",
+        "product_image_label": "ຮູບພາບຜະລິດຕະພັນ",
+        "scroll_order_summary": "ເລື່ອນສໍາລັບລາຍການເພີ່ມເຕີມ",
+        "expand_order_summary_short": "ສະແດງ",
+        "collapse_order_summary_short": "ເຊື່ອງ",
+        "expand_order_summary": "ສະແດງສະຫຼຸບຄໍາສັ່ງ",
+        "collapse_order_summary": "ເຊື່ອງສະຫຼຸບຄໍາສັ່ງ",
+        "original_price": "ລາຄາຕົ້ນສະບັບ",
+        "sale_price": "ລາຄາຂາຍ",
+        "total_updated_label": "ອັບເດດລາຄາທັງໝົດ:",
+        "order_total_updated_label": "ອັບເດດທັງໝົດ",
+        "total_already_paid_label": "ຈ່າຍ​ແລ້ວ",
+        "unit_price": {
+          "accessible_separator": "ຕໍ່"
+        },
+        "gift_card_ending": "ບັດຂອງຂວັນທີ່ລົງທ້າຍດ້ວຍ %{last_characters}",
+        "estimated_tax_label": "ພາສີທີ່ຄາດຄະເນ",
+        "multiple_shipping_lines_label": "ການຂົນສົ່ງທັງຫມົດ",
+        "recurring_subtotal_label": "ຈຳນວນຍ່ອຍທີ່ເກີດຂຶ້ນຊ້ຳ",
+        "recurring_total_label": "ທັງໝົດທີ່ເກີດຂຶ້ນຊ້ຳ",
+        "recurring_total_tooltip": "ບໍ່ລວມຄ່າຂົນສົ່ງ, ພາສີ, ພາສີ, ຫຼືສ່ວນຫຼຸດທີ່ກ່ຽວຂ້ອງ.",
+        "confirmation_number_label": "ການຢືນຢັນ #%{confirmation_number}",
+        "higher_value_discount_applied": "ບໍ່ສາມາດໃຊ້ <strong style=\"text-transform:uppercase\">%{code}<\/strong> ກັບສ່ວນຫຼຸດທີ່ມີຢູ່ຂອງທ່ານໄດ້.",
+        "percent_off_shipping": "%{percent}% ສ່ວນຫຼຸດການຈັດສົ່ງ",
+        "amount_off_shipping": "%{amount} ສ່ວນຫຼຸດການຈັດສົ່ງ",
+        "deferred_payment_info": {
+          "title": "ການຈ່າຍເງິນ %{amount_due} ແມ່ນຮອດກຳນົດໃນ %{due_at}",
+          "description_html": "ສຳລັບຄຳຖາມກ່ຽວກັບການສັ່ງຊື້ຂອງທ່ານ, %{contact_us}.",
+          "paid_today": "ຈ່າຍທັງໝົດໃນມື້ນີ້",
+          "due_on_fulfillment_title": "ການຈ່າຍເງິນ %{amount_due} ແມ່ນຮອດກຳນົດຕາມການຕອບສະໜອງ",
+          "due_on_receipt_title": "ການຈ່າຍເງິນ %{amount_due} ແມ່ນຮອດກຳນົດເມື່ອໄດ້ຮັບ"
+        },
+        "payment_terms_totals": {
+          "due_today": "ໝົດກຳນົດໃນມື້ນີ້",
+          "due_later": "ທັງໝົດຮອດກຳນົດ %{due_at}",
+          "due_on_fulfillment": "ທັງໝົດແມ່ນເນື່ອງມາຈາກການບັນລຸຜົນ",
+          "due_on_receipt": "ຍອດຄ້າງຈ່າຍໃນໃບຮັບເງິນ",
+          "due_later_checkout_to_draft": "ທັງໝົດຕ້ອງຈ່າຍພາຍຫຼັງ"
+        },
+        "maximum_discount_code_limit_reached": "ທ່ານໄດ້ຮອດຈຳນວນສູງສຸດຂອງລະຫັດສ່ວນຫຼຸດແລ້ວ. ເອົາລະຫັດທີ່ມີຢູ່ແລ້ວອອກເພື່ອໃຊ້ <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> ບໍ່ເຮັດວຽກໃນຕອນນີ້. ຕິດຕໍ່ພວກເຮົາເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ.",
+        "due_on_fulfillment": "ຄົບກຳນົດ",
+        "subscriptions": "ການສະໝັກໃຊ້",
+        "duties_label": "ໜ້າທີ່",
+        "duties_and_taxes_label": "ຫນ້າທີ່ແລະພາສີ",
+        "error_duties_tooltip": "ຄໍາສັ່ງນີ້ກໍາລັງຖືກສົ່ງມາຈາກປະເທດອື່ນ, ດັ່ງນັ້ນພາສີແລະພາສີອາດຈະຖືກຄິດຄ່າທໍານຽມໃນການຈັດສົ່ງ.",
+        "may_be_charged_on_delivery": "ອາດຈະຖືກເກັບຄ່າຈັດສົ່ງ",
+        "total_updated_label_with_price": "ອັບເດດລາຄາທັງໝົດ: %{totalPrice}",
+        "updated_shipping_method": "ວິທີການຈັດສົ່ງທີ່ອັບເດດແລ້ວ: %{shipping_method}",
+        "recurring_payments": "ການຈ່າຍເງິນທີ່ເກີດຂຶ້ນຊ້ຳໆ",
+        "recurring_total_multiple_label": "ຄຳສັ່ງນີ້ມີການຮຽກເກັບເງິນຊ້ຳໆສຳລັບຫຼາຍລາຍການ.",
+        "deferred_total_due_date_label": "ທັງໝົດຮອດກຳນົດ {{date}}",
+        "full_price": "ລາຄາເຕັມ: %{price}",
+        "custom_discount": "ສ່ວນຫຼຸດແບບກຳນົດເອງ",
+        "expand_component_information": {
+          "one": "ສະແດງ %{count} ລາຍການ",
+          "other": "ສະແດງ %{count} ລາຍການ"
+        },
+        "collapse_component_information": {
+          "one": "ເຊື່ອງ %{count} ລາຍການ",
+          "other": "ເຊື່ອງ %{count} ລາຍການ"
+        },
+        "discount_discovery": {
+          "add_code": "ເພີ່ມສ່ວນຫຼຸດ",
+          "merchandise_quantity_label": {
+            "one": "%{count} ລາຍການ",
+            "other": "%{count} ລາຍການ"
+          }
+        },
+        "alternative_payment_currency_total": "ຮຽກເກັບເປັນ %{amount_due}"
+      },
+      "shipping": {
+        "title": "ການຈັດສົ່ງ",
+        "shipping_method_title": "ວິທີການຂົນສົ່ງ",
+        "shipping_method_one_time_purchase_group_title": "ຊື້ຄັ້ງດຽວ",
+        "shipping_method_subscription_group_title": "ການສະໝັກໃຊ້",
+        "subscription_shipping": "ການຂົນສົ່ງການສະໝັກໃຊ້",
+        "subscription_local_delivery": "ການຈັດສົ່ງທ້ອງຖິ່ນຂອງການສະໝັກໃຊ້",
+        "subscription_pickup": "ຮັບສະໝັກສະມາຊິກ",
+        "waiting_on_rate_notice": "ກຳລັງຮັບອັດຕາຄ່າຈັດສົ່ງ…",
+        "waiting_on_pickup_location_notice": "ກຳລັງຮັບບ່ອນຮັບ…",
+        "no_rates_for_cart_or_destination_notice": "ບໍ່ມີວິທີການຂົນສົ່ງທີ່ມີຢູ່ສໍາລັບກະຕ່າຫຼືທີ່ຢູ່ຂອງທ່ານ",
+        "no_pickup_location_notice": "ຢ່າງໜ້ອຍໜຶ່ງຜະລິດຕະພັນຂອງເຈົ້າບໍ່ມີໃຫ້ຮັບ",
+        "no_rates_for_country_notice": "ບໍ່ພົບອັດຕາຄ່າຈັດສົ່ງສຳລັບທີ່ຢູ່ນີ້.",
+        "no_rates_contact_notice": "ຕິດຕໍ່ພວກເຮົາສໍາລັບຂໍ້ມູນເພີ່ມເຕີມ",
+        "free_rate_label": "ຟຣີ",
+        "cheapest_rate_label": "ລາຄາຖືກທີ່ສຸດ",
+        "please_enter_your_shipping_information_notice": "ກະລຸນາໃສ່ຂໍ້ມູນການຂົນສົ່ງຂອງທ່ານ.",
+        "estimated_delivery_date": {
+          "one": "%{count} ມື້ເຮັດວຽກ",
+          "other": "%{count} ມື້ເຮັດວຽກ"
+        },
+        "estimated_delivery_date_range": "%{minimum} ຫາ %{maximum} ມື້ເຮັດວຽກ",
+        "estimated_delivery_time": "ການຈັດສົ່ງໂດຍປະມານ %{time}",
+        "estimated_delivery_time_range": "ການຈັດສົ່ງໂດຍປະມານ %{min_time}–%{max_time}",
+        "delivery_today": "ການຈັດສົ່ງໃນມື້ດຽວກັນ %{time}",
+        "delivery_tomorrow": "ຈັດສົ່ງມື້ອື່ນ %{time}",
+        "two_day_delivery": "ຈັດສົ່ງ 2 ມື້ %{time}",
+        "delivery": "ການຈັດສົ່ງ %{time}",
+        "arrives_time": "ມາຮອດ %{time}",
+        "arrives_time_range": "ມາຮອດ %{min_time}–%{max_time}",
+        "estimated_time": "ປະມານ %{time}",
+        "estimated_time_range": "ຄາດຄະເນ %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "ເບີ​ໂທລະ​ສັບ​ມື​ຖື (ຕ້ອງ​ການ​)",
+        "shipping_line_phone": "ຜູ້ຈັດສົ່ງຂອງທ່ານອາດຈະໃຊ້ເບີນີ້ເພື່ອຕິດຕໍ່ທ່ານ.",
+        "shipping_line_delivery_phone_label": "ເບີໂທລະສັບ",
+        "shipping_line_delivery_phone": "ທ່ານອາດຈະໄດ້ຮັບການຕິດຕໍ່ກັບການອັບເດດກ່ຽວກັບການຈັດສົ່ງຂອງທ່ານ.",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} ລາຍການ",
+        "split_cart_merchandise_quantity_label_additional": "+%{quantity} ເພີ່ມເຕີມ",
+        "split_cart_merchandise_shipment_number": "ການຂົນສົ່ງ %{number} ຂອງ %{total}",
+        "split_cart_ships_now": "ຈັດສົ່ງດຽວນີ້",
+        "split_cart_ships_later": "ຈັດສົ່ງໃນພາຍຫຼັງ"
+      },
+      "payment": {
+        "pending_payment": {
+          "multibanco": {
+            "reference": "ອ້າງອິງ",
+            "amount": "ຈໍາ​ນວນ",
+            "find_nearest_atm": "ຊອກຫາຕູ້ ATM ທີ່ໃກ້ທີ່ສຸດ"
+          }
+        },
+        "update_payment_method": "ອັບເດດວິທີການຈ່າຍເງິນ",
+        "order_covered_by_store_credit_notice": "ການສັ່ງຊື້ຂອງທ່ານຖືກຄຸ້ມຄອງໂດຍສິນເຊື່ອຮ້ານຂອງທ່ານ.",
+        "order_covered_by_redeemables_notice": "ຄໍາສັ່ງຂອງທ່ານຖືກຄຸ້ມຄອງ.",
+        "store_credit": {
+          "label": "ສິນເຊື່ອເກັບຮັກສາ",
+          "apply_label": "ນຳໃຊ້ສິນເຊື່ອຮ້ານຄ້າ",
+          "add_label": "ເພີ່ມເຄຣດິດຮ້ານຄ້າ",
+          "manage_label": "ຈັດການສິນເຊື່ອຮ້ານຄ້າ",
+          "buying_gift_card": "ທ່ານບໍ່ສາມາດໃຊ້ເຄຣດິດຮ້ານຄ້າເພື່ອຊື້ບັດຂອງຂວັນໄດ້"
+        },
+        "clear": "ຈະແຈ້ງ",
+        "billing_must_match_shipping_notice": "ທີ່ຢູ່ໃບບິນຂອງວິທີການຈ່າຍເງິນຂອງທ່ານຕ້ອງກົງກັບທີ່ຢູ່ຈັດສົ່ງ.",
+        "same_billing_address_checkbox_label": "ໃຊ້ທີ່ຢູ່ຈັດສົ່ງເປັນທີ່ຢູ່ໃບບິນ",
+        "location_billing_address_label": "ທີ່ຢູ່ໃບບິນທີ່ຢູ່",
+        "fact_billing_address_label": "ທີ່ຢູ່ໃບບິນ",
+        "location_shipping_address_label": "ທີ່ຢູ່ສົ່ງ",
+        "use_order_billing_address_label": "ໃຊ້ທີ່ຢູ່ໃບບິນຄໍາສັ່ງ",
+        "use_location_billing_address_label": "ໃຊ້ທີ່ຢູ່ໃບບິນສະຖານທີ່",
+        "use_location_shipping_address_label": "ໃຊ້ທີ່ຢູ່ຈັດສົ່ງສະຖານທີ່",
+        "no_working_method_error": "ຮ້ານນີ້ບໍ່ສາມາດຮັບເງິນໄດ້ໃນຕອນນີ້. ໂຫຼດໜ້ານີ້ຄືນໃໝ່ ຫຼືກັບມາໃໝ່ໃນພາຍຫຼັງ.",
+        "brand_not_available": "ຮ້ານນີ້ບໍ່ຮັບ {{brand}} . ກະລຸນາໃຊ້ບັດອື່ນເພື່ອຈ່າຍເງິນ.",
+        "shipping_rate_updated": "ວິທີການຈັດສົ່ງທີ່ມີຢູ່ໄດ້ຖືກປັບປຸງ. ຢືນຢັນການເລືອກຂອງເຈົ້າກ່ອນທີ່ຈະເຊັກເອົາ.",
+        "billing_address_invalid_phone": "ອັບເດດເບີໂທລະສັບໃນທີ່ຢູ່ໃບບິນຂອງທ່ານສຳລັບ {{label}} {{last_digits}} ເພື່ອສືບຕໍ່.",
+        "billing_address_invalid_phone_no_card": "ອັບເດດເບີໂທລະສັບໃນທີ່ຢູ່ໃບບິນຂອງທ່ານເພື່ອສືບຕໍ່.",
+        "preview_not_available": {
+          "title": "ບໍ່ສາມາດເບິ່ງຕົວຢ່າງໄດ້",
+          "content": "ບໍ່ຕ້ອງເປັນຫ່ວງ, ການຈ່າຍເງິນດ່ວນນີ້ໃຊ້ໄດ້ກັບລູກຄ້າຂອງເຈົ້າ.",
+          "button": "ຕົກ​ລົງ"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "ໃສ່ວັນທີອອກທີ່ຖືກຕ້ອງ",
+              "issue_number": "ໃສ່ໝາຍເລກບັນຫາທີ່ຖືກຕ້ອງ"
+            },
+            "invalid": {
+              "verification_value": "ໃສ່ລະຫັດ CVV ຫຼືລະຫັດຄວາມປອດໄພ"
+            }
+          }
+        },
+        "simulated_checkout": "ຕົວຢ່າງຈະມາໃນໄວໆນີ້",
+        "vaulting_agreement_label": "ບັນທຶກຂໍ້ມູນການຈ່າຍເງິນຂອງຂ້ອຍກັບ %{company} ເພື່ອຈ່າຍເງິນໄດ້ໄວຂຶ້ນ.",
+        "business_customer_vaulting_payment_label": "ບັນທຶກບັດນີ້ໄວ້ເມື່ອຈ່າຍເງິນ ແລະ ອະນຸຍາດໃຫ້ %{ບໍລິສັດ} ຄິດຄ່າບັດນີ້ສໍາລັບການຊື້ໃນອະນາຄົດສໍາລັບສະຖານທີ່ນີ້. ລູກຄ້າທຸກຄົນທີ່ມອບໝາຍໃຫ້ສະຖານທີ່ນີ້ຈະໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ບັດນີ້.",
+        "purchase_options_and_vaulting_agreement_label": "ນຶ່ງ ຫຼືຫຼາຍລາຍການໃນກະຕ່າຂອງທ່ານແມ່ນການຊື້ທີ່ເລື່ອນເວລາ ຫຼືການສະໝັກສະມາຊິກ. ໂດຍການສືບຕໍ່ກັບການຈ່າຍເງິນຂອງທ່ານ, ທ່ານຕົກລົງເຫັນດີວ່າວິທີການຊໍາລະເງິນຂອງທ່ານຈະຖືກຄິດຄ່າທໍານຽມໂດຍອັດຕະໂນມັດໃນລາຄາແລະຄວາມຖີ່ໃນຫນ້ານີ້ຈົນກ່ວາມັນສິ້ນສຸດລົງຫຼືທ່ານຍົກເລີກ. ການຍົກເລີກທັງໝົດແມ່ນຂຶ້ນກັບ %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "ນະໂຍບາຍການຍົກເລີກ",
+        "use_different_credit_card_label": "ໃຊ້ບັດອື່ນ",
+        "saved_credit_card": "ບັດເຄຣດິດທີ່ບັນທຶກໄວ້ຂອງທ່ານ",
+        "saved_credit_card_info": "ສີ່ຕົວເລກສຸດທ້າຍ",
+        "saved_credit_card_cvv_verification": "ສໍາລັບຈຸດປະສົງການຢັ້ງຢືນ, ກະລຸນາໃສ່ລະຫັດຄວາມປອດໄພຂອງບັດຂອງທ່ານ.",
+        "saved_credit_card_actions": {
+          "edit": "ແກ້ໄຂ",
+          "delete": "ລຶບ"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "ເບິ່ງບັດທີ່ບັນທຶກໄວ້ທັງໝົດ",
+          "done": "ສຳເລັດແລ້ວ",
+          "cancel": "ຍົກເລີກ"
+        },
+        "add_credit_card_modal": {
+          "title": "ເພີ່ມບັດ",
+          "save": "ບັນທຶກ",
+          "cancel": "ຍົກເລີກ"
+        },
+        "delete_credit_card_modal": {
+          "title": "ລຶບບັດ",
+          "confirmation": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບ {{brandName}} ທີ່ລົງທ້າຍດ້ວຍ {{lastDigits}} ?",
+          "cancel": "ຍົກເລີກ",
+          "delete": "ລຶບ"
+        },
+        "edit_credit_card_modal": {
+          "title": "ແກ້ໄຂບັດ",
+          "done": "ສຳເລັດແລ້ວ",
+          "cancel": "ຍົກເລີກ",
+          "description": "ທ່ານສາມາດແກ້ໄຂທີ່ຢູ່ໃບບິນຂອງບັດຂອງທ່ານເທົ່ານັ້ນ.",
+          "fields": {
+            "default": "ກໍາ​ນົດ​ເປັນ​ຄ່າ​ເລີ່ມ​ຕົ້ນ",
+            "card_number": "ເລກບັດ",
+            "expiry": "ວັນ​ຫມົດ​ອາ​ຍຸ",
+            "security_code": "ລະ​ຫັດ​ຄວາມ​ປອດ​ໄພ",
+            "name": "ຊື່​ໃນ​ບັດ",
+            "billing": "ໃບບິນໃຫ້"
+          }
+        },
+        "expired_cards_info": {
+          "one": "ມີ %{count} ບັດໝົດອາຍຸ, ເຊິ່ງທ່ານສາມາດເບິ່ງ ແລະແກ້ໄຂໃນບັນຊີຂອງທ່ານໄດ້.",
+          "other": "ມີ %{count} ບັດໝົດອາຍຸ, ເຊິ່ງທ່ານສາມາດເບິ່ງ ແລະແກ້ໄຂໄດ້ໃນບັນຊີຂອງທ່ານ."
+        },
+        "local_payment_method_receiver_notice": "ຫຼັງຈາກວາງຄໍາສັ່ງຂອງທ່ານ, ທ່ານຈະໄດ້ຮັບລາຍລະອຽດການຈ່າຍເງິນ. ຊໍາລະເງິນຢູ່ຕູ້ ATM ຫຼືອອນໄລນ໌ພາຍໃນ {{dueDays}} ມື້.",
+        "order_edit_banner_title": "ຕ້ອງການການຈ່າຍເງິນ {{amount_owed}}",
+        "order_edit_banner_subtitle": "ອັບເດດຄຳສັ່ງຊື້ {{order_number}} ຂອງທ່ານແລ້ວ. ກວດເບິ່ງການປ່ຽນແປງເຫຼົ່ານີ້, ຈາກນັ້ນຈ່າຍເພື່ອຢືນຢັນການສັ່ງຊື້ຂອງທ່ານ.",
+        "order_edit_banner_items_added": {
+          "one": "ເພີ່ມແລ້ວ",
+          "other": "ເພີ່ມ %{count} ແລ້ວ"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "ລຶບອອກແລ້ວ",
+          "with_quantities": "ລຶບ {{delta}} ຂອງ {{quantity}} ອອກແລ້ວ"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "ກັບຄືນ",
+          "with_quantities": "ສົ່ງຄືນ {{delta}} ຂອງ {{quantity}}"
+        },
+        "order_edit_banner_single_item_added": "ເພີ່ມແລ້ວ",
+        "order_edit_banner_multiple_items_added": "ເພີ່ມ {{amount}} ແລ້ວ",
+        "order_edit_banner_single_item_removed": "ລຶບອອກແລ້ວ",
+        "order_edit_banner_multiple_items_removed": "ລຶບ {{amount}} ອອກແລ້ວ",
+        "order_edit_banner_single_item_returned": "ກັບຄືນ",
+        "order_edit_banner_multiple_items_returned": "{{amount}} ກັບຄືນມາ",
+        "gift_card_wrapper": {
+          "heading": "ບັດ​ຂອງ​ຂວັນ",
+          "apply_gift_card_label": "ສະໝັກບັດຂອງຂວັນ",
+          "apply_another_gift_card_label": "ນຳໃຊ້ບັດຂອງຂວັນອື່ນ",
+          "gift_card_label": "ບັດຂອງຂວັນ %{identifier}",
+          "payment_tag": "ບັດ​ຂອງ​ຂວັນ",
+          "add_label": "ເພີ່ມບັດຂອງຂວັນ",
+          "manage_label": "ຈັດການບັດຂອງຂວັນ"
+        },
+        "gift_card_store_credit": {
+          "add_label": "ເພີ່ມບັດຂອງຂວັນ ຫຼືເກັບສິນເຊື່ອ",
+          "manage_label": "ຈັດການບັດຂອງຂວັນ ຫຼືເກັບສິນເຊື່ອ"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "ການຢືນຢັນການຊໍາລະຕາມສະຖານທີ່ແບບກຳນົດເອງ"
+        },
+        "markets_pro_disclaimer_label": "ໂດຍການຄລິກລຸ່ມນີ້ ແລະເຮັດສຳເລັດການສັ່ງຊື້ຂອງທ່ານ, ແມ່ນຖືວ່າທ່ານຕົກລົງທີ່ຈະຊື້ສິນຄ້າຂອງທ່ານຈາກ Global-e ໃນຖານະຜູ້ຂາຍຂອງການບັນທຶກການເຮັດທຸລະກໍານີ້, ໃນ %{markets_pro_terms} ແລະ %{privacy_policy} ຂອງ Global-e. Global-e ເປັນຜູ້ໃຫ້ບໍລິການຕອບສະໜອງລະດັບສາກົນໃຫ້ກັບ %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "ຂໍ້ກໍານົດແລະເງື່ອນໄຂ",
+        "markets_pro_disclaimer_privacy_policy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+        "markets_pro_disclaimer_terms_and_conditions_title": "ຜູ້ຄ້າຂອງບັນທຶກຂໍ້ກໍານົດແລະເງື່ອນໄຂ",
+        "markets_pro_disclaimer_privacy_policy_title": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງຜູ້ຄ້າ",
+        "purchase_order_number": {
+          "title": "ໝາຍເລກ PO",
+          "label": "ໝາຍເລກ PO (ເລືອກໄດ້)"
+        },
+        "alternative_payment_currency_total_notice": "ໝາຍເຫດ: ທ່ານຈະຖືກຮຽກເກັບເງິນ %{amount_due}.",
+        "waiting_on_taxes_message": "ຖ້າພາສີຂອງເຈົ້າບໍ່ໄດ້ຄິດໄລ່ພາຍໃນສອງສາມວິນາທີຕໍ່ໄປ, ໃຫ້ໂຫຼດໜ້ານີ້ຄືນໃໝ່.",
+        "waiting_on_taxes_notice": "ການ​ຄິດ​ໄລ່​ພາ​ສີ​",
+        "payment_method": "ວິທີການຈ່າຍເງິນ"
+      }
+    }
+  }
+}
